@@ -1,5 +1,11 @@
 [
   "influx",
   "obsidian-kanban",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-timelines",
+  "obsidian-admonition",
+  "obsidian-excel-to-markdown-table",
+  "obsidian-plantuml",
+  "quick-latex",
+  "obsidian-full-calendar"
 ]

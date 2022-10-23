@@ -1,5 +1,12 @@
 {
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "Excalidraw",
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "autoPairBrackets": false,
+  "smartIndentList": false,
+  "useTab": false,
+  "livePreview": false,
+  "autoPairMarkdown": false,
+  "tabSize": 5
 }

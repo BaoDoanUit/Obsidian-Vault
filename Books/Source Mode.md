@@ -9,6 +9,4 @@ What is the different between writing and coding?
 
 
 I need to highlight these ==very important words==. 
-- [[2022-10-23]]
-- 3
 
