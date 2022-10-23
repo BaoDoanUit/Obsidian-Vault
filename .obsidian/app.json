@@ -1,3 +1,5 @@
 {
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "Excalidraw",
+  "promptDelete": false
 }

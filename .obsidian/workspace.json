@@ -4,35 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "e877ab4345ff35ee",
+        "id": "6489746930ceb8d9",
         "type": "tabs",
         "children": [
           {
-            "id": "7b9f9916dfb392ae",
+            "id": "ad4793e099c66895",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/## Source Mode.md",
+                "file": "Books/New Document.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "42b63066cb710d1d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6484584ece2eb343",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Books/## Source Mode.md",
-                "mode": "preview",
                 "source": false
               }
             }
@@ -83,13 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "34c522fc35c948e3",
@@ -105,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/## Source Mode.md",
+                "file": "Books/New Document.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/## Source Mode.md",
+                "file": "Books/New Document.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/## Source Mode.md"
+                "file": "Books/New Document.md"
               }
             }
           }
@@ -160,11 +140,17 @@
   "ribbon": {
     "mostRecentAction": ""
   },
-  "active": "7b9f9916dfb392ae",
+  "active": "ad4793e099c66895",
   "lastOpenFiles": [
-    "Images/Pasted image 20221023105027.png",
+    "Excalidraw/Billing Process.excalidraw.md",
     "Books/New Document.md",
-    "Books/2022-10-23.md",
-    "Books/## Source Mode.md"
+    "Excalidraw/Billing Process.excalidraw.png",
+    "Books/Source Mode.md",
+    "2022-10-23.md",
+    "Excalidraw/Drawing 2022-10-23 12.17.45.excalidraw.md",
+    "Images/Billing Process.excalidraw.png",
+    "Images/Pasted image 20221023105027.png",
+    "Excalidraw/Billing Process.excalidraw.svg",
+    "Books/2022-10-23.md"
   ]
 }

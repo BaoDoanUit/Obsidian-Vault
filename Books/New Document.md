@@ -9,6 +9,7 @@ Markdown is:
 - Simple
 - Easy
 - Amazing!
+![[Billing Process.excalidraw]]
 
 This is an example image:
 ![[Pasted image 20221023105027.png]]
@@ -16,4 +17,6 @@ This is an example image:
 ```SQL
 select * from blu.tbl_edc
 ```
+
+
 
