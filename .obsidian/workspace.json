@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "2599a23a55f9b316",
+    "type": "split",
+    "children": [
+      {
+        "id": "e877ab4345ff35ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7b9f9916dfb392ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Books/Second Document.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "766c68a42e5f3265",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20221023105027.png"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "14fa263482f0a4b8",
+    "type": "split",
+    "children": [
+      {
+        "id": "2e5acccd16a35136",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8fcbb6e27cd361f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f1fa99310d6fdd05",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8be8803c06338800",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "34c522fc35c948e3",
+    "type": "split",
+    "children": [
+      {
+        "id": "0f2e9326e494816d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "14e8dac2934cf054",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Images/Pasted image 20221023105027.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7f5ff57c77be1616",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Images/Pasted image 20221023105027.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b5d6673fe264e690",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "59f3fde16d268f0a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Images/Pasted image 20221023105027.png"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "ribbon": {
+    "mostRecentAction": ""
+  },
+  "active": "766c68a42e5f3265",
+  "lastOpenFiles": [
+    "Books/New Document.md",
+    "Books/2022-10-23.md",
+    "Books/Second Document.md",
+    "Images/Pasted image 20221023105027.png"
+  ]
+}
