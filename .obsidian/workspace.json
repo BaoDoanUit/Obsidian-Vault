@@ -11,12 +11,8 @@
             "id": "3d58d2f62cb3511f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Timeline.md",
-                "mode": "source",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -25,8 +21,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Books/Current Test.md",
-                "mode": "source",
+                "file": "demo.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -98,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Books/Current Test.md",
+                "file": "demo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Books/Current Test.md",
+                "file": "demo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Books/Current Test.md"
+                "file": "demo.md"
               }
             }
           }
@@ -154,15 +150,15 @@
   },
   "active": "36d4c037021a0f0e",
   "lastOpenFiles": [
-    "CES-WORK/Monitor Workflow.md",
-    "demo.md",
-    "Timeline.md",
     "Todo.md",
+    "Timeline.md",
+    "demo.md",
+    "Books/Current Test.md",
+    "CES-WORK/Monitor Workflow.md",
     "Images/Pasted image 20221023105027.png",
     "Calendar/2022-10-23 Make a plan for study.md",
     "Untitled 1.md",
     "2022-W44.md",
-    "2022-10-23.md",
-    "2022-10-24.md"
+    "2022-10-23.md"
   ]
 }
