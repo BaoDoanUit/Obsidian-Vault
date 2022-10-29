@@ -1,0 +1,22 @@
+{
+  "show-checkboxes": true,
+  "tag-colors": [
+    {
+      "tagKey": "#medium",
+      "color": "rgba(255, 255, 255, 1)",
+      "backgroundColor": "rgba(224, 44, 44, 0)"
+    },
+    {
+      "tagKey": "#RETAIL",
+      "color": "rgba(0, 0, 0, 1)",
+      "backgroundColor": "rgba(65, 129, 111, 0)"
+    },
+    {
+      "tagKey": "#small",
+      "color": "rgba(255, 255, 255, 1)",
+      "backgroundColor": "rgba(213, 240, 26, 0)"
+    }
+  ],
+  "date-colors": [],
+  "link-date-to-daily-note": false
+}

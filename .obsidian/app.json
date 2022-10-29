@@ -8,5 +8,6 @@
   "useTab": false,
   "livePreview": false,
   "autoPairMarkdown": false,
-  "tabSize": 5
+  "tabSize": 5,
+  "defaultViewMode": "preview"
 }

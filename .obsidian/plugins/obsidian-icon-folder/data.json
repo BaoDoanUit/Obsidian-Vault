@@ -1,0 +1,34 @@
+{
+  "settings": {
+    "migrated": true,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "IbDocumentCode",
+      "FabDribbble",
+      "FabEvernote",
+      "IbCalculator",
+      "IbCalendar"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    }
+  },
+  "Books": "SiGitbook",
+  "CES-WORK": "SiTask",
+  "CES-WORK/Process": "SiProgress",
+  "CES-WORK/Requirement": "IbFolder",
+  "Draft": "IbFolder",
+  "Images": "IbFolder",
+  "Templates": "IbDocumentCode",
+  "Planner/Day Planners": "IbCalendar",
+  "Planner/Week Planners": "IbFolder",
+  "Memos": "FabEvernote",
+  "Planner": "FabDribbble"
+}

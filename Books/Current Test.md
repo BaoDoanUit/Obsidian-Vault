@@ -9,10 +9,10 @@ Markdown is:
 - Simple
 - Easy
 - Amazing!
-![[Billing Process.excalidraw]]
+![[Retail-8033.excalidraw]]
 
 This is an example image:
-![[Pasted image 20221023105027.png]]
+![[EDI-Trans-17328473.png]]
 
 ```SQL
 select * from blu.tbl_edc

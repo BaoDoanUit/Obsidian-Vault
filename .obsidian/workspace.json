@@ -4,25 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "ef6e295721bb8e3d",
+        "id": "477d414d19bcb6d4",
         "type": "tabs",
         "children": [
           {
-            "id": "3d58d2f62cb3511f",
+            "id": "2d480ea894c58dcc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Draft/Drawing 2022-10-24 16.41.11.excalidraw.md"
+              }
             }
           },
           {
-            "id": "36d4c037021a0f0e",
+            "id": "02e80ba4991620ff",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.0.3"
+              }
+            }
+          },
+          {
+            "id": "5c929a2ab571beac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "demo.md",
-                "mode": "preview",
+                "file": "Memos/C#.md",
+                "mode": "source",
                 "source": true
               }
             }
@@ -57,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#small",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "demo.md",
+                "file": "Draft/Drawing 2022-10-24 16.41.11.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "demo.md",
+                "file": "Draft/Drawing 2022-10-24 16.41.11.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,41 +136,45 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
           {
-            "id": "59f3fde16d268f0a",
+            "id": "ce41f4f64874bbad",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "demo.md"
-              }
+              "type": "FANTASY_CALENDAR",
+              "state": {}
+            }
+          },
+          {
+            "id": "fb98b892c6ae7475",
+            "type": "leaf",
+            "state": {
+              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 226.5
+    "width": 389.5,
+    "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
-  "active": "36d4c037021a0f0e",
+  "active": "02e80ba4991620ff",
   "lastOpenFiles": [
-    "Todo.md",
-    "Timeline.md",
-    "demo.md",
-    "Books/Current Test.md",
-    "CES-WORK/Monitor Workflow.md",
-    "Images/Pasted image 20221023105027.png",
-    "Calendar/2022-10-23 Make a plan for study.md",
-    "Untitled 1.md",
-    "2022-W44.md",
-    "2022-10-23.md"
+    "Draft/Drawing 2022-10-27 09.13.41.excalidraw.md",
+    "Draft/Drawing 2022-10-24 16.41.11.excalidraw.md",
+    "Excalidraw/Pasted Image 20221026111822_209.png",
+    "Memos/C#.md",
+    "Images/Insurance/BHTN.png",
+    "Memos/SQL.md",
+    "Insurrance.md",
+    "Images/Insurance/Mau Chung Tu Y Te.png",
+    "Images/Insurance/Mau Chung Tu Y Te.excalidraw.md",
+    "Images/Insurance/Drawing 2022-10-24 21.52.01.excalidraw.md"
   ]
 }

@@ -1,4 +1,9 @@
 {
   "accentColor": "",
-  "theme": "moonstone"
+  "theme": "moonstone",
+  "cssTheme": "AnuPpuccin",
+  "monospaceFontFamily": "Fira Code Retina",
+  "interfaceFontFamily": "Fira Code Retina",
+  "textFontFamily": "Fira Code Retina",
+  "baseFontSize": 13
 }
