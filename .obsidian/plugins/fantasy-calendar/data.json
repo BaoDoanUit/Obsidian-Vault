@@ -195,8 +195,8 @@
       },
       "current": {
         "year": 2022,
-        "month": 9,
-        "day": 30
+        "month": 10,
+        "day": 7
       },
       "events": [
         {
@@ -392,16 +392,30 @@
           "category": "miscellaneous-events"
         },
         {
-          "id": "ID_0a1a7848190a",
+          "id": "ID_3afa19784ab8",
           "name": "Requirement RETAIL-8033",
           "note": "CES-WORK/Requirement/Requirement RETAIL-8033.md",
           "date": {
             "year": 2022,
-            "month": null,
-            "day": 24
+            "month": 10,
+            "day": 3
           },
           "end": null,
           "category": "ID_da1ab9699839",
+          "description": "",
+          "auto": true
+        },
+        {
+          "id": "ID_3bea2978c8fa",
+          "name": "2022-W45",
+          "note": "Planner/Week Planners/2022-W45.md",
+          "date": {
+            "year": 2022,
+            "month": null,
+            "week": 3
+          },
+          "end": null,
+          "category": "ID_094ac8a8ab68",
           "description": "",
           "auto": true
         }
@@ -439,7 +453,7 @@
           "name": "Personal"
         }
       ],
-      "date": 1667043915851,
+      "date": 1667617010730,
       "displayWeeks": true
     }
   ],

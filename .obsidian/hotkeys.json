@@ -1,3 +1,13 @@
 {
-  "editor:toggle-fold": []
+  "editor:toggle-fold": [],
+  "graph:open": [],
+  "periodic-notes:next-daily-note": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ]
 }

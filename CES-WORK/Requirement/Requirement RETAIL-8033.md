@@ -3,8 +3,8 @@
 fc-calendar: My Calendar
 fc-date: 
   year: 2022 
-  month: Octobor 
-  day: 24
+  month: November 
+  day: 3
 fc-category: Work 
 
 ---
@@ -61,4 +61,4 @@ title: Business Requirement
 
 
 Process
-![[Retail-8033.excalidraw]]
+![[Retail-8033]]

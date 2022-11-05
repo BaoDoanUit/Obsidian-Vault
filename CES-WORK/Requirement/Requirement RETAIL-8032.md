@@ -20,5 +20,5 @@ public class BillDeliveryAddressModel
 }
 ```
 
-![[RETAIL-8032.excalidraw | 1000x700]]
+![[RETAIL-8032 | 1000x800]]
 Alter table

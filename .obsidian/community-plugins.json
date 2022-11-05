@@ -1,6 +1,5 @@
 [
   "influx",
-  "obsidian-kanban",
   "obsidian-excalidraw-plugin",
   "obsidian-excel-to-markdown-table",
   "obsidian-plantuml",
@@ -21,5 +20,12 @@
   "highlightr-plugin",
   "better-word-count",
   "obsidian-dictionary-plugin",
-  "obsidian-code-block-enhancer"
+  "obsidian-code-block-enhancer",
+  "obsidian-habit-tracker",
+  "obsidian-kanban",
+  "obsidian-tracker",
+  "emoji-shortcodes",
+  "obsidian-icon-shortcodes",
+  "cryptsidian",
+  "url-into-selection"
 ]
