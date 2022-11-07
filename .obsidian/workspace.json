@@ -4,30 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "21d12c92844f60e2",
+        "id": "ef6e295721bb8e3d",
         "type": "tabs",
         "children": [
           {
-            "id": "180ce6b6b124835d",
+            "id": "cd64ccfa96e59ab8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Planner/Day Planners/2022-11-05.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "efde8e456c424f99",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Planner/Day Planners/2022-11-04.md",
-                "mode": "source",
-                "source": true
+                "file": "Draft/How to overcome Procrastination.md"
               }
             }
           }
@@ -81,7 +67,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "34c522fc35c948e3",
@@ -97,7 +84,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Planner/Day Planners/2022-11-05.md",
+                "file": "Draft/How to overcome Procrastination.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +101,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Planner/Day Planners/2022-11-05.md",
+                "file": "Draft/How to overcome Procrastination.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,20 +114,22 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           },
           {
-            "id": "ce41f4f64874bbad",
+            "id": "59f3fde16d268f0a",
             "type": "leaf",
             "state": {
-              "type": "FANTASY_CALENDAR",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "Draft/How to overcome Procrastination.md"
+              }
             }
           },
           {
-            "id": "fb98b892c6ae7475",
+            "id": "992db5c384ad0284",
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
@@ -148,33 +137,32 @@
             }
           },
           {
-            "id": "2740b7a6aefd5184",
+            "id": "16d9e99eb85aa6b5",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Planner/Day Planners/2022-11-05.md"
-              }
+              "type": "FANTASY_CALENDAR",
+              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 298.5,
+    "collapsed": true
   },
-  "active": "fb98b892c6ae7475",
+  "active": "cd64ccfa96e59ab8",
   "lastOpenFiles": [
     "CES-WORK/Requirement/Requirement RETAIL-8033.md",
-    "Planner/Day Planners/2022-11-05.md",
-    "Planner/Day Planners/2022-11-04.md",
-    "Planner/Day Planners/2022-11-01.md",
-    "Planner/Day Planners/2022-10-31.md",
-    "Planner/Day Planners/2022-11-03.md",
-    "Planner/Day Planners/2022-11-06.md",
-    "Day Planners/Day Planner-20221105.md",
     "Draft/How to overcome Procrastination.md",
-    "Excalidraw/alarm.png"
+    "CES-WORK/Visualize Business/DIMS-947.md",
+    "Books/Philosophy/MindSet.md",
+    "CES-WORK/Monitor Workflow.md",
+    "demo.md",
+    "Timeline.md",
+    "Todo.md",
+    "Images/Pasted image 20221023105027.png",
+    "Calendar/2022-10-23 Make a plan for study.md"
   ]
 }
