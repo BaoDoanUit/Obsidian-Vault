@@ -14,6 +14,7 @@ Tâm ta khởi điều ta muốn làm,
 Xung qua ta đều người tốt ta cũng sẽ hành động như một người tốt.
 Cố gắng phát tâm hành thiện, không nhất thiết là phải quyên góp tiền to lớn mà chỉ cần giúp người nào cần sự giúp đỡ. 
 
-
+### Tâm thức cần nhận biết
+Khởi niệm điều tốt là hành vi đầu tiên cần có để vượt qua trở ngại 
 
 

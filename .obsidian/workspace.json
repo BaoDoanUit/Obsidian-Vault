@@ -68,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "34c522fc35c948e3",
@@ -153,7 +152,7 @@
     "width": 298.5,
     "collapsed": true
   },
-  "active": "d8fcbb6e27cd361f",
+  "active": "afd07e942b7ee907",
   "lastOpenFiles": [
     "Books/Software/Grokking Alogrithms.md",
     "Draft/How to overcome Procrastination.md",
