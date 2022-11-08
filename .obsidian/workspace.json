@@ -8,12 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cd64ccfa96e59ab8",
+            "id": "afd07e942b7ee907",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Draft/How to overcome Procrastination.md"
+                "file": "Memos/Personal/LifeStyle/Live a worth life.md",
+                "mode": "source"
               }
             }
           }
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Draft/How to overcome Procrastination.md",
+                "file": "Memos/Personal/LifeStyle/Live a worth life.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Draft/How to overcome Procrastination.md",
+                "file": "Memos/Personal/LifeStyle/Live a worth life.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Draft/How to overcome Procrastination.md"
+                "file": "Memos/Personal/LifeStyle/Live a worth life.md"
               }
             }
           },
@@ -152,17 +153,17 @@
     "width": 298.5,
     "collapsed": true
   },
-  "active": "cd64ccfa96e59ab8",
+  "active": "d8fcbb6e27cd361f",
   "lastOpenFiles": [
-    "CES-WORK/Requirement/Requirement RETAIL-8033.md",
+    "Books/Software/Grokking Alogrithms.md",
     "Draft/How to overcome Procrastination.md",
+    "Memos/Personal/LifeStyle/Live a worth life.md",
+    "CES-WORK/Requirement/Requirement RETAIL-8033.md",
     "CES-WORK/Visualize Business/DIMS-947.md",
     "Books/Philosophy/MindSet.md",
     "CES-WORK/Monitor Workflow.md",
     "demo.md",
     "Timeline.md",
-    "Todo.md",
-    "Images/Pasted image 20221023105027.png",
-    "Calendar/2022-10-23 Make a plan for study.md"
+    "Todo.md"
   ]
 }

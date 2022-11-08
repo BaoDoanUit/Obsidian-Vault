@@ -196,7 +196,7 @@
       "current": {
         "year": 2022,
         "month": 10,
-        "day": 8
+        "day": 10
       },
       "events": [
         {
@@ -453,7 +453,7 @@
           "name": "Personal"
         }
       ],
-      "date": 1667668854925,
+      "date": 1667836290634,
       "displayWeeks": true
     }
   ],
