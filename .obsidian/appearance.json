@@ -3,7 +3,7 @@
   "theme": "obsidian",
   "cssTheme": "AnuPpuccin",
   "monospaceFontFamily": "Fira Code Retina",
-  "interfaceFontFamily": "Fira Code Retina",
-  "textFontFamily": "Fira Code Retina",
-  "baseFontSize": 16
+  "interfaceFontFamily": "Roboto",
+  "textFontFamily": "Roboto",
+  "baseFontSize": 13
 }

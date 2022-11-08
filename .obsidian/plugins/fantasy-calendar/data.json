@@ -196,7 +196,7 @@
       "current": {
         "year": 2022,
         "month": 10,
-        "day": 9
+        "day": 10
       },
       "events": [
         {
@@ -404,20 +404,6 @@
           "category": "ID_da1ab9699839",
           "description": "",
           "auto": true
-        },
-        {
-          "id": "ID_3bea2978c8fa",
-          "name": "2022-W45",
-          "note": "Planner/Week Planners/2022-W45.md",
-          "date": {
-            "year": 2022,
-            "month": null,
-            "week": 3
-          },
-          "end": null,
-          "category": "ID_094ac8a8ab68",
-          "description": "",
-          "auto": true
         }
       ],
       "id": "ID_290b1b9b49b8",
@@ -453,7 +439,7 @@
           "name": "Personal"
         }
       ],
-      "date": 1667787361287,
+      "date": 1667875051685,
       "displayWeeks": true
     }
   ],

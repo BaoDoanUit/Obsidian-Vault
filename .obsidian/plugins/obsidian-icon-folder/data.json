@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "IbFolder",
       "SiIcons8",
       "SiPivotaltracker",
       "SiHiveBlockchain",
-      "IbStar",
-      "IbPencil"
+      "IbStar"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -25,14 +25,10 @@
   "CES-WORK/Requirement": "IbFolder",
   "Draft": "IbFolder",
   "Images": "IbFolder",
-  "Templates": "IbDocumentCode",
-  "Planner/Day Planners": "IbCalendar",
-  "Planner/Week Planners": "IbFolder",
   "Memos": "FabEvernote",
-  "Planner": "FabDribbble",
   "Tracker Habits.md": "IbStar",
   "CES-WORK/Visualize Business": "SiProgress",
   "CES-WORK/Business": "SiHiveBlockchain",
   "CES-WORK/Monitor Workflow.md": "SiPivotaltracker",
-  "Excalidraw": "SiIcons8"
+  "Excalidraw": "IbFolder"
 }

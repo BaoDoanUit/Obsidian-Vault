@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ef6e295721bb8e3d",
+        "id": "21d12c92844f60e2",
         "type": "tabs",
         "children": [
           {
-            "id": "cd64ccfa96e59ab8",
+            "id": "efde8e456c424f99",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Draft/How to overcome Procrastination.md"
+                "file": "CES-WORK/Requirement/Requirement DIMS-947.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -67,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "34c522fc35c948e3",
@@ -84,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Draft/How to overcome Procrastination.md",
+                "file": "CES-WORK/Requirement/Requirement DIMS-947.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Draft/How to overcome Procrastination.md",
+                "file": "CES-WORK/Requirement/Requirement DIMS-947.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -114,22 +115,20 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
             }
           },
           {
-            "id": "59f3fde16d268f0a",
+            "id": "ce41f4f64874bbad",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Draft/How to overcome Procrastination.md"
-              }
+              "type": "FANTASY_CALENDAR",
+              "state": {}
             }
           },
           {
-            "id": "992db5c384ad0284",
+            "id": "fb98b892c6ae7475",
             "type": "leaf",
             "state": {
               "type": "online.larslockefeer.obsidian-plugin-todo",
@@ -137,32 +136,34 @@
             }
           },
           {
-            "id": "16d9e99eb85aa6b5",
+            "id": "2740b7a6aefd5184",
             "type": "leaf",
             "state": {
-              "type": "FANTASY_CALENDAR",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "CES-WORK/Requirement/Requirement DIMS-947.md"
+              }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 298.5,
+    "width": 389.5,
     "collapsed": true
   },
-  "active": "cd64ccfa96e59ab8",
+  "active": "efde8e456c424f99",
   "lastOpenFiles": [
-    "CES-WORK/Requirement/Requirement RETAIL-8033.md",
-    "Draft/How to overcome Procrastination.md",
-    "CES-WORK/Visualize Business/DIMS-947.md",
-    "Books/Philosophy/MindSet.md",
+    "Technical/Architecture/SagaPattern for microservices.md",
+    "CES-WORK/Requirement/Requirement DIMS-947.md",
+    "Make a plan for November.md",
     "CES-WORK/Monitor Workflow.md",
+    "Tracker Habits.md",
     "demo.md",
-    "Timeline.md",
-    "Todo.md",
-    "Images/Pasted image 20221023105027.png",
-    "Calendar/2022-10-23 Make a plan for study.md"
+    "Templates/Daily Planner.md",
+    "Planner/Day Planners/2022-10-31.md",
+    "Draft/How to overcome Procrastination.md",
+    "Draft/Chibi_1.md"
   ]
 }

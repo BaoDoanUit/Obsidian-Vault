@@ -1,4 +1,0 @@
-```ad-info
-Good notes
-```
-
