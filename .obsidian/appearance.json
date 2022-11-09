@@ -1,9 +1,6 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
-  "cssTheme": "AnuPpuccin",
-  "monospaceFontFamily": "Fira Code",
-  "interfaceFontFamily": "Roboto Mono Medium for Powerline",
+  "interfaceFontFamily": "Roboto Mono Light for Powerline",
   "textFontFamily": "Roboto Mono Light for Powerline",
-  "baseFontSize": 16
+  "monospaceFontFamily": "Fira Code"
 }

@@ -16,3 +16,4 @@ Step 2
 
 Step 3
 Copy file dtsx and dts.config to /
+How to write exactly what I mean
