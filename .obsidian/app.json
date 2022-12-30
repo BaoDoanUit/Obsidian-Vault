@@ -9,5 +9,7 @@
   "livePreview": false,
   "autoPairMarkdown": false,
   "tabSize": 5,
-  "defaultViewMode": "preview"
+  "defaultViewMode": "preview",
+  "legacyEditor": true,
+  "showFrontmatter": true
 }

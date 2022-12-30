@@ -5,11 +5,19 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+<<<<<<< HEAD
       "IbLocked",
       "IbPhoto",
       "SiSemanticuireact",
       "IbFullScreenArrow",
       "SiNeutralinojs"
+=======
+      "SiIcons8",
+      "SiPivotaltracker",
+      "SiHiveBlockchain",
+      "IbStar",
+      "IbPencil"
+>>>>>>> c7985d2ea8548b10845931973b93b50e0270dd5d
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -26,6 +34,7 @@
   "Tracker Habits.md": "IbStar",
   "CES-WORK/Visualize Business": "SiProgress",
   "CES-WORK/Business": "SiHiveBlockchain",
+<<<<<<< HEAD
   "Excalidraw": "IbFolder",
   "CES-WORK/Guideline": "FabGgCircle",
   "Fonts": "SiAdobefonts",
@@ -49,4 +58,8 @@
   "Personal_Scope/Technical": "SiSemanticuireact",
   "Photos": "IbPhoto",
   "Personal_Scope/Private_Information": "IbLocked"
+=======
+  "CES-WORK/Monitor Workflow.md": "SiPivotaltracker",
+  "Excalidraw": "SiIcons8"
+>>>>>>> c7985d2ea8548b10845931973b93b50e0270dd5d
 }
