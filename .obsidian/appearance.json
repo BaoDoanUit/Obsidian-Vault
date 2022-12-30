@@ -1,9 +1,9 @@
 {
   "accentColor": "",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "cssTheme": "AnuPpuccin",
   "monospaceFontFamily": "Fira Code Retina",
   "interfaceFontFamily": "Roboto",
   "textFontFamily": "Roboto",
-  "baseFontSize": 13
+  "baseFontSize": 18
 }

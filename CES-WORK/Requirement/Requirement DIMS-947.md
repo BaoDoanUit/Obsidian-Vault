@@ -1,19 +1,32 @@
 Link: https://ces-ltd.atlassian.net/browse/DIMS-947
 
-Process
+Business Process
 ![[DIMS-947]]
 
-Work Flow
+Guideline for CESRD SSIS Package
+![[CES-WORK/Guideline/SSIS]]
 
-![[Noted SSIS configuration.png]]
 
-Deployment SSIS package to INDDEVTSQL01
-[Video Sharing new flow for AWSRD](https://cesltd2.sharepoint.com/sites/CESVNSharing2/_layouts/15/stream.aspx?id=%2Fsites%2FCESVNSharing2%2FShared%20Documents%2FTraining%20Video%2FCES%20VN%20DEV%20Training%2FCES%20DEV%20Training%20%2D%20Standard%20SSIS%20package%20for%20the%20AMZ%20job%2Emp4&ga=1)
 
-Step 1
+### Task Tracking
+- Tuesday, November 8th 
+     - [x] Script add new step in existed job
+     - [x] Script create new table
+     - [x] Testing script provided in ticket
+- Wednesday, November 9th
+     - [x] Implement process in local machine #2022-11-09
+     - [x] First round testing #2022-11-09
+- Thursday, November 10th
+     - [x] Review business requirement #2022-11-10
+- Friday, November 10th
+     - [x] Review business requirement #2022-11-11
 
-Step 2
 
-Step 3
-Copy file dtsx and dts.config to /
-How to write exactly what I mean
+Verify finish task 
+- [x] Commit SSIS 
+- [x] Commit Retail_Db
+- [x] Sub-task add new step in exists job
+- [x] Sub-task add new table tbl_resettlement_status
+- [x] Script add tbl_data_extract configuration with TranferingPeriod
+
+Verify data after insert

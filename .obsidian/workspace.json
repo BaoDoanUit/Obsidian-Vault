@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "21d12c92844f60e2",
+        "id": "dd6a2a5beabd59dd",
         "type": "tabs",
         "children": [
           {
-            "id": "efde8e456c424f99",
+            "id": "4e249a9aef655103",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CES-WORK/Requirement/Requirement DIMS-947.md",
+                "file": "Make a plan for November.md",
                 "mode": "source",
                 "source": true
               }
             }
+          },
+          {
+            "id": "d4f3f5d688fa4ff8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Task.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "967f7a9fc721d4f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal_Scope/LifeStyle/2022/PluralSight Planning.md",
+                "mode": "preview",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "crm ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 260.5
   },
   "right": {
     "id": "34c522fc35c948e3",
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CES-WORK/Requirement/Requirement DIMS-947.md",
+                "file": "Daily Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CES-WORK/Requirement/Requirement DIMS-947.md",
+                "file": "Daily Task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,14 +145,6 @@
             }
           },
           {
-            "id": "ce41f4f64874bbad",
-            "type": "leaf",
-            "state": {
-              "type": "FANTASY_CALENDAR",
-              "state": {}
-            }
-          },
-          {
             "id": "fb98b892c6ae7475",
             "type": "leaf",
             "state": {
@@ -141,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CES-WORK/Requirement/Requirement DIMS-947.md"
+                "file": "Daily Task.md"
               }
             }
           }
@@ -150,20 +167,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5,
+    "width": 243.5,
     "collapsed": true
   },
-  "active": "efde8e456c424f99",
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "d4f3f5d688fa4ff8",
   "lastOpenFiles": [
-    "Technical/Architecture/SagaPattern for microservices.md",
-    "CES-WORK/Requirement/Requirement DIMS-947.md",
     "Make a plan for November.md",
-    "CES-WORK/Monitor Workflow.md",
     "Tracker Habits.md",
-    "demo.md",
-    "Templates/Daily Planner.md",
-    "Planner/Day Planners/2022-10-31.md",
-    "Draft/How to overcome Procrastination.md",
-    "Draft/Chibi_1.md"
+    "Personal_Scope/Books/Philosophy/MindSet.md",
+    "Personal_Scope/LifeStyle/2022/Special Events.md",
+    "Personal_Scope/LifeStyle/2022/PluralSight Planning.md",
+    "Personal_Scope/LifeStyle/2023/Strategy Planning.md",
+    "Personal_Scope/LifeStyle/2023/PluralSight Training.md",
+    "Personal_Scope/LifeStyle/2023/Udemy Training.md",
+    "Personal_Scope/Technical/Analysis/CRM Analytics.md",
+    "CES-WORK/Memos/Technical/SSIS Technical Decision.md"
   ]
 }
