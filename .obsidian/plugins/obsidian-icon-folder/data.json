@@ -5,19 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
-<<<<<<< HEAD
-      "IbLocked",
-      "IbPhoto",
-      "SiSemanticuireact",
-      "IbFullScreenArrow",
-      "SiNeutralinojs"
-=======
-      "SiIcons8",
-      "SiPivotaltracker",
-      "SiHiveBlockchain",
-      "IbStar",
-      "IbPencil"
->>>>>>> c7985d2ea8548b10845931973b93b50e0270dd5d
+      "FabFirstdraft",
+      "IbDocumentPhoto",
+      "SiBookstack",
+      "SiBookalope",
+      "SiProgress"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -28,38 +20,11 @@
       "left": 0
     }
   },
-  "CES-WORK": "SiTask",
-  "CES-WORK/Requirement": "IbFolder",
-  "Draft": "IbFolder",
-  "Tracker Habits.md": "IbStar",
-  "CES-WORK/Visualize Business": "SiProgress",
-  "CES-WORK/Business": "SiHiveBlockchain",
-<<<<<<< HEAD
-  "Excalidraw": "IbFolder",
-  "CES-WORK/Guideline": "FabGgCircle",
-  "Fonts": "SiAdobefonts",
-  "CES-WORK/Training": "SiNeutralinojs",
-  "Draft/Microservices and Data.md": "IbPencil",
-  "Draft/How to overcome Procrastination.md": {
-    "iconName": null,
-    "inheritanceIcon": "IbPencil"
-  },
-  "Draft/Chibi_1.md": {
-    "iconName": null,
-    "inheritanceIcon": "IbPencil"
-  },
-  "Draft/High Performance Networking.md": "IbPencil",
-  "Draft/RETOPS EDI 820.md": "IbPencil",
-  "Personal_Scope": "IbFullScreenArrow",
-  "Personal_Scope/Pet Project": "IbClarusTheDogcow",
-  "CES-WORK/Memos": "FabEvernote",
-  "Personal_Scope/Books": "SiGitbook",
-  "Personal_Scope/LifeStyle": "SiStylelint",
-  "Personal_Scope/Technical": "SiSemanticuireact",
   "Photos": "IbPhoto",
-  "Personal_Scope/Private_Information": "IbLocked"
-=======
-  "CES-WORK/Monitor Workflow.md": "SiPivotaltracker",
-  "Excalidraw": "SiIcons8"
->>>>>>> c7985d2ea8548b10845931973b93b50e0270dd5d
+  "Personal_Scope": "SiAtom",
+  "Memos": "SiMicrosoftonenote",
+  "CES-WORK": "SiProgress",
+  "Books": "SiBookstack",
+  "Excalidraw": "IbDocumentPhoto",
+  "Draft": "FabFirstdraft"
 }

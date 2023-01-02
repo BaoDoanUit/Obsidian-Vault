@@ -4,7 +4,7 @@ Xây dựng bồ đề tâm
 Tu tập để nuôi dường tâm bồ đề
 Luyện tập hàng ngày
 
-- [ ] Ghi nhận phật pháp #2022-11-30
+- [x] Ghi nhận phật pháp #2022-11-30
 
 #### Hạnh phúc bắt nguồn từ điều gì?
 - Đơn giản là sự cảm nhận mọi sự vận động trong cuộc sống, có thể là chiêm nghiệm có thể là sự trải nghiệm thực tế, quan trọng là phải thực sự cảm nhận dòng chảy của sự vật hiện tượng.

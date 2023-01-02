@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "dd6a2a5beabd59dd",
+        "id": "f5b9a98f732b611b",
         "type": "tabs",
         "children": [
           {
-            "id": "4e249a9aef655103",
+            "id": "12adbd7f4c325d8d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Make a plan for November.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d4f3f5d688fa4ff8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Task.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "967f7a9fc721d4f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal_Scope/LifeStyle/2022/PluralSight Planning.md",
-                "mode": "preview",
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily Task.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily Task.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Daily Task.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -181,17 +148,17 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d4f3f5d688fa4ff8",
+  "active": "d8fcbb6e27cd361f",
   "lastOpenFiles": [
-    "Make a plan for November.md",
-    "Tracker Habits.md",
-    "Personal_Scope/Books/Philosophy/MindSet.md",
-    "Personal_Scope/LifeStyle/2022/Special Events.md",
-    "Personal_Scope/LifeStyle/2022/PluralSight Planning.md",
-    "Personal_Scope/LifeStyle/2023/Strategy Planning.md",
-    "Personal_Scope/LifeStyle/2023/PluralSight Training.md",
-    "Personal_Scope/LifeStyle/2023/Udemy Training.md",
-    "Personal_Scope/Technical/Analysis/CRM Analytics.md",
-    "CES-WORK/Memos/Technical/SSIS Technical Decision.md"
+    "Draft/Planning.md",
+    "Draft/RETOPS EDI 820.md",
+    "Draft/Microservices and Data.md",
+    "Draft/How to overcome Procrastination.md",
+    "Draft/High Performance Networking.md",
+    "Draft/Chibi_1.md",
+    "Draft/Arrchitect Career Path.md",
+    "Excalidraw/Personal/workout.png",
+    "Excalidraw/C4Model/visualising-software-architecture.pdf",
+    "Excalidraw/Personal/Vé máy bay tết (2023) _ 1.png"
   ]
 }

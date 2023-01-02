@@ -16,5 +16,4 @@ Code Booking
 
 - [ ] Đi cafe hoàng hôn #2022-12-31 
 - [ ] Chụp hình áo dài #2023-01-02 
-- [ ] Chuẩn bị cho hôm đi cafe
-- [ ] Ghi nhận lại sai sót trong ngày
+- [ ] Chuẩn bị cho hôm đi cafe #2022-12-30 

@@ -38,13 +38,19 @@ Next Step? ^pZCVInnq
 
 Input to excalidraw ^LiPSJZFO
 
+How to prepare for reading? ^nc2BCe7t
+
+Build process reading book
+Prepare knowledge before reading
+Research document related to book ^QVmxIqnx
+
 
 # Embedded files
 0339e1b32478dcccd29568122a798f79ac2d8dd9: [[workout.png]]
 40fcfeb071e54d0f07c9a94a35af5c1ba088f94a: [[gym.png]]
 e0c1a086d75fff27aacfc2cfce1d50d2867e6827: [[running.png]]
 0cf49a89975955244967604dd0bc58d5192ec663: [[note.png]]
-2f0068e8ee72fc6fff406376e47a0c028d7dc512: [[Capture.png]]
+2f0068e8ee72fc6fff406376e47a0c028d7dc512: [[NoImage.png]]
 97438e8d23a89b7a38082738825c1662b54deabb: [[folder.png]]
 d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 92da2f655997baaca2d10764f0c7151a4c155321: [[alarm.png]]
@@ -1010,27 +1016,27 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			]
 		},
 		{
-			"id": "lP76UuDK2JrCwtvWPbAaZ",
 			"type": "image",
-			"x": -240.55265158137627,
-			"y": -203.03870035171803,
-			"width": 80.74007486657729,
-			"height": 69.42552438791449,
-			"angle": 0,
-			"strokeColor": "transparent",
-			"backgroundColor": "transparent",
+			"version": 73,
+			"versionNonce": 715568840,
+			"isDeleted": false,
+			"id": "lP76UuDK2JrCwtvWPbAaZ",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -237.61729738680225,
+			"y": -205.76062139647541,
+			"strokeColor": "transparent",
+			"backgroundColor": "transparent",
+			"width": 74.86936647742922,
+			"height": 74.86936647742922,
+			"seed": 1241330632,
 			"groupIds": [],
 			"strokeSharpness": "round",
-			"seed": 1241330632,
-			"version": 73,
-			"versionNonce": 715568840,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1667636993350,
 			"link": null,
 			"locked": false,
@@ -1040,12 +1046,82 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 				1,
 				1
 			]
+		},
+		{
+			"id": "nc2BCe7t",
+			"type": "text",
+			"x": -379.82771602864807,
+			"y": 566.4314835552965,
+			"width": 347,
+			"height": 31,
+			"angle": 0,
+			"strokeColor": "#e67700",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"seed": 123443547,
+			"version": 59,
+			"versionNonce": 1246160213,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1672647071763,
+			"link": null,
+			"locked": false,
+			"text": "How to prepare for reading?",
+			"rawText": "How to prepare for reading?",
+			"fontSize": 28,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 24,
+			"containerId": null,
+			"originalText": "How to prepare for reading?"
+		},
+		{
+			"id": "QVmxIqnx",
+			"type": "text",
+			"x": -334.1167386643096,
+			"y": 604.0537911298566,
+			"width": 245,
+			"height": 53,
+			"angle": 0,
+			"strokeColor": "#364fc7",
+			"backgroundColor": "transparent",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"seed": 1521560629,
+			"version": 158,
+			"versionNonce": 104229781,
+			"isDeleted": false,
+			"boundElements": null,
+			"updated": 1672647066731,
+			"link": null,
+			"locked": false,
+			"text": "Build process reading book\nPrepare knowledge before reading\nResearch document related to book",
+			"rawText": "Build process reading book\nPrepare knowledge before reading\nResearch document related to book",
+			"fontSize": 16,
+			"fontFamily": 4,
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"baseline": 49,
+			"containerId": null,
+			"originalText": "Build process reading book\nPrepare knowledge before reading\nResearch document related to book"
 		}
 	],
 	"appState": {
 		"theme": "light",
 		"viewBackgroundColor": "#ffffff",
-		"currentItemStrokeColor": "#000000",
+		"currentItemStrokeColor": "#e67700",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 1,
@@ -1053,11 +1129,16 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 		"currentItemRoughness": 1,
 		"currentItemOpacity": 100,
 		"currentItemFontFamily": 4,
-		"currentItemFontSize": 28,
+		"currentItemFontSize": 16,
 		"currentItemTextAlign": "left",
 		"currentItemStrokeSharpness": "sharp",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
+		"scrollX": 662.4358839581579,
+		"scrollY": 34.394455685216045,
+		"zoom": {
+			"value": 0.722560329905077
+		},
 		"currentItemLinearStrokeSharpness": "round",
 		"gridSize": null,
 		"colorPalette": {}

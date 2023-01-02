@@ -10,6 +10,6 @@
   "autoPairMarkdown": false,
   "tabSize": 5,
   "defaultViewMode": "preview",
-  "legacyEditor": true,
+  "legacyEditor": false,
   "showFrontmatter": true
 }

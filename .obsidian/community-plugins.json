@@ -11,7 +11,6 @@
   "note-refactor-obsidian",
   "obsidian-hover-editor",
   "dataview",
-  "obsidian-icon-folder",
   "templater-obsidian",
   "obsidian-emoji-toolbar",
   "obsidian-image-toolkit",
@@ -26,5 +25,6 @@
   "emoji-shortcodes",
   "obsidian-icon-shortcodes",
   "cryptsidian",
-  "url-into-selection"
+  "url-into-selection",
+  "obsidian-icon-folder"
 ]

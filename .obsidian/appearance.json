@@ -1,15 +1,3 @@
 {
-  "accentColor": "",
-<<<<<<< HEAD
-  "theme": "moonstone",
-  "cssTheme": "AnuPpuccin",
-  "monospaceFontFamily": "Fira Code Retina",
-  "interfaceFontFamily": "Roboto",
-  "textFontFamily": "Roboto",
-  "baseFontSize": 18
-=======
-  "interfaceFontFamily": "Roboto Mono Light for Powerline",
-  "textFontFamily": "Roboto Mono Light for Powerline",
-  "monospaceFontFamily": "Fira Code"
->>>>>>> c7985d2ea8548b10845931973b93b50e0270dd5d
+  "accentColor": ""
 }
