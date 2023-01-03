@@ -11,8 +11,10 @@
             "id": "12adbd7f4c325d8d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "excalidraw",
+              "state": {
+                "file": "Draft/Free Thinking.md"
+              }
             }
           }
         ]
@@ -81,6 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Draft/Free Thinking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Draft/Free Thinking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Draft/Free Thinking.md"
+              }
             }
           }
         ],
@@ -148,10 +154,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "d8fcbb6e27cd361f",
+  "active": "12adbd7f4c325d8d",
   "lastOpenFiles": [
-    "Draft/Planning.md",
     "Draft/RETOPS EDI 820.md",
+    "Draft/Planning.md",
     "Draft/Microservices and Data.md",
     "Draft/How to overcome Procrastination.md",
     "Draft/High Performance Networking.md",
