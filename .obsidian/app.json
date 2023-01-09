@@ -11,5 +11,8 @@
   "tabSize": 5,
   "defaultViewMode": "preview",
   "legacyEditor": false,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "showLineNumber": false,
+  "foldIndent": true,
+  "foldHeading": true
 }
