@@ -6,3 +6,5 @@ Hardcoded Value
 
 Write down anything when you thing it worth 
 Focus on what you make new challenge
+Make general document for any topics.
+

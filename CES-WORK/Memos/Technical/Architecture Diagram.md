@@ -1,9 +1,10 @@
 
-Do you oftenn encounter the following situations when you are drawing architecture diagrams:
+Do you often encounter the following situations when you are drawing architecture diagrams:
 - You are good at writing code, but you don't know how to deal with canvas
 - You don't know what should be drawn or omitted in the system
 - The layout is messy. You are not satisfied with how to adjust it.
-- 
+- Hard to approach new concept from Technical Architect
+- How to control the complexity of new concept apply to the Software System
 
 
 ## Business architecture diagrams

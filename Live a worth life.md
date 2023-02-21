@@ -17,4 +17,10 @@ Cố gắng phát tâm hành thiện, không nhất thiết là phải quyên g�
 ### Tâm thức cần nhận biết
 Khởi niệm điều tốt là hành vi đầu tiên cần có để vượt qua trở ngại 
 
+### Education là gì
+Education không phải áp đặt kiến thức vào một cá thể mà là khơi gợi tri thức nguyên bản từ cá thể đó.
+Vai trò của giáo dục là cung cấp hướng tiếp cận thông tin theo từng bối cảnh cụ thể với góc nhìn đa chiều còn việc tiêu thụ thông tin.
+Giáo dục sẽ
+
+
 
