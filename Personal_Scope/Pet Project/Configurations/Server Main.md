@@ -29,3 +29,20 @@ https://github.com/localtunnel/localtunnel/issues/120
 [Issues SSL](https://stackoverflow.com/questions/52540899/disabling-certificate-check-in-grpc-tls)
 
 
+
+Machine 1 (AnyDesk hongphucserver@ad) 192.168.1.8
+- ngrok tcp 5432 (Postgresql) 
+- localtunnel 3000 (GateWayAPI)
+- localhost 3004 (IdentifyServer)
+- Message Queue
+
+Machine 2 (AnyDesk hongphuc-f789jti@ad) 192.168.1.4
+- Batch Process
+     - Run repeatedly after 15 minutes
+- Consumer
+- Producer
+
+
+Cloud
+- (API) https://app.cyclic.sh/#/app/baodoanuit-ecommerce/builds
+

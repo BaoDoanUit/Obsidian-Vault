@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal_Scope/Technical/Architecture/Solution for ETL big systems.md",
+                "file": "Personal_Scope/Pet Project/Configurations/Server Main.md",
                 "mode": "source",
                 "source": true
               }
@@ -56,11 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-<<<<<<< HEAD
-                "query": "th",
-=======
-                "query": "habit",
->>>>>>> 278f96c76fa2ec60e56e73fcdef35730867f6f43
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,16 +66,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-<<<<<<< HEAD
-    "width": 328.5110321044922
-=======
-    "width": 329.5,
-    "collapsed": true
->>>>>>> 278f96c76fa2ec60e56e73fcdef35730867f6f43
+    "width": 329.5
   },
   "right": {
     "id": "34c522fc35c948e3",
@@ -95,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CES-WORK/RETOPS/Enroll Request (UdcAcntNum).md",
+                "file": "Personal_Scope/Pet Project/Configurations/Server Main.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CES-WORK/RETOPS/Enroll Request (UdcAcntNum).md",
+                "file": "Personal_Scope/Pet Project/Configurations/Server Main.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CES-WORK/RETOPS/Enroll Request (UdcAcntNum).md"
+                "file": "Personal_Scope/Pet Project/Configurations/Server Main.md"
               }
             }
           }
@@ -166,32 +157,17 @@
       "periodic-notes:Open today": false
     }
   },
-<<<<<<< HEAD
-  "active": "6f418fac1c465f7b",
-  "lastOpenFiles": [
-    "CES-WORK/Memos/Syntax Coding/SQL.md",
-    "CES-WORK/Visualize Business/Tickets/RETAIL-22008.md",
-    "CES-WORK/Visualize Business/Tickets/RETAIL-22004.md",
-    "CES-WORK/Visualize Business/Tickets/Retail-8033.md",
-    "CES-WORK/Visualize Business/Tickets/DIMS-947.md",
-    "CES-WORK/Visualize Business/Tickets/DIMS-21644.md",
-    "CES-WORK/Visualize Business/Tickets/RETAIL-8032.md",
-    "CES-WORK/Visualize Business/Tickets/RBC-21854.md",
-    "CES-WORK/Visualize Business/Process/General_Process.md",
-    "CES-WORK/Visualize Business/Process/814_Enrollment_Process.md"
-=======
   "active": "53f34bd9586b9e0c",
   "lastOpenFiles": [
+    "Personal_Scope/Pet Project/Infrastructure/Back-End.md",
+    "Personal_Scope/Pet Project/Diagrams/Admin Site.md",
+    "Personal_Scope/Pet Project/Configurations/Server Main.md",
+    "Personal_Scope/Pet Project/Business/General Business.md",
+    "Personal_Scope/LifeStyle/2023/True North.md",
+    "Personal_Scope/LifeStyle/2023/Udemy Training.md",
+    "Live a worth life.md",
     "Personal_Scope/Private_Information/Habits.md",
     "Excalidraw/RETAIL-22004-Pic1.png",
-    "Excalidraw/Pasted image 20230109150502.png",
-    "Excalidraw/Open_Close_Principle.png",
-    "Books/Kindle_Notes/Dweck-Mindset.md",
-    "Books/Kindle_Notes/Harari-21 Lessons for the 21st Century.md",
-    "Books/Kindle_Notes/2018-Will Grant - 101 UX Principles_ A Definitive Design Guide-Packt Publishing Ltd.md",
-    "Books/2018-Will Grant - 101 UX Principles_ A Definitive Design Guide-Packt Publishing Ltd.md",
-    "Harari-21 Lessons for the 21st Century.md",
-    "2018-Will Grant - 101 UX Principles_ A Definitive Design Guide-Packt Publishing Ltd.md"
->>>>>>> 278f96c76fa2ec60e56e73fcdef35730867f6f43
+    "Excalidraw/Pasted image 20230109150502.png"
   ]
 }
