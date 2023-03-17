@@ -21,5 +21,8 @@
   "rightToLeft": false,
   "userIgnoreFilters": [
     "Fonts/"
-  ]
+  ],
+  "showInlineTitle": true,
+  "showIndentGuide": true,
+  "strictLineBreaks": true
 }

@@ -1,9 +1,10 @@
 {
-  "accentColor": "",
+  "accentColor": "#ef6b6b",
   "cssTheme": "AnuPpuccin",
   "theme": "obsidian",
-  "baseFontSize": 15,
+  "baseFontSize": 16,
   "interfaceFontFamily": "Fira Code",
   "textFontFamily": "Fira Code",
-  "monospaceFontFamily": "Fira Code"
+  "monospaceFontFamily": "Fira Code",
+  "showViewHeader": false
 }
