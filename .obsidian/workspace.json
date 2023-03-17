@@ -4,35 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "30688df79e8802f7",
+        "id": "99505caefa8d080d",
         "type": "tabs",
         "children": [
           {
-            "id": "47326d1c53e8b476",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal_Scope/LifeStyle/2023/Software Development.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7304311ca75ace12",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CES-WORK/Requirement/Requirement RETAIL-22261.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "3f0bcaf3efc72220",
+            "id": "5fed20042bff8046",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,9 +18,20 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "d7a9c573d0f4e23f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Personal_Scope/LifeStyle/2023/Software Development.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -193,12 +180,22 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "3f0bcaf3efc72220",
+  "active": "5fed20042bff8046",
   "lastOpenFiles": [
-    "CES-WORK/Requirement/Requirement RETAIL-22261.md",
-    "Personal_Scope/Private_Information/Health.md",
-    "Draft/Free Thinking.md",
     "Personal_Scope/LifeStyle/2023/Software Development.md",
+    "Personal_Scope/Private_Information/Health.md",
+    "CES-WORK/Requirement/Requirement RETAIL-22261.md",
+    "CES-WORK/RETOPS/RETOPS-25295.md",
+    "CES-WORK/RETOPS/Enroll Request (UdcAcntNum).md",
+    "CES-WORK/RETOPS",
+    "Personal_Scope/Pet Project/Business/General Business.md",
+    "Personal_Scope/Pet Project/Business",
+    "Personal_Scope/Pet Project",
+    "Memos/Personal/LifeStyle/Live a worth life.md",
+    "Memos/Personal/LifeStyle",
+    "Memos/Personal",
+    "Memos",
+    "Draft/Free Thinking.md",
     "CES-WORK/Visualize Business/Tickets/RETAIL-22146.md",
     "Pet Project/Infrastructure/Back-End.md",
     "Personal_Scope/Jobs/Turing Work.md",
@@ -217,11 +214,7 @@
     "Books/Kindle_Notes/Dweck-Mindset.md",
     "Personal_Scope/LifeStyle/2022/Phật Pháp.md",
     "CES-WORK/Memos/Syntax Coding/SQL.md",
-    "CES-WORK/Visualize Business/Process/General_Process.md",
-    "Draft/Drawing 2023-03-07 14.18.44.excalidraw.md",
     "Excalidraw/Pasted image 20230306085855.png",
-    "CES-WORK/Visualize Business/Process/814_Enrollment_Process.md",
-    "CES-WORK/Requirement/Requirement DIMS-947.md",
     "Pet Project/Diagrams"
   ]
 }
