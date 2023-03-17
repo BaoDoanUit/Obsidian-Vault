@@ -15,11 +15,3 @@ if(listAccount.Count > 0){
 }
 
 ```
-
-verify code
-Wow perfect
-
-New code
-Yep It's successful
-
-Keep it in this file

@@ -44,7 +44,6 @@
             }
           }
         ],
-        "currentTab": 2,
         "stacked": true
       }
     ],
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal_Scope/Private_Information/Health.md",
+                "file": "Personal_Scope/LifeStyle/2023/Software Development.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal_Scope/Private_Information/Health.md",
+                "file": "Personal_Scope/LifeStyle/2023/Software Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal_Scope/Private_Information/Health.md"
+                "file": "Personal_Scope/LifeStyle/2023/Software Development.md"
               }
             }
           },
@@ -193,7 +192,7 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "3f0bcaf3efc72220",
+  "active": "47326d1c53e8b476",
   "lastOpenFiles": [
     "CES-WORK/Requirement/Requirement RETAIL-22261.md",
     "Personal_Scope/Private_Information/Health.md",
