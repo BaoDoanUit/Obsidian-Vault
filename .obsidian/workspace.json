@@ -189,8 +189,8 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
   "active": "7304311ca75ace12",
