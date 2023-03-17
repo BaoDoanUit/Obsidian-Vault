@@ -3,13 +3,23 @@
   "attachmentFolderPath": "Excalidraw",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "autoPairBrackets": false,
+  "autoPairBrackets": true,
   "smartIndentList": false,
-  "useTab": false,
+  "useTab": true,
   "livePreview": false,
-  "autoPairMarkdown": false,
+  "autoPairMarkdown": true,
   "tabSize": 5,
   "defaultViewMode": "preview",
   "legacyEditor": false,
-  "showFrontmatter": true
+  "showFrontmatter": true,
+  "showLineNumber": false,
+  "foldIndent": true,
+  "foldHeading": true,
+  "autoConvertHtml": false,
+  "spellcheck": false,
+  "readableLineLength": false,
+  "rightToLeft": false,
+  "userIgnoreFilters": [
+    "Fonts/"
+  ]
 }

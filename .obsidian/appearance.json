@@ -1,4 +1,9 @@
 {
   "accentColor": "",
-  "theme": "moonstone"
+  "cssTheme": "AnuPpuccin",
+  "theme": "obsidian",
+  "baseFontSize": 15,
+  "interfaceFontFamily": "Fira Code",
+  "textFontFamily": "Fira Code",
+  "monospaceFontFamily": "Fira Code"
 }

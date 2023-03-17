@@ -19,14 +19,12 @@ Writing software is complex...
 
 As your software grows, complexity increases
 ![[Chart_Lifespan_Software.png]]
-
 Complexity is the root of all evil
 - **Readability:** It makes it hard to understand and reason about a program
 - **Reliability:** Hard to reason about the program -> hard to debug
 - **Reusability:** Hard to turn code into reusable component
 - **Scalability:** Hard to separate code that can run in parallel
 - **Testability:** Hard to test code with too many dependencies.
-- 
 
 ### Two types of complexity
 - Essential complexity
@@ -49,7 +47,7 @@ Complexity is the root of all evil
     -  **Class dependency**: object creation dependency
     - **Interface dependency**: messages dependency
     - Temporal dependency**: mutable state/side-effect dependency
-    
+
     **Golden rule of dependency management**
     <mark style="color: #FF5582A6;">Things that change more should depend on things that change less often</mark>
 - Control flow
@@ -85,7 +83,6 @@ Seeking complexity reduction with functional programming
 - Reduce side effects
 - Reduce dependencies
 - Reduce control flow
-- 
 
 What is functional programming?
 Programming with pure, composable functions
@@ -93,7 +90,7 @@ Programming with pure, composable functions
      - No mutations
      - No side-effects
 - Composable: Functions are first-class, which mean they can be treated as data and transformed like data
-- 
+
 ![[Example_Mutate_Data.png]]
 
 Problems

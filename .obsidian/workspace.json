@@ -1,37 +1,36 @@
 {
   "main": {
-    "id": "2599a23a55f9b316",
+    "id": "2db3cb296da831fb",
     "type": "split",
     "children": [
       {
-        "id": "f5b9a98f732b611b",
+        "id": "99505caefa8d080d",
         "type": "tabs",
         "children": [
           {
-            "id": "12adbd7f4c325d8d",
+            "id": "5fed20042bff8046",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Draft/Free Thinking.md"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "14fa263482f0a4b8",
+    "id": "7e51b1d4d91019db",
     "type": "split",
     "children": [
       {
-        "id": "2e5acccd16a35136",
+        "id": "be2d3a20cac2a269",
         "type": "tabs",
         "children": [
           {
-            "id": "d8fcbb6e27cd361f",
+            "id": "133061ed01521d07",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -41,12 +40,12 @@
             }
           },
           {
-            "id": "f1fa99310d6fdd05",
+            "id": "2c489a7687559242",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "crm ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -56,7 +55,7 @@
             }
           },
           {
-            "id": "8be8803c06338800",
+            "id": "3c5bbded36e11f55",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -67,23 +66,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 260.5
+    "width": 300,
+    "collapsed": true
   },
   "right": {
-    "id": "34c522fc35c948e3",
+    "id": "ffa88d1f3b30217b",
     "type": "split",
     "children": [
       {
-        "id": "0f2e9326e494816d",
+        "id": "16afb708da296acb",
         "type": "tabs",
         "children": [
           {
-            "id": "14e8dac2934cf054",
+            "id": "dbf6859ac6394a3b",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Draft/Free Thinking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,76 +94,107 @@
             }
           },
           {
-            "id": "7f5ff57c77be1616",
+            "id": "fc863653bc75c5b7",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Draft/Free Thinking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "b5d6673fe264e690",
+            "id": "8045e2ab287f3d7a",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
             }
           },
           {
-            "id": "fb98b892c6ae7475",
+            "id": "c42347ff760d5c0e",
             "type": "leaf",
             "state": {
-              "type": "online.larslockefeer.obsidian-plugin-todo",
+              "type": "outline",
               "state": {}
             }
           },
           {
-            "id": "2740b7a6aefd5184",
+            "id": "b0d0ba4c94c0c254",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "Draft/Free Thinking.md"
-              }
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "619dc56595eafa16",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 243.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
-      "templater-obsidian:Templater": false,
+      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "periodic-notes:Open today": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "12adbd7f4c325d8d",
+  "active": "5fed20042bff8046",
   "lastOpenFiles": [
-    "Draft/RETOPS EDI 820.md",
+    "Personal_Scope/LifeStyle/2023/Software Development.md",
+    "CES-WORK/RETOPS/RETOPS-25295.md",
+    "CES-WORK/RETOPS/Enroll Request (UdcAcntNum).md",
+    "CES-WORK/RETOPS",
+    "CES-WORK/Requirement/Requirement RETAIL-22261.md",
+    "Personal_Scope/Pet Project/Business/General Business.md",
+    "Personal_Scope/Pet Project/Business",
+    "Personal_Scope/Pet Project",
+    "Memos/Personal/LifeStyle/Live a worth life.md",
+    "Memos/Personal/LifeStyle",
+    "Memos/Personal",
+    "Memos",
+    "Draft/Free Thinking.md",
+    "CES-WORK/Visualize Business/Tickets/RETAIL-22146.md",
+    "Pet Project/Infrastructure/Back-End.md",
+    "Personal_Scope/Jobs/Turing Work.md",
+    "Personal_Scope/Jobs/CES_Work.md",
+    "Books/Kindle_Notes/2018-Will Grant - 101 UX Principles_ A Definitive Design Guide-Packt Publishing Ltd.md",
     "Draft/Planning.md",
-    "Draft/Microservices and Data.md",
-    "Draft/How to overcome Procrastination.md",
-    "Draft/High Performance Networking.md",
-    "Draft/Chibi_1.md",
-    "Draft/Arrchitect Career Path.md",
-    "Excalidraw/Personal/workout.png",
-    "Excalidraw/C4Model/visualising-software-architecture.pdf",
-    "Excalidraw/Personal/Vé máy bay tết (2023) _ 1.png"
+    "Personal_Scope/Private_Information/Health.md",
+    "Personal_Scope/Private_Information/Habits.md",
+    "Personal_Scope/Private_Information/Accounts.md",
+    "CES-WORK/References/Memo config.md",
+    "CES-WORK/Requirement/Requirement RETAIL-22146.md",
+    "Pet Project/Configurations/Server Main.md",
+    "Pet Project/Diagrams/Admin Site.md",
+    "Personal_Scope/LifeStyle/2023/Live a worth life.md",
+    "Daily Task.md",
+    "Personal_Scope/LifeStyle/2023/Function Programming.md",
+    "Books/Kindle_Notes/Dweck-Mindset.md",
+    "Personal_Scope/LifeStyle/2022/Phật Pháp.md",
+    "CES-WORK/Memos/Syntax Coding/SQL.md",
+    "Excalidraw/Pasted image 20230306085855.png",
+    "Pet Project/Diagrams"
   ]
 }

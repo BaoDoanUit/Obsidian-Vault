@@ -14,6 +14,6 @@ Code Booking
 ![[Vé máy bay tết (2023) _ 2.png]]
 
 
-- [ ] Đi cafe hoàng hôn #2022-12-31 
-- [ ] Chụp hình áo dài #2023-01-02 
-- [ ] Chuẩn bị cho hôm đi cafe #2022-12-30 
+- [x] Đi cafe hoàng hôn
+- [x] Chụp hình áo dài
+- [x] Chuẩn bị cho hôm đi cafe

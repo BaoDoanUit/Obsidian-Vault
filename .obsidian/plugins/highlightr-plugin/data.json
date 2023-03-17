@@ -1,6 +1,6 @@
 {
-  "highlighterStyle": "realistic",
-  "highlighterMethods": "inline-styles",
+  "highlighterStyle": "none",
+  "highlighterMethods": "css-classes",
   "highlighters": {
     "Pink": "#FFB8EBA6",
     "Red": "#FF5582A6",
@@ -13,8 +13,8 @@
     "Grey": "#CACFD9A6"
   },
   "highlighterOrder": [
-    "Pink",
     "Red",
+    "Pink",
     "Orange",
     "Yellow",
     "Green",

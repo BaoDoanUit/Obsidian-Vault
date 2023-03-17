@@ -22690,9 +22690,10 @@ var require_client = __commonJS({
 
 // src/main.tsx
 __export(exports, {
+  DEFAULT_SETTINGS: () => DEFAULT_SETTINGS,
   default: () => ObsidianInflux
 });
-var import_obsidian4 = __toModule(require("obsidian"));
+var import_obsidian5 = __toModule(require("obsidian"));
 
 // src/settings.tsx
 var import_obsidian = __toModule(require("obsidian"));
@@ -22752,6 +22753,18 @@ var ObsidianInfluxSettingsTab = class extends import_obsidian.PluginSettingTab {
           this.plugin.data.settings.variant = value;
           yield this.saveSettings();
         }
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("Hide Influx while typing").setDesc("If disabled, Influx will be shown even while editing a document: This may cause glitches where the text temporarily appears below Influx.").addToggle((toggle) => {
+      toggle.setValue(this.plugin.data.settings.hideInfluxWhileTyping).onChange((value) => __async(this, null, function* () {
+        this.plugin.data.settings.hideInfluxWhileTyping = value;
+        yield this.saveSettings();
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("Show Influx below text").setDesc("If disabled, Influx will be shown above the note body instead.").addToggle((toggle) => {
+      toggle.setValue(!this.plugin.data.settings.influxAtTopOfPage).onChange((value) => __async(this, null, function* () {
+        this.plugin.data.settings.influxAtTopOfPage = !value;
+        yield this.saveSettings();
       }));
     });
     new import_obsidian.Setting(containerEl).setName("Show headers").setDesc("Influx will use the topmost markdown-formatted header it can find in a page.").addToggle((toggle) => {
@@ -22874,162 +22887,382 @@ var import_view4 = __toModule(require("@codemirror/view"));
 var import_obsidian3 = __toModule(require("obsidian"));
 var import_view3 = __toModule(require("@codemirror/view"));
 
-// src/treeUtils.tsx
-var SHOW_ANCESTORS = true;
-var CALLOUT_SIGN = "> ";
-var CALLOUT_HEADER_SIGN = "[!";
+// src/StructuredText.ts
+var FRONTMATTER_SIGN = "---";
 var BULLET_SIGN = "* ";
 var DASH_SIGN = "- ";
-var FRONTMATTER_SIGN = "---";
-var makeLineItemsFromIndentedText = (text) => {
-  const lines = text.split("\n").map((line, i) => {
-    let calloutLevel = 0;
-    for (let i2 = 0; i2 < line.length; i2++) {
-      const subStart = i2 * CALLOUT_SIGN.length;
-      const subEnd = subStart + CALLOUT_SIGN.length;
-      const sub = line.substring(subStart, subEnd);
-      if (sub !== CALLOUT_SIGN) {
-        break;
-      } else {
-        calloutLevel += 1;
+var QUOTE_SIGN = ">";
+var ORDERED_LISTITEM_REGEX = /^(\d+)[.] /gm;
+var TABLE_ROW_REGEX = /^\|(.+)\|(.*)\|/gm;
+var CALLOUT_HEADER_SIGN = "[!";
+var OUTPUT_INDENT_SPACES = 2;
+var OUTPUT_INDENT = " ";
+var OUTPUT_INDENT_STEP = OUTPUT_INDENT.repeat(OUTPUT_INDENT_SPACES);
+var OUTPUT_ORDINAL_SIGN = ". ";
+var OUTPUT_QUOTE = "> ";
+var OUTPUT_BULLET = "* ";
+var ModeType;
+(function(ModeType2) {
+  ModeType2["List"] = "LIST";
+  ModeType2["CallOut"] = "CALLOUT";
+  ModeType2["Frontmatter"] = "FRONTMATTER";
+  ModeType2["Quote"] = "QUOTE";
+  ModeType2["Table"] = "TABLE";
+  ModeType2["Other"] = "OTHER";
+  ModeType2["None"] = "NONE";
+})(ModeType || (ModeType = {}));
+var NodeType;
+(function(NodeType2) {
+  NodeType2["ListUnordered"] = "LIST_UNORDERED";
+  NodeType2["ListOrdered"] = "LIST_ORDERED";
+  NodeType2["CallOutHeader"] = "CALLOUT_HEADER";
+  NodeType2["TableHeader"] = "TABLE_HEADER";
+  NodeType2["TableDivider"] = "TABLE_DIVIDER";
+  NodeType2["TableRow"] = "TABLE_ROW";
+  NodeType2["Quote"] = "QUOTE";
+  NodeType2["Blank"] = "BLANK";
+  NodeType2["Other"] = "OTHER";
+})(NodeType || (NodeType = {}));
+var StructuredText = class {
+  constructor(raw) {
+    this.descendants = {};
+    this.ancestors = {};
+    this.roots = {};
+    this.reparentNode = (childToBeId, parentToBeId) => {
+      var _a;
+      if (!(childToBeId in this.internals && parentToBeId in this.internals)) {
+        throw new Error("Missing nodes");
       }
-    }
-    const lineWithoutCallouts = line.substring(calloutLevel * CALLOUT_SIGN.length);
-    const lineTrimmed = lineWithoutCallouts.trim();
-    const indent = lineWithoutCallouts.search(/\S/);
-    const lineIsCalloutHeader = lineTrimmed.substring(0, 2) === CALLOUT_HEADER_SIGN;
-    let calloutTitle = "";
-    let calloutPlain = "";
-    if (lineIsCalloutHeader) {
-      const index2 = lineTrimmed.indexOf("]");
-      calloutTitle = lineTrimmed.slice(2, index2) || "Note";
-      calloutPlain = lineTrimmed.slice(index2 + 1);
-    }
-    const calloutIndents = calloutLevel > 0 ? lineIsCalloutHeader ? calloutLevel - 1 : calloutLevel : 0;
-    return {
-      text: lineTrimmed,
-      indent: indent + calloutIndents,
-      plain: lineIsCalloutHeader ? calloutPlain : lineTrimmed.trim(),
-      calloutLevel,
-      calloutTitle,
-      isFrontmatter: false
+      if (this.children[parentToBeId] && this.children[parentToBeId].includes(childToBeId)) {
+        throw new Error("Parent-child relationship allready exists.");
+      }
+      const parentAsIsId = childToBeId in this.parents ? this.parents[childToBeId] : "";
+      if (parentAsIsId) {
+        this.children[parentAsIsId] = this.children[parentAsIsId].filter((id) => id !== childToBeId);
+      }
+      ((_a = this.children)[parentToBeId] || (_a[parentToBeId] = [])).push(childToBeId);
+      this.parents[childToBeId] = parentToBeId;
+      this.buildAncestorsAndDescendantsIndexes();
     };
-  });
-  if (lines[0].text === FRONTMATTER_SIGN) {
-    const linesWithFrontmatter = [];
-    let passedFrontmatter = false;
-    for (let i = 0; i < lines.length; i++) {
-      if (passedFrontmatter) {
-        linesWithFrontmatter.push(lines[i]);
-      } else {
-        linesWithFrontmatter.push(__spreadProps(__spreadValues({}, lines[i]), { isFrontmatter: true }));
-        if (i > 0 && lines[i].text === FRONTMATTER_SIGN) {
-          passedFrontmatter = true;
+    this.stringify = (explIncludes) => {
+      let str = "";
+      const depthFirstStringify = (id, level) => {
+        var _a;
+        const internals = this.internals[id];
+        const include = !explIncludes || explIncludes[Number(id)];
+        if (internals && include) {
+          if (explIncludes && internals.isFirstOfMode) {
+            str += "\n";
+          }
+          if (internals.mode === ModeType.Frontmatter) {
+          } else if (internals.mode === ModeType.List) {
+            this.ancestors[id].forEach((_id) => {
+              const anc = this.internals[_id];
+              if (anc.ordinal) {
+                str += OUTPUT_INDENT.repeat(String(anc.ordinal).length + OUTPUT_ORDINAL_SIGN.length);
+              } else {
+                str += OUTPUT_INDENT_STEP;
+              }
+            });
+            if (internals.type === NodeType.ListOrdered) {
+              str += internals.ordinal;
+              str += OUTPUT_ORDINAL_SIGN;
+            } else {
+              str += OUTPUT_BULLET;
+            }
+            str += internals.stripped;
+            str += "\n";
+          } else if (internals.mode === ModeType.CallOut) {
+            if (internals.type === NodeType.CallOutHeader) {
+              str += OUTPUT_QUOTE;
+            }
+            if (internals.isQuotedBullet) {
+              str += OUTPUT_QUOTE.repeat(internals.calloutLevel);
+              str += OUTPUT_INDENT_STEP.repeat(level - internals.calloutLevel);
+              str += internals.stripped;
+              str += "\n";
+            } else {
+              str += OUTPUT_QUOTE.repeat(level);
+              str += internals.stripped;
+              str += "\n";
+            }
+          } else if (internals.type === NodeType.Quote) {
+            str += OUTPUT_QUOTE.repeat(level + 1);
+            str += internals.stripped;
+            str += "\n";
+          } else if (internals.mode === ModeType.Table) {
+            str += internals.stripped;
+            str += "\n";
+          } else {
+            str += internals.stripped;
+            str += "\n";
+          }
+          (_a = this.children[id]) == null ? void 0 : _a.forEach((childId) => depthFirstStringify(childId, level + 1));
+        } else if (internals) {
+          if (internals.type === NodeType.TableDivider) {
+            if (explIncludes[Number(internals.headerId)]) {
+              str += internals.stripped;
+              str += "\n";
+            }
+          }
+        }
+      };
+      Object.keys(this.roots).forEach((id) => {
+        depthFirstStringify(id, 0);
+      });
+      return str;
+    };
+    this.stringifyBranchesOfNodesWithLinks = (lineNumbers) => {
+      const explIncludes = [];
+      lineNumbers.forEach((lineNumber) => {
+        const id = `${lineNumber}`.padStart(4, "0");
+        explIncludes[lineNumber] = true;
+        this.ancestors[id].forEach((_id) => {
+          explIncludes[Number(_id)] = true;
+        });
+        this.descendants[id].forEach((_id) => {
+          explIncludes[Number(_id)] = true;
+        });
+      });
+      return this.stringify(explIncludes);
+    };
+    const { internals, children, parents, roots } = this.parseText(raw);
+    this.raw = raw;
+    this.internals = internals;
+    this.children = children;
+    this.parents = parents;
+    this.roots = roots;
+    this.buildAncestorsAndDescendantsIndexes();
+  }
+  parseText(text) {
+    const lines = text.split("\n");
+    const internals = {};
+    const children = {};
+    const parents = {};
+    const roots = {};
+    const types = {
+      [NodeType.ListUnordered]: [],
+      [NodeType.ListOrdered]: [],
+      [NodeType.CallOutHeader]: [],
+      [NodeType.Other]: [],
+      [NodeType.TableHeader]: [],
+      [NodeType.TableDivider]: [],
+      [NodeType.TableRow]: [],
+      [NodeType.Quote]: [],
+      [NodeType.Blank]: []
+    };
+    let stack = [];
+    let mode = ModeType.None;
+    let calloutLevel = 0;
+    let frontmatterDone = false;
+    const lastNonEmptyElement = (stack2, offset = 0) => {
+      let ret = [...stack2].slice(0, -offset);
+      for (let i = stack2.length; i >= 0; i--) {
+        if (!ret[i]) {
+          ret = ret.slice(0, i);
+        } else {
+          return ret[i];
         }
       }
-    }
-    return linesWithFrontmatter;
-  }
-  return lines;
-};
-var makeNodeTreefromLineItems = (lines) => {
-  const branches = [];
-  const carry = {};
-  for (let i = lines.length - 1; i > -1; i--) {
-    const line = __spreadProps(__spreadValues({}, lines[i]), { children: [], lineNum: i });
-    const indentsInCarry = Object.keys(carry);
-    const childIndents = indentsInCarry.filter((j) => Number(j) > line.indent);
-    if (line.indent === -1) {
-      if (childIndents.length) {
-        childIndents.forEach((childIndent) => {
-          carry[childIndent].map((_elem) => branches.push(_elem));
-          delete carry[childIndent];
-        });
+      return null;
+    };
+    const ifOrderedListItemReturnOrdinal = (str) => {
+      const matches = str.matchAll(ORDERED_LISTITEM_REGEX);
+      for (const match of matches) {
+        if (match[1]) {
+          return Number(match[1]);
+        }
       }
-      continue;
+      return void 0;
+    };
+    const parseMarkdownTableRow = (row) => {
+      const match = row.match(TABLE_ROW_REGEX);
+      if (!match)
+        return null;
+      let cols = 0;
+      let isDivider = true;
+      const cells = match[0].slice(1, match[0].length - 1).split("|");
+      cells.forEach((cell) => {
+        if (cell.trim() !== "---") {
+          isDivider = false;
+        }
+        cols += 1;
+      });
+      return {
+        cols,
+        isDivider
+      };
+    };
+    for (let i = 0; i < lines.length; i++) {
+      const line = lines[i];
+      const leadingIndent = line.search(/\S|$/);
+      const trimmed = line.slice(leadingIndent);
+      const id = `${i}`.padStart(4, "0");
+      const isProperBullet = [DASH_SIGN, BULLET_SIGN].includes(trimmed.substring(0, 2));
+      let stripped = "";
+      let type;
+      let indent = 0;
+      const debug = {};
+      let isQuotedBullet;
+      let isFirstOfMode;
+      let ordinal;
+      let tr;
+      let cols;
+      let headerId;
+      if (i === 0 && line.substring(0, 3) === FRONTMATTER_SIGN) {
+        mode = ModeType.Frontmatter;
+      } else if (mode === ModeType.Frontmatter && !frontmatterDone) {
+        if (line.substring(0, 3) === FRONTMATTER_SIGN) {
+          frontmatterDone = true;
+        }
+      } else if (isProperBullet) {
+        if (mode !== ModeType.List) {
+          mode = ModeType.List;
+          isFirstOfMode = true;
+          stack = [];
+        }
+        type = NodeType.ListUnordered;
+        stripped = trimmed.slice(2);
+        indent = leadingIndent;
+      } else if (trimmed === "") {
+        mode = ModeType.None;
+        stack = [];
+      } else if (trimmed.substring(0, 1) === QUOTE_SIGN) {
+        let i2 = 0;
+        let quoteLevel = 0;
+        let quoteLevelPos = 0;
+        for (; trimmed[i2] === ">"; ) {
+          quoteLevel++;
+          quoteLevelPos = i2;
+          const trim = trimmed.slice(i2 + 1);
+          const advance = trim.search(/\S|$/);
+          i2 = i2 + advance + 1;
+        }
+        const strippedAfterLastQuote = trimmed.slice(quoteLevelPos + 1);
+        const strippedBeforeNextChar = trimmed.slice(i2);
+        stripped = strippedBeforeNextChar;
+        const indentFromQuoteLevel = strippedAfterLastQuote.search(/\S|$/);
+        isQuotedBullet = [DASH_SIGN, BULLET_SIGN].includes(strippedBeforeNextChar.substring(0, 2));
+        if (strippedBeforeNextChar.substring(0, 2) === CALLOUT_HEADER_SIGN) {
+          if (mode !== ModeType.CallOut) {
+            mode = ModeType.CallOut;
+            isFirstOfMode = true;
+            stack = [];
+          }
+          type = NodeType.CallOutHeader;
+          calloutLevel = quoteLevel;
+          indent = quoteLevel - 1;
+        } else if (mode === ModeType.CallOut) {
+          type = NodeType.Quote;
+          mode = ModeType.CallOut;
+          indent = isQuotedBullet ? quoteLevel + indentFromQuoteLevel : quoteLevel;
+        } else {
+          if (mode !== ModeType.Quote) {
+            mode = ModeType.Quote;
+            isFirstOfMode = true;
+          }
+          type = NodeType.Quote;
+          indent = quoteLevel - 1;
+        }
+      } else {
+        ordinal = ifOrderedListItemReturnOrdinal(trimmed);
+        tr = parseMarkdownTableRow(trimmed);
+        if (ordinal) {
+          if (mode !== ModeType.List) {
+            mode = ModeType.List;
+            isFirstOfMode = true;
+            stack = [];
+          }
+          type = NodeType.ListOrdered;
+          stripped = trimmed.slice(String(ordinal).length + 2);
+          indent = leadingIndent;
+        } else if (tr) {
+          if (mode !== ModeType.Table) {
+            mode = ModeType.Table;
+            isFirstOfMode = true;
+            stack = [];
+            type = NodeType.TableHeader;
+          } else if (tr.isDivider) {
+            type = NodeType.TableDivider;
+            headerId = `${i - 1}`.padStart(4, "0");
+          } else {
+            type = NodeType.TableRow;
+          }
+          cols = tr.cols;
+          stripped = trimmed;
+          indent = isFirstOfMode ? 0 : 2;
+        } else {
+          type = NodeType.Other;
+          stripped = trimmed;
+          if (mode === ModeType.CallOut) {
+            indent = calloutLevel;
+          } else if (mode !== ModeType.Other) {
+            mode = ModeType.Other;
+            isFirstOfMode = true;
+          }
+        }
+      }
+      internals[id] = {
+        raw: line,
+        trimmed,
+        stripped,
+        type,
+        mode,
+        debug,
+        calloutLevel,
+        isQuotedBullet,
+        isFirstOfMode,
+        ordinal,
+        cols,
+        headerId
+      };
+      (types[type] || (types[type] = [])).push(id);
+      if (indent >= stack.length - 1) {
+        stack[indent] = id;
+      } else {
+        stack = stack.slice(0, indent + 1);
+        stack[indent] = id;
+      }
+      const parentId = lastNonEmptyElement(stack, 1);
+      if (parentId) {
+        (children[parentId] || (children[parentId] = [])).push(id);
+        parents[id] = parentId;
+      }
+      if (indent === 0) {
+        roots[id] = {};
+      }
     }
-    if (childIndents.length) {
-      childIndents.forEach((childIndent) => {
-        line.children = [...line.children, ...carry[childIndent]];
-        delete carry[childIndent];
+    return {
+      children,
+      internals,
+      parents,
+      roots
+    };
+  }
+  buildAncestorsAndDescendantsIndexes() {
+    this.descendants = {};
+    this.ancestors = {};
+    for (let i = 0; i < Object.keys(this.internals).length; i++) {
+      const id = Object.keys(this.internals)[i];
+      const parentId = this.parents[id];
+      if (!parentId) {
+        this.ancestors[id] = [];
+      } else {
+        this.ancestors[id] = this.ancestors[id] || [];
+        this.ancestors[parentId] = this.ancestors[parentId] || [];
+        this.ancestors[id] = [...this.ancestors[id], parentId, ...this.ancestors[parentId]];
+      }
+    }
+    for (let i = 0; i < Object.keys(this.internals).length; i++) {
+      const id = Object.keys(this.internals)[i];
+      this.descendants[id] = this.descendants[id] || [];
+      const ancestorsOfId = this.ancestors[id];
+      ancestorsOfId.forEach((ancestorId) => {
+        var _a;
+        ((_a = this.descendants)[ancestorId] || (_a[ancestorId] = [])).push(id);
       });
     }
-    if (line.indent > 0 && i > 0) {
-      const indent = carry[line.indent] || [];
-      indent.unshift(line);
-      carry[line.indent] = indent;
-    } else {
-      branches.unshift(line);
-    }
   }
-  return branches;
-};
-var recursivelyBuildLookup = (nodeTree) => {
-  const nodeLookup = {};
-  const traverse = (node, adr) => {
-    nodeLookup[node.lineNum] = adr;
-    node.children.forEach((_node, _i) => traverse(_node, [...adr, _i]));
-  };
-  nodeTree.forEach((node, i) => {
-    traverse(node, [i]);
-  });
-  return nodeLookup;
-};
-var nodeToMarkdownSummary = (lineNum, nodeLookup, nodeTree) => {
-  const lookup = nodeLookup[lineNum];
-  let output = "";
-  const traverse = (node, level, _lookup) => {
-    const lookup2 = _lookup.slice(1);
-    if (lookup2.length) {
-      if (SHOW_ANCESTORS) {
-        output = output + parseNodeToMd(node, level, true);
-      }
-      traverse(node.children[lookup2[0]], level + 1, lookup2);
-    } else {
-      output = output + parseNodeToMd(node, level, false);
-      node.children.forEach((node2) => {
-        traverse(node2, level + 1, lookup2);
-      });
-    }
-  };
-  traverse(nodeTree[lookup[0]], 0, lookup);
-  return output;
-};
-var treeToMarkdownSummary = (nodeTree) => {
-  let output = "";
-  const traverse = (node, level) => {
-    output = output + parseNodeToMd(node, level, false);
-    node.children.forEach((node2) => {
-      traverse(node2, level + 1);
-    });
-  };
-  nodeTree.forEach((node) => {
-    if (!node.isFrontmatter) {
-      traverse(node, 0);
-    }
-  });
-  return output;
-};
-var parseNodeToMd = (node, level, isAncestor) => {
-  const hasLeadingBullet = [DASH_SIGN, BULLET_SIGN].includes(node.plain.substring(0, 2));
-  const stringWithoutBullet = hasLeadingBullet ? node.plain.slice(2) : node.plain.trim();
-  const isCallout = node.calloutLevel > 0;
-  const bulletForCallouts = isCallout && !hasLeadingBullet ? BULLET_SIGN : "";
-  const spanProps = [];
-  const innerString = stringWithoutBullet || node.calloutTitle || "";
-  if (isCallout) {
-    if (node.calloutTitle) {
-      spanProps.push(`data-callout-title="${node.calloutTitle.toLowerCase()}" class="callout" data-callout="${node.calloutTitle.toLowerCase()}"`);
-    }
-  }
-  if (isAncestor) {
-    spanProps.push(`class="ancestor"`);
-  }
-  const spanWrapped = spanProps.length ? `<span ${spanProps.join(" ")}>${innerString}</span>` : innerString;
-  const line = hasLeadingBullet || bulletForCallouts ? `* ${spanWrapped}` : spanWrapped;
-  const lineOutput = `${" ".repeat(2 * level)}${line}
-`;
-  return lineOutput;
 };
 
 // src/InlinkingFile.tsx
@@ -23040,20 +23273,19 @@ var InlinkingFile = class {
     this.file = file;
     this.meta = this.api.getMetadata(this.file);
   }
-  makeContextualSummaries(contextFile) {
+  makeSummary(contextFile) {
     return __async(this, null, function* () {
-      this.setTitle();
-      this.content = yield this.api.readFile(this.file);
-      this.nodeTree = makeNodeTreefromLineItems(makeLineItemsFromIndentedText(this.content));
-      this.nodeLookup = recursivelyBuildLookup(this.nodeTree);
       this.contextFile = contextFile;
+      this.content = yield this.api.readFile(this.file);
+      const struct = new StructuredText(this.content);
       const links = this.meta.links.filter((link) => this.api.compareLinkName(link, contextFile.file.basename));
-      const linksAtLineNums = links.map((link) => link.position.start.line);
-      this.isLinkInTitle = this.titleLineNum !== void 0 && linksAtLineNums.includes(this.titleLineNum);
+      const lineNumbersOfLinks = links.map((link) => link.position.start.line);
+      this.setTitle();
+      this.isLinkInTitle = this.titleLineNum !== void 0 && lineNumbersOfLinks.includes(this.titleLineNum);
       if (this.isLinkInTitle) {
-        this.contextSummaries = [treeToMarkdownSummary(this.nodeTree)];
+        this.summary = struct.stringify();
       } else {
-        this.contextSummaries = links.map((link) => nodeToMarkdownSummary(link.position.start.line, this.nodeLookup, this.nodeTree));
+        this.summary = struct.stringifyBranchesOfNodesWithLinks(lineNumbersOfLinks);
       }
     });
   }
@@ -23142,7 +23374,7 @@ var InfluxFile = class {
       const backlinksAsFiles = Object.keys(this.backlinks.data).filter((pathAsKey) => pathAsKey !== this.file.path && this.api.isIncludableSource(pathAsKey)).map((pathAsKey) => this.api.getFileByPath(pathAsKey));
       yield Promise.all(backlinksAsFiles.map((file) => __async(this, null, function* () {
         const inlinkingFile = new InlinkingFile(file, this.api);
-        yield inlinkingFile.makeContextualSummaries(this);
+        yield inlinkingFile.makeSummary(this);
         inlinkingFilesNew.push(inlinkingFile);
       })));
       this.inlinkingFiles = inlinkingFilesNew;
@@ -23206,7 +23438,7 @@ var ApiAdapter = class {
   }
   getSettings() {
     var _a, _b, _c, _d;
-    const settings = ((_d = (_c = (_b = (_a = this.app.plugins) == null ? void 0 : _a.plugins) == null ? void 0 : _b.influx) == null ? void 0 : _c.data) == null ? void 0 : _d.settings) || {};
+    const settings = ((_d = (_c = (_b = (_a = this.app.plugins) == null ? void 0 : _a.plugins) == null ? void 0 : _b.influx) == null ? void 0 : _c.data) == null ? void 0 : _d.settings) || DEFAULT_SETTINGS;
     return settings;
   }
   getShowStatus(file) {
@@ -23262,9 +23494,7 @@ var ApiAdapter = class {
         const extended = {
           inlinkingFile,
           titleInnerHTML,
-          inner: yield Promise.all(inlinkingFile.contextSummaries.map((summary) => __async(this, null, function* () {
-            return yield this.renderMarkdown(summary);
-          })))
+          inner: yield this.renderMarkdown(inlinkingFile.summary)
         };
         return extended;
       })));
@@ -23272,7 +23502,9 @@ var ApiAdapter = class {
     });
   }
   compareLinkName(link, basename) {
-    const linkname = link.link.split("#^")[0];
+    const path = link.link;
+    const filenameOnly = path.split("/").slice(-1)[0];
+    const linkname = filenameOnly.split("#^")[0].split(".md")[0];
     if (linkname.toLowerCase() === basename.toLowerCase()) {
       return true;
     }
@@ -23288,7 +23520,7 @@ var React = __toModule(require_react());
 function InfluxReactComponent(props) {
   const {
     influxFile,
-    preview,
+    preview = false,
     sheet
   } = props;
   const [components, setComponents] = React.useState(influxFile.components);
@@ -23335,7 +23567,10 @@ function InfluxReactComponent(props) {
     return null;
   }
   return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("div", {
-    className: `embedded-backlinks ${classes.influxComponent}`
+    className: `embedded-backlinks ${classes.influxComponent}`,
+    style: {
+      animation: "fadeIn .6s"
+    }
   }, /* @__PURE__ */ React.createElement("div", {
     className: "nav-header"
   }, /* @__PURE__ */ React.createElement("div", {
@@ -23408,7 +23643,7 @@ function InfluxReactComponent(props) {
 					${""}`
   }, /* @__PURE__ */ React.createElement("div", {
     className: "tree-item-inner"
-  }, "Linked mentions (influx)"), /* @__PURE__ */ React.createElement("div", {
+  }, "Linked mentions"), /* @__PURE__ */ React.createElement("div", {
     className: "tree-item-flair-outer"
   }, /* @__PURE__ */ React.createElement("span", {
     className: "tree-item-flair"
@@ -23459,11 +23694,10 @@ function InfluxReactComponent(props) {
       className: ""
     }, /* @__PURE__ */ React.createElement("div", {
       className: classes.inlinkedEntries
-    }, entryHeader, extended.inner.map((div, i) => /* @__PURE__ */ React.createElement("div", {
-      key: i,
-      dangerouslySetInnerHTML: { __html: div.innerHTML },
+    }, entryHeader, /* @__PURE__ */ React.createElement("div", {
+      dangerouslySetInnerHTML: { __html: extended.inner.innerHTML },
       className: classes.inlinkedEntry
-    }))))));
+    })))));
   }))))), /* @__PURE__ */ React.createElement("style", {
     dangerouslySetInnerHTML: { __html: stylesheet.toString() }
   }));
@@ -23481,9 +23715,10 @@ try {
 } catch (e) {
 }
 var InfluxWidget = class extends import_view.WidgetType {
-  constructor({ influxFile }) {
+  constructor({ influxFile, show }) {
     super();
     this.influxFile = influxFile;
+    this.show = show;
   }
   eq(influxWidget) {
     return true;
@@ -23494,12 +23729,16 @@ var InfluxWidget = class extends import_view.WidgetType {
     container.id = "influx-react-anchor-div";
     const reactAnchor = container.appendChild(document.createElement("div"));
     const anchor = (0, import_client.createRoot)(reactAnchor);
-    anchor.render(/* @__PURE__ */ React2.createElement(InfluxReactComponent, {
-      key: Math.random(),
-      influxFile: this.influxFile,
-      preview: false,
-      sheet: this.influxFile.influx.stylesheet
-    }));
+    if (this.show) {
+      anchor.render(/* @__PURE__ */ React2.createElement(InfluxReactComponent, {
+        key: Math.random(),
+        influxFile: this.influxFile,
+        preview: false,
+        sheet: this.influxFile.influx.stylesheet
+      }));
+    } else {
+      anchor.render(null);
+    }
     return container;
   }
   unmount(influxFile) {
@@ -23508,7 +23747,7 @@ var InfluxWidget = class extends import_view.WidgetType {
 };
 var influxDecoration = (influxWidgetSpec) => import_view.Decoration.widget({
   widget: new InfluxWidget(influxWidgetSpec),
-  side: 1,
+  side: influxWidgetSpec.influxFile.api.getSettings().influxAtTopOfPage ? 0 : 1,
   block: true
 });
 
@@ -23536,24 +23775,27 @@ var statefulDecorations = defineStatefulDecoration();
 var StatefulDecorationSet = class {
   constructor(editor) {
     this.decoCache = Object.create(null);
-    this.debouncedUpdate = (0, import_obsidian3.debounce)(this.updateAsyncDecorations, 100, true);
     this.editor = editor;
   }
-  computeAsyncDecorations(state) {
+  computeAsyncDecorations(state, show) {
     return __async(this, null, function* () {
+      if (!state.field(import_obsidian3.editorViewField))
+        return null;
       const { app: app2, file } = state.field(import_obsidian3.editorViewField);
       const apiAdapter = new ApiAdapter(app2);
       const influxFile = new InfluxFile(file.path, apiAdapter, app2.plugins.plugins.influx);
       yield influxFile.makeInfluxList();
       yield influxFile.renderAllMarkdownBlocks();
       const decorations = [];
-      decorations.push(influxDecoration({ influxFile }).range(state.doc.length));
+      if (show) {
+        decorations.push(influxDecoration({ influxFile, show }).range(state.doc.length));
+      }
       return import_view3.Decoration.set(decorations, true);
     });
   }
-  updateAsyncDecorations(state) {
+  updateAsyncDecorations(state, show) {
     return __async(this, null, function* () {
-      const decorations = yield this.computeAsyncDecorations(state);
+      const decorations = yield this.computeAsyncDecorations(state, show);
       if (decorations || this.editor.state.field(statefulDecorations.field).size) {
         this.editor.dispatch({ effects: statefulDecorations.update.of(decorations || import_view3.Decoration.none) });
       }
@@ -23562,20 +23804,33 @@ var StatefulDecorationSet = class {
 };
 
 // src/cm6/asyncViewPlugin.tsx
+var import_obsidian4 = __toModule(require("obsidian"));
 var asyncViewPlugin = import_view4.ViewPlugin.fromClass(class {
   constructor(view) {
     this.statefulDecorationsSet = new StatefulDecorationSet(view);
-    this.buildAsyncDecorations(view);
+    this.statefulDecorationsSet.updateAsyncDecorations(view.state, true);
+  }
+  hideInflux(view) {
+    this.statefulDecorationsSet.updateAsyncDecorations(view.state, false);
+  }
+  showInflux(view) {
+    this.statefulDecorationsSet.updateAsyncDecorations(view.state, true);
   }
   update(update) {
-    if (update.docChanged || update.viewportChanged) {
-      this.buildAsyncDecorations(update.view);
+    var _a, _b;
+    if (update.docChanged) {
+      const { app: app2 } = this.statefulDecorationsSet.editor.state.field(import_obsidian4.editorViewField);
+      const influx = (_b = (_a = app2 == null ? void 0 : app2.plugins) == null ? void 0 : _a.plugins) == null ? void 0 : _b.influx;
+      const settings = influx.api.getSettings();
+      if (settings.hideInfluxWhileTyping) {
+        influx.delayShowInflux(update.view, () => this.showInflux(update.view));
+        this.hideInflux(update.view);
+      } else {
+        this.showInflux(update.view);
+      }
     }
   }
   destroy() {
-  }
-  buildAsyncDecorations(view) {
-    this.statefulDecorationsSet.debouncedUpdate(view.state);
   }
 });
 var asyncDecoBuilderExt = [statefulDecorations.field, asyncViewPlugin];
@@ -23628,6 +23883,36 @@ function warning(condition, message) {
 }
 var tiny_warning_esm_default = warning;
 
+// node_modules/@babel/runtime/helpers/esm/typeof.js
+function _typeof2(obj) {
+  "@babel/helpers - typeof";
+  return _typeof2 = typeof Symbol == "function" && typeof Symbol.iterator == "symbol" ? function(obj2) {
+    return typeof obj2;
+  } : function(obj2) {
+    return obj2 && typeof Symbol == "function" && obj2.constructor === Symbol && obj2 !== Symbol.prototype ? "symbol" : typeof obj2;
+  }, _typeof2(obj);
+}
+
+// node_modules/@babel/runtime/helpers/esm/toPrimitive.js
+function _toPrimitive(input, hint) {
+  if (_typeof2(input) !== "object" || input === null)
+    return input;
+  var prim = input[Symbol.toPrimitive];
+  if (prim !== void 0) {
+    var res = prim.call(input, hint || "default");
+    if (_typeof2(res) !== "object")
+      return res;
+    throw new TypeError("@@toPrimitive must return a primitive value.");
+  }
+  return (hint === "string" ? String : Number)(input);
+}
+
+// node_modules/@babel/runtime/helpers/esm/toPropertyKey.js
+function _toPropertyKey(arg) {
+  var key = _toPrimitive(arg, "string");
+  return _typeof2(key) === "symbol" ? key : String(key);
+}
+
 // node_modules/@babel/runtime/helpers/esm/createClass.js
 function _defineProperties(target, props) {
   for (var i = 0; i < props.length; i++) {
@@ -23636,7 +23921,7 @@ function _defineProperties(target, props) {
     descriptor.configurable = true;
     if ("value" in descriptor)
       descriptor.writable = true;
-    Object.defineProperty(target, descriptor.key, descriptor);
+    Object.defineProperty(target, _toPropertyKey(descriptor.key), descriptor);
   }
 }
 function _createClass(Constructor, protoProps, staticProps) {
@@ -26180,9 +26465,8 @@ var jss_plugin_expand_esm_default = jssExpand;
 function _arrayLikeToArray(arr, len) {
   if (len == null || len > arr.length)
     len = arr.length;
-  for (var i = 0, arr2 = new Array(len); i < len; i++) {
+  for (var i = 0, arr2 = new Array(len); i < len; i++)
     arr2[i] = arr[i];
-  }
   return arr2;
 }
 
@@ -26679,7 +26963,7 @@ var create = function create2(options) {
 var jss_preset_default_esm_default = create;
 
 // src/createStyleSheet.tsx
-function createStyleSheet(api) {
+function createStyleSheet(api, preview = false) {
   const settings = api.getSettings();
   const sizing = settings.fontSize || 13;
   const centered = settings.variant !== "ROWS";
@@ -26691,7 +26975,7 @@ function createStyleSheet(api) {
     lineHeight: sizing + sizing / 2,
     largeFontSize: sizing,
     largeLineHeight: sizing + sizing / 2,
-    preview: false
+    preview
   };
   jss_esm_default.setup(jss_preset_default_esm_default());
   const sheet = jss_esm_default.createStyleSheet({
@@ -26727,27 +27011,55 @@ function createStyleSheet(api) {
       }
     },
     inlinkedEntry: {
-      paddingBottom: `${props.lineHeight}px !important`,
+      "--checkbox-size": `${props.fontSize}px`,
+      paddingBottom: !props.preview ? `${props.lineHeight}px !important` : "",
       "& input[type=checkbox]": {
-        width: `${props.fontSize}px`,
-        height: `${props.fontSize}px`,
-        marginTop: `-${props.margin + props.lineHeight / 2}px`
+        marginTop: `-${props.lineHeight}px`
       },
-      "& *": {
+      "& li, & h1, & ul, & input, & blockquote, & p, & .callout, & .callout-title, & ol": {
         marginBlockEnd: !props.preview ? `-${props.lineHeight}px !important` : ""
       },
       "& li:nth-child(1)": {
         marginBlockStart: !props.preview ? `-${props.lineHeight}px !important` : ""
       },
-      "&> ul": {
-        marginTop: `${0}px`
-      },
       "& ul": {
-        paddingInlineStart: `${20}px`
+        marginTop: `${0}px`,
+        paddingInlineStart: `${20}px`,
+        marginBlockEnd: props.preview ? `0px !important` : ""
       },
       "& p": {
         paddingInlineStart: `${0}px`,
-        marginBlockStart: `auto`
+        marginBlockStart: `auto`,
+        marginBlockEnd: props.preview ? `0px !important` : ""
+      },
+      "& li p": {
+        marginBlockStart: !props.preview ? `-${props.lineHeight}px !important` : ""
+      },
+      "& blockquote": {
+        borderLeft: "var(--blockquote-border-thickness) solid",
+        borderLeftColor: "var(--blockquote-border-color)",
+        marginBlockStart: 0,
+        paddingInlineStart: `${props.lineHeight / 2}px`,
+        marginInlineStart: 0,
+        marginInlineEnd: 0,
+        "& p": {
+          marginBlockStart: !props.preview ? `-${props.lineHeight}px !important` : ""
+        }
+      },
+      "& .callout": {
+        marginTop: "6px !important",
+        marginLeft: "1em !important",
+        marginRight: "1em !important",
+        paddingTop: "var(--size-4-1)",
+        paddingBottom: "var(--size-4-1)",
+        paddingRight: "var(--size-4-1)",
+        paddingLeft: "var(--size-4-2)"
+      },
+      "&> .callout": {
+        marginLeft: "0px !important"
+      },
+      "& .callout-icon": {
+        width: 0
       },
       "& span[data-callout-title]": {
         backgroundColor: "rgba(var(--callout-color), 0.1)",
@@ -26762,9 +27074,6 @@ function createStyleSheet(api) {
         "& span[data-callout-title-text]": {
           color: "rgba(var(--callout-color), 0.9)"
         }
-      },
-      "& span[class=lc-li-wrapper]": {
-        marginBlockEnd: `${0}px !important`
       },
       "& a[class=tag]": {
         verticalAlign: "unset !important"
@@ -26789,15 +27098,22 @@ var DEFAULT_SETTINGS = {
   listLimit: 0,
   variant: "CENTER_ALIGNED",
   fontSize: 13,
-  entryHeaderVisible: true
+  entryHeaderVisible: true,
+  influxAtTopOfPage: false,
+  hideInfluxWhileTyping: true
 };
-var ObsidianInflux = class extends import_obsidian4.Plugin {
+var ObsidianInflux = class extends import_obsidian5.Plugin {
+  constructor() {
+    super(...arguments);
+    this.delayedShowCallbacks = [];
+  }
   onload() {
     return __async(this, null, function* () {
       this.componentCallbacks = {};
       this.updating = false;
       this.api = new ApiAdapter(this.app);
       this.stylesheet = createStyleSheet(this.api);
+      this.stylesheetForPreview = createStyleSheet(this.api, true);
       this.data = yield this.loadDataInitially();
       this.registerEditorExtension(asyncDecoBuilderExt);
       this.addSettingTab(new ObsidianInfluxSettingsTab(this.app, this));
@@ -26813,7 +27129,28 @@ var ObsidianInflux = class extends import_obsidian4.Plugin {
       this.registerEvent(this.app.workspace.on("layout-change", () => {
         this.triggerUpdates("layout-change");
       }));
+      setInterval(this.tick.bind(this), 1e3);
     });
+  }
+  delayShowInflux(editor, showCallback) {
+    this.delayedShowCallbacks = this.delayedShowCallbacks.filter((cb) => cb.editor !== editor);
+    this.delayedShowCallbacks.push({
+      editor,
+      time: Date.now(),
+      callback: showCallback
+    });
+  }
+  tick() {
+    const now2 = Date.now();
+    const remaining = [];
+    this.delayedShowCallbacks.forEach((cb) => {
+      if (now2 > cb.time + 2e3) {
+        cb.callback();
+      } else {
+        remaining.push(cb);
+      }
+    });
+    this.delayedShowCallbacks = remaining;
   }
   loadDataInitially() {
     return __async(this, null, function* () {
@@ -26851,13 +27188,14 @@ var ObsidianInflux = class extends import_obsidian4.Plugin {
   }
   triggerUpdates(op, file) {
     if (op === "modify") {
-      if (this.data.settings.liveUpdate && file instanceof import_obsidian4.TFile) {
+      if (this.data.settings.liveUpdate && file instanceof import_obsidian5.TFile) {
         this.stylesheet = createStyleSheet(this.api);
         Object.values(this.componentCallbacks).forEach((callback) => callback(op, this.stylesheet, file));
       }
     } else {
       this.stylesheet = createStyleSheet(this.api);
       Object.values(this.componentCallbacks).forEach((callback) => callback(op, this.stylesheet));
+      this.updateInfluxInAllPreviews();
     }
   }
   updateInfluxInAllPreviews() {
@@ -26908,7 +27246,7 @@ var ObsidianInflux = class extends import_obsidian4.Plugin {
         anchor.render(/* @__PURE__ */ React3.createElement(InfluxReactComponent, {
           influxFile,
           preview: true,
-          sheet: this.stylesheet
+          sheet: this.stylesheetForPreview
         }));
         resolve("Ok");
       }));

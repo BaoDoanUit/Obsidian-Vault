@@ -1,0 +1,4 @@
+- Buy laptop
+     - [X1 Carbon](https://www.thachlong.com/product/details/91/x1-carbon-gen3-core-i7-256)
+     - [T470s](https://www.thachlong.com/product/details/107/thinkpad-t470s-i5-256gb) 
+     - [DELL-E5480](https://www.thachlong.com/product/details/97/dell-e5480-core-i5-6440hq-fhd)
