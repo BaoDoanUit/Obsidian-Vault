@@ -47,9 +47,8 @@ If you are keeping history of changes in a type 2 dimension, you might want to c
 ### A data pipeline
 So it is a sequence of data processing steps. Due to *logical data flow connections* between these stages, each state generates an output that serves as an input for the following stage.
 
-```ad-quote
-THERE is a data pipeline whenever there is data processing between points A and B
-```
+> [!quote]
+> THERE is a data pipeline whenever there is data processing between points A and B
 
 A data pipeline's three major parts are a source, a processing step or steps, and a destination. Data extracted from an exteranl API (a source) can be loaded into the data ware house (destination). This is an example of a most common data pipeline where the source and destination are different.
 However, it  is not always the case, as destination-to-destination pipelines also exist.
@@ -94,9 +93,8 @@ https://towardsdatascience.com/how-to-handle-data-loading-in-bigquery-with-serve
 ### Streaming
 Application can trigger immediate response to new data events thanks to stream processing.
 
-```ad-quote
-STREAMING is "must-have" solution for enterprise data
-```
+> [!quote]
+> STREAMING is "must-have" solution for enterprise data
 
 ![[Pasted image 20230206135735.png]]
 

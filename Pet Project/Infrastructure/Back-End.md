@@ -5,3 +5,7 @@
 - 
 
 Trace log
+
+What still wrong when using this note taking
+
+

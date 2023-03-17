@@ -33,5 +33,8 @@ Sleep - 11h30
 
 
 Tracking Mediation
-
 Reading Book
+
+Always writing everyday
+Keep it simple
+Take note everything you do or split out all data to new 

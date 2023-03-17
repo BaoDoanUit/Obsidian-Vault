@@ -7,12 +7,10 @@
   "canvas",
   "outgoing-link",
   "tag-pane",
-  "page-preview",
   "note-composer",
   "command-palette",
-  "editor-status",
+  "slash-command",
   "starred",
   "outline",
-  "word-count",
   "file-recovery"
 ]

@@ -1,11 +1,9 @@
 
-```ad-note
-title: Activities
-
-Sports: 🏸 💪 ⚽ 🏃
-Journal: 👨‍🍳 📖 🍖 🧹
-
-```
+> [!note] Activities
+> 
+> Sports: 🏸 💪 ⚽ 🏃
+> Journal: 👨‍🍳 📖 🍖 🧹
+> 
 
 ```habitt
 [month:2022-10]

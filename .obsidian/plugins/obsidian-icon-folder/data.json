@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabAndroid",
       "FabFirstdraft",
       "IbDocumentPhoto",
       "SiBookstack",
-      "SiBookalope",
-      "SiProgress"
+      "SiBookalope"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -18,12 +18,14 @@
       "right": 4,
       "bottom": 0,
       "left": 0
-    }
+    },
+    "emojiStyle": "none"
   },
   "Photos": "IbPhoto",
   "Personal_Scope": "SiAtom",
   "CES-WORK": "SiProgress",
   "Books": "SiBookstack",
   "Excalidraw": "IbDocumentPhoto",
-  "Draft": "FabFirstdraft"
+  "Draft": "FabFirstdraft",
+  "Pet Project": "FabAndroid"
 }

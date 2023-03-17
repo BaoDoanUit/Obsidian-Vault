@@ -39,12 +39,14 @@ Here are a few tweaks to stand more:
 
 Bus drivers and ticket inspectors — two people working side by side, yet with different health profiles — are proof that simple behavioural change can go a long way in helping you live longer and healthier.
 
+Typing something
+
 ## #3 — Follow the 270 minutes rule
 
 [According to Professor Andrew Huberman](https://www.youtube.com/watch?v=Oo7hQapFe3M&ab_channel=Logitech), a neuroscientist at Stanford University, you shouldn’t:
 
--   Do more than 270 minutes (~4.5 hours) of high-focus work each day.
--   Do more than 90 minutes non-stop of high-focus work.
+- Do more than 270 minutes (~4.5 hours) of high-focus work each day.
+- Do more than 90 minutes non-stop of high-focus work.
 
 High-focus work includes activities such as programming, writing, learning languages, and so on.
 
@@ -68,24 +70,23 @@ Poor sleep impacts your health and mental well-being. It’s no surprise that go
 
 Matt Walker is a neuroscientist and the author of the bestselling book _Why We Sleep_. He shares [five tips to sleep better, wake up refreshed and full of energy](https://dr-younes-henni.medium.com/how-to-fix-your-sleep-20228f0e11fd):
 
--   No caffeine 10 hours before bedtime.
--   Don’t nap.
--   Sleep in a cold room.
--   No clocks (including your phone) in the bedroom.
--   Relax your mind before sleep: meditate, take a hot bath, journal, listen to a story.
+- No caffeine 10 hours before bedtime.
+- Don’t nap.
+- Sleep in a cold room.
+- No clocks (including your phone) in the bedroom.
+- Relax your mind before sleep: meditate, take a hot bath, journal, listen to a story.
 
 Good sleep is the best medicine. It is also the best way to stay productive during your waking hours. And evidence shows it’s true.
 
 ## #6 — Walk more
 
 [Scientists recommend walking at least 7500 steps](https://www.newscientist.com/article/mg25133512-200-5-fruit-and-veg-8-hours-sleep-should-we-trust-daily-health-targets/) (at least) a day. Plus, if you don’t do any other exercise, long walks are an effortless way to stay active and burn calories.
-
--   Do you listen to podcasts and audiobooks? Do it while walking.
--   Ditch the lift and take the stairs instead.
--   If you commute to and from work, walk to the next station instead of the nearest one.
--   Park your car a little further.
--   Are you going somewhere? See if walking gets you there faster than the bus.
--   Get off the bus one stop early and walk the rest of the way.
+- Do you listen to podcasts and audiobooks? Do it while walking.
+- Ditch the lift and take the stairs instead.
+- If you commute to and from work, walk to the next station instead of the nearest one.
+- Park your car a little further.
+- Are you going somewhere? See if walking gets you there faster than the bus.
+- Get off the bus one stop early and walk the rest of the way.
 
 Unlike running or weight lifting, walking is an effortless sport. Once I realised I could walk to town in 35 minutes instead of a 45 minutes bus ride, I’ve been going on foot whenever I could.
 
@@ -93,9 +94,9 @@ Unlike running or weight lifting, walking is an effortless sport. Once I realise
 
 I wish productivity advice were more honest. Imagine the following headlines:
 
--   How to learn coding in 3 days and raise your blood pressure.
--   Write a novel in 30 days and get Carpal tunnel syndrome.
--   How I read 80 books this year and screwed my eyes in the process.
+- How to learn coding in 3 days and raise your blood pressure.
+- Write a novel in 30 days and get Carpal tunnel syndrome.
+- How I read 80 books this year and screwed my eyes in the process.
 
 Sadly, it’s the reality of things. Working hard and ignoring our health and mental wellbeing comes with a heavy price.
 

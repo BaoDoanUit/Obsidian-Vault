@@ -47,6 +47,8 @@ After this self-relief sentence, I must confess that you should think about your
 
 When I try do design something new, I just try to define all processes and their dependencies (nothing technical). While defining, some of them become typles and some of them become isolated from each other.
 
+The Important Thing is Consistent
+
 
 
 
