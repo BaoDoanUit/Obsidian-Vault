@@ -20,5 +20,6 @@
   "date-colors": [],
   "link-date-to-daily-note": false,
   "show-relative-date": true,
-  "hide-date-display": true
+  "hide-date-display": true,
+  "new-note-folder": "CES-WORK/Requirement"
 }
