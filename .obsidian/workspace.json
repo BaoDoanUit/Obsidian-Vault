@@ -4,34 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "99505caefa8d080d",
+        "id": "9638e7d2e2a2f31e",
         "type": "tabs",
         "children": [
           {
-            "id": "5fed20042bff8046",
+            "id": "b24d7bf73ce63cb1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Personal_Scope/Private_Information/Health.md",
-                "mode": "source",
-                "source": true
+                "file": "CES-WORK/WORK TRACK.md"
               }
             }
           },
           {
-            "id": "d7a9c573d0f4e23f",
+            "id": "9ff6599f3e4df311",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal_Scope/LifeStyle/2023/Software Development.md",
+                "file": "DIMS-1056.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
+        "currentTab": 1,
         "stacked": true
       }
     ],
@@ -82,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ffa88d1f3b30217b",
@@ -99,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal_Scope/LifeStyle/2023/Software Development.md",
+                "file": "DIMS-1056.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal_Scope/LifeStyle/2023/Software Development.md",
+                "file": "DIMS-1056.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal_Scope/LifeStyle/2023/Software Development.md"
+                "file": "DIMS-1056.md"
               }
             }
           },
@@ -159,8 +157,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -180,40 +177,47 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "5fed20042bff8046",
+  "active": "9ff6599f3e4df311",
   "lastOpenFiles": [
-    "Personal_Scope/LifeStyle/2023/Software Development.md",
-    "Personal_Scope/Private_Information/Health.md",
-    "CES-WORK/Requirement/Requirement RETAIL-22261.md",
+    "CES-WORK/WORK TRACK.md",
+    "DIMS-1056.md",
+    "CES-WORK/Requirement/RETAIL-22146.md",
+    "CES-WORK/Requirement/RBC-21854.md",
+    "CES-WORK/Requirement/RETAIL-22261.md",
+    "CES-WORK/Requirement/RETAIL-22004.md",
+    "CES-WORK/Requirement/RETAIL-8033.md",
+    "CES-WORK/Requirement/RETAIL-8032.md",
+    "CES-WORK/Requirement/RETAIL-8026.md",
+    "CES-WORK/Requirement/DIMS-21644.md",
+    "CES-WORK/Requirement/DIMS-947.md",
+    "CES-WORK/Requirement/Diagrams/RETAIL-22008.md",
+    "CES-WORK/Requirement/Visualize Business/Tickets/RETAIL-22004.md",
+    "CES-WORK/Requirement/Visualize Business/Tickets/Retail-8033.md",
+    "CES-WORK/Requirement/Diagrams/RETAIL-8032.md",
+    "CES-WORK/Requirement/Visualize Business/Tickets/RBC-21854.md",
+    "CES-WORK/Requirement/Diagrams/DIMS-21644.md",
+    "CES-WORK/Requirement/Diagrams/DIMS-947.md",
+    "DIMS - 213231.md",
+    "CES-WORK/CES WORK.md",
+    "Personal_Scope/LifeStyle/2023/True North.md",
+    "Personal_Scope/LifeStyle/2023/Udemy Training.md",
+    "Books/Software/Grokking Alogrithms.md",
     "CES-WORK/RETOPS/RETOPS-25295.md",
     "CES-WORK/RETOPS/Enroll Request (UdcAcntNum).md",
-    "CES-WORK/RETOPS",
-    "Personal_Scope/Pet Project/Business/General Business.md",
-    "Personal_Scope/Pet Project/Business",
-    "Personal_Scope/Pet Project",
-    "Memos/Personal/LifeStyle/Live a worth life.md",
-    "Memos/Personal/LifeStyle",
-    "Memos/Personal",
-    "Memos",
-    "Draft/Free Thinking.md",
-    "CES-WORK/Visualize Business/Tickets/RETAIL-22146.md",
-    "Pet Project/Infrastructure/Back-End.md",
-    "Personal_Scope/Jobs/Turing Work.md",
-    "Personal_Scope/Jobs/CES_Work.md",
-    "Books/Kindle_Notes/2018-Will Grant - 101 UX Principles_ A Definitive Design Guide-Packt Publishing Ltd.md",
-    "Draft/Planning.md",
-    "Personal_Scope/Private_Information/Habits.md",
-    "Personal_Scope/Private_Information/Accounts.md",
-    "CES-WORK/References/Memo config.md",
-    "CES-WORK/Requirement/Requirement RETAIL-22146.md",
-    "Pet Project/Configurations/Server Main.md",
-    "Pet Project/Diagrams/Admin Site.md",
-    "Personal_Scope/LifeStyle/2023/Live a worth life.md",
-    "Daily Task.md",
-    "Personal_Scope/LifeStyle/2023/Function Programming.md",
-    "Books/Kindle_Notes/Dweck-Mindset.md",
-    "Personal_Scope/LifeStyle/2022/Phật Pháp.md",
-    "CES-WORK/Memos/Syntax Coding/SQL.md",
+    "CES-WORK/Guideline/SSIS.md",
+    "Pet Project/Technical/NET Documents.canvas",
+    "textgenerator/prompts/trash/huggingface",
+    "textgenerator/prompts/trash",
+    "textgenerator/prompts/trash/default",
+    "textgenerator/prompts/default",
+    "textgenerator/prompts/huggingface",
+    "textgenerator/prompts",
+    "textgenerator",
+    "Excalidraw/Pasted image 20230318103422.png",
+    "Excalidraw/Pasted image 20230318102042.png",
+    "Excalidraw/Pasted image 20230318101719.png",
+    "Pet Project/Technical",
+    "Profiles",
     "Excalidraw/Pasted image 20230306085855.png",
     "Pet Project/Diagrams"
   ]

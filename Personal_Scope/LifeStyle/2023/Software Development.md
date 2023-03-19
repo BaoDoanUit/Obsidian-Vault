@@ -49,7 +49,11 @@ When I try do design something new, I just try to define all processes and their
 
 The Important Thing is Consistent
 
-It is the first step for 
+It is the first step for improve everything is calculate the complexity of this task and how time does it take?
+
+So the main key here is keep it simple and verify 
+try to make it clear and how to solve the problem
+
 
 
 

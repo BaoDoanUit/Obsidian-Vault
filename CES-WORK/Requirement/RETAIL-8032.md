@@ -20,5 +20,5 @@ public class BillDeliveryAddressModel
 }
 ```
 
-![[RETAIL-8032 | 1000x800]]
+![[CES-WORK/Requirement/Diagrams/RETAIL-8032 | 1000x800]]
 Alter table

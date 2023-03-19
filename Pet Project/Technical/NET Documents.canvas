@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"c469282de549deb0","x":-3533,"y":-1689,"width":400,"height":400,"type":"file","file":"Pet Project/Technical/MVVM Pattern.md"},
+		{"type":"file","file":"Pet Project/Technical/EF Core.md","id":"49808f024e1d8322","x":-3520,"y":-2040,"width":320,"height":280},
+		{"type":"file","file":"Pet Project/Technical/MAUI.md","id":"1d72ab1db1d35601","x":-3120,"y":-2040,"width":280,"height":280}
+	],
+	"edges":[]
+}

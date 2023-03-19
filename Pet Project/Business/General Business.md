@@ -15,3 +15,8 @@ Create Admin Page - Add sites and credential for crawldata from specific sites.
 
 
 Make it online
+
+CrawlDataServices
+- Define exactly what type of data
+- 
+Attach Selenium into Projects

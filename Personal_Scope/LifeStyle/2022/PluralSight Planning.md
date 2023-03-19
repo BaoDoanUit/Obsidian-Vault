@@ -8,7 +8,7 @@ Guideline [[CES-WORK/Guideline/SSIS]]
 - [ ] Finish Chapter 1, 2, 3 #2022-12-30 
 - [ ] Finish Chapter 4, 5 #2022-12-31
 - [ ] Finish Chapter 6, 7 #2022-12-31
-Trainning Session [[CES-WORK/Training/SSIS]]
+Trainning Session [[CES-WORK/Guideline/Training/SSIS]]
 ## SQL Optimized
 
 ## C# 7

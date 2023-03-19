@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiXdadevelopers",
       "FabAndroid",
       "FabFirstdraft",
       "IbDocumentPhoto",
-      "SiBookstack",
-      "SiBookalope"
+      "SiBookstack"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -27,5 +27,6 @@
   "Books": "SiBookstack",
   "Excalidraw": "IbDocumentPhoto",
   "Draft": "FabFirstdraft",
-  "Pet Project": "FabAndroid"
+  "Pet Project": "FabAndroid",
+  "Profiles": "SiXdadevelopers"
 }

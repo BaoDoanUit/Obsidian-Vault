@@ -1,7 +1,7 @@
 Link: https://ces-ltd.atlassian.net/browse/DIMS-947
 
 Business Process
-![[DIMS-947]]
+![[CES-WORK/Requirement/Diagrams/DIMS-947]]
 
 Guideline for CESRD SSIS Package
 ![[CES-WORK/Guideline/SSIS]]

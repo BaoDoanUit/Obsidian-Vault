@@ -18,5 +18,7 @@
     }
   ],
   "date-colors": [],
-  "link-date-to-daily-note": false
+  "link-date-to-daily-note": false,
+  "show-relative-date": true,
+  "hide-date-display": true
 }
