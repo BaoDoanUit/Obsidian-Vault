@@ -5,9 +5,9 @@
 Guideline [[CES-WORK/Guideline/SSIS]]
 
 [ETL SSIS Training](https://app.pluralsight.com/course-player?clipId=c6d0d353-a4f1-4afc-bf8c-85afd4b28330)
-- [ ] Finish Chapter 1, 2, 3 #2022-12-30 
-- [ ] Finish Chapter 4, 5 #2022-12-31
-- [ ] Finish Chapter 6, 7 #2022-12-31
+- Finish Chapter 1, 2, 3
+- Finish Chapter 4, 5
+- Finish Chapter 6, 7
 Trainning Session [[CES-WORK/Guideline/Training/SSIS]]
 ## SQL Optimized
 
