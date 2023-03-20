@@ -4,57 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "ce988a7f0781abb2",
+        "id": "99505caefa8d080d",
         "type": "tabs",
         "children": [
           {
-            "id": "6f904df988a0de13",
+            "id": "cf854015f7101030",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CES-WORK/Requirement/MPS-124.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5fed20042bff8046",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
-                "file": "Pet Project/Personal Tracking.md"
+                "file": "CES-WORK/WORK TRACK.md"
               }
             }
           }
         ],
         "stacked": true
-      },
-      {
-        "id": "275203ff97388288",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0871a5360a7375b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pet Project/Requirement/[SOFTWARE ARCHITECT] - Section 2 - Performance.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "dc90861717186176",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "05950894a34b6918",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Pet Project/Requirement/Minimal API with Dapper.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +80,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ffa88d1f3b30217b",
@@ -120,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pet Project/Requirement/[SOFTWARE ARCHITECT] - Section 2 - Performance.md",
+                "file": "CES-WORK/Requirement/MPS-124.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pet Project/Requirement/[SOFTWARE ARCHITECT] - Section 2 - Performance.md",
+                "file": "CES-WORK/Requirement/MPS-124.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pet Project/Requirement/[SOFTWARE ARCHITECT] - Section 2 - Performance.md"
+                "file": "CES-WORK/Requirement/MPS-124.md"
               }
             }
           },
@@ -180,7 +157,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -200,48 +178,48 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "0871a5360a7375b4",
+  "active": "cf854015f7101030",
   "lastOpenFiles": [
+    "CES-WORK/WORK TRACK.md",
+    "CES-WORK/Requirement/MPS-124.md",
     "Pet Project/Personal Tracking.md",
+    "Personal_Scope/Private_Information/Health.md",
+    "Profiles/Info.md",
+    "Profiles",
+    "Pet Project/Technical/NET Documents.canvas",
+    "Pet Project/Technical/MVVM Pattern.md",
+    "Pet Project/Technical/EF or Dapper.md",
+    "Pet Project/Technical/MAUI.md",
+    "Pet Project/Technical/EF Core.md",
+    "Pet Project/Technical",
     "Pet Project/Requirement/[SOFTWARE ARCHITECT] - Section 2 - Performance.md",
     "Pet Project/Requirement/Minimal API with Dapper.md",
     "Pet Project/Requirement",
-    "CES-WORK/WORK TRACK.md",
-    "CES-WORK/Requirement/RETAIL-22261.md",
-    "CES-WORK/Requirement/RETAIL-22216.md",
-    "Test.md",
-    "CES-WORK/Requirement/DIMS-1056.md",
-    "CES-WORK/Requirement/DIMS-22216.md",
-    "CES-WORK/Requirement/RETAIL-22146.md",
-    "CES-WORK/Requirement/RBC-21854.md",
-    "CES-WORK/Requirement/RETAIL-22004.md",
-    "CES-WORK/Requirement/RETAIL-8033.md",
-    "CES-WORK/Requirement/RETAIL-8032.md",
-    "CES-WORK/Requirement/RETAIL-8026.md",
-    "CES-WORK/Requirement/DIMS-21644.md",
-    "CES-WORK/Requirement/DIMS-947.md",
-    "CES-WORK/Requirement/Diagrams/RETAIL-22008.md",
-    "CES-WORK/Requirement/Visualize Business/Tickets/RETAIL-22004.md",
-    "CES-WORK/Requirement/Visualize Business/Tickets/Retail-8033.md",
-    "CES-WORK/Requirement/Diagrams/RETAIL-8032.md",
-    "CES-WORK/Requirement/Visualize Business/Tickets/RBC-21854.md",
-    "CES-WORK/Requirement/Diagrams/DIMS-21644.md",
-    "CES-WORK/Requirement/Diagrams/DIMS-947.md",
-    "DIMS - 213231.md",
-    "CES-WORK/CES WORK.md",
-    "Pet Project/Technical/NET Documents.canvas",
-    "textgenerator/prompts/trash/huggingface",
-    "textgenerator/prompts/trash",
-    "textgenerator/prompts/trash/default",
-    "textgenerator/prompts/default",
-    "textgenerator/prompts/huggingface",
-    "textgenerator/prompts",
-    "textgenerator",
+    "Personal_Scope/Jobs/Upwork.md",
     "Excalidraw/Pasted image 20230318103422.png",
     "Excalidraw/Pasted image 20230318102042.png",
     "Excalidraw/Pasted image 20230318101719.png",
-    "Pet Project/Technical",
-    "Profiles",
+    "CES-WORK/Requirement/RETAIL-8033.md",
+    "CES-WORK/Requirement/RETAIL-8032.md",
+    "CES-WORK/Requirement/RETAIL-8026.md",
+    "CES-WORK/Requirement/RETAIL-22261.md",
+    "CES-WORK/Requirement/RETAIL-22216.md",
+    "CES-WORK/Requirement/RETAIL-22146.md",
+    "CES-WORK/Requirement/RETAIL-22004.md",
+    "CES-WORK/Requirement/RBC-21854.md",
+    "CES-WORK/Requirement/Diagrams/RETAIL-8032.md",
+    "CES-WORK/Requirement/Diagrams/RETAIL-22146.md",
+    "CES-WORK/Requirement/Diagrams/RETAIL-22008.md",
+    "CES-WORK/Requirement/Diagrams/DIMS-947.md",
+    "CES-WORK/Requirement/Diagrams/DIMS-21644.md",
+    "CES-WORK/Requirement/Diagrams",
+    "CES-WORK/Requirement/DIMS-947.md",
+    "CES-WORK/Process",
+    "CES-WORK/Guideline/Training",
+    "CES-WORK/RETOPS",
+    "Personal_Scope/Pet Project/Business",
+    "Personal_Scope/Pet Project",
+    "Memos/Personal/LifeStyle",
     "Excalidraw/Pasted image 20230306085855.png"
   ]
 }

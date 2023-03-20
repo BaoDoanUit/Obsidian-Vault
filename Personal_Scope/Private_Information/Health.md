@@ -102,7 +102,12 @@ Sadly, it’s the reality of things. Working hard and ignoring our health and me
 
 If you’re a dreamer, please do mind your health while chasing your goals. Take breaks, spend time outdoors, walk more, socialise, and eat healthily. You only live once.
 
+How to recognize when you do something wrong?
+- Mismatch decision with most of people
+- Generate something out of scope of your role
+- Take a look too much a task you have finished
 
-Attach new scripts
+Type anything you think it could help you much.
+Change too much thing when you apply new approach
 
-Changes it
+Reference document 
