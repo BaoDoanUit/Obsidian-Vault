@@ -25,7 +25,7 @@
 - Utilize built-in text-to-speech engines to read text from the device.
 - Initiate browser-based authentication flows that listen for a callback to a specific app registered URL.
 #### Customize the app shell
-[[MVVM Pattern]]<br/>
+[[MVVM Pattern]]
 These files help get the .NET MAUI app configured and running. Each file serves a different purpose, described below:
 - MauiProgram.cs
 	- This is a code file that bootstraps your app. The code in this file serves as the cross-platform entry point of the app, which configures and starts the app. The template startup code points to the App class defined by the App.xaml file.

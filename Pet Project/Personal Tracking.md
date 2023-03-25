@@ -22,6 +22,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","new-note-folder":"Pet Project/Requirement"}
+{"kanban-plugin":"basic","new-note-folder":"Pet Project/Requirement","hide-date-in-title":true}
 ```
 %%

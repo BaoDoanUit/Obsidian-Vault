@@ -1,4 +1,4 @@
-[Tutorial](https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0)<br/>
+[Tutorial](https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0)
 <table></table>MVVM Pattern
 The .NET MAUI developer experience typically involves creating a user interface in XAML, and then adding code-behind that operates on the user interface. Complex maintenance issues can arise as apps are modified and grow in size and scope. These issues include the tight coupling between the UI controls and the business logic, which increases the cost of making UI modifications, and the difficulty of unit testing such code.
 
