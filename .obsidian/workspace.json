@@ -11,9 +11,11 @@
             "id": "6f904df988a0de13",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "CES-WORK/WORK TRACK.md"
+                "file": "Pet Project/Business/General Business.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -84,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CES-WORK/WORK TRACK.md",
+                "file": "Pet Project/Business/General Business.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CES-WORK/WORK TRACK.md",
+                "file": "Pet Project/Business/General Business.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CES-WORK/WORK TRACK.md"
+                "file": "Pet Project/Business/General Business.md"
               }
             }
           },
@@ -164,18 +166,20 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "133061ed01521d07",
+  "active": "6f904df988a0de13",
   "lastOpenFiles": [
-    "Pet Project/Personal Tracking.md",
-    "Pet Project/Technical/MVVM Pattern.md",
     "Pet Project/Technical/MAUI.md",
+    "Pet Project/Technical/MVVM Pattern.md",
+    "Pet Project/Technical/EF or Dapper.md",
     "Pet Project/Technical/EF Core.md",
+    "Pet Project/Technical/NET Documents.canvas",
     "Profiles/Info.md",
+    "CES-WORK/WORK TRACK.md",
+    "Pet Project/Personal Tracking.md",
     "Pet Project/Requirement/[SOFTWARE ARCHITECT] - Section 2 - Performance.md",
     "CES-WORK/Requirement/MPS-124.md",
     "Pet Project/Requirement/Minimal API with Dapper.md",
     "Pet Project/Requirement",
-    "CES-WORK/WORK TRACK.md",
     "CES-WORK/Requirement/RETAIL-22261.md",
     "CES-WORK/Requirement/RETAIL-22216.md",
     "Test.md",
@@ -192,8 +196,6 @@
     "CES-WORK/Requirement/Diagrams/RETAIL-22008.md",
     "CES-WORK/Requirement/Visualize Business/Tickets/RETAIL-22004.md",
     "CES-WORK/Requirement/Visualize Business/Tickets/Retail-8033.md",
-    "CES-WORK/Requirement/Diagrams/RETAIL-8032.md",
-    "Pet Project/Technical/NET Documents.canvas",
     "textgenerator/prompts/trash/huggingface",
     "textgenerator/prompts/trash",
     "textgenerator/prompts/trash/default",
