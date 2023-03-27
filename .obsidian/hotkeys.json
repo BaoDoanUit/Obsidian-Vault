@@ -10,13 +10,21 @@
       "key": "T"
     }
   ],
-  "highlightr-plugin:Blue": [
+  "highlightr-plugin:highlighter-plugin-menu": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
+    }
+  ],
+  "omnisearch:show-modal": [
     {
       "modifiers": [
         "Mod",
         "Shift"
       ],
-      "key": "H"
+      "key": "F"
     }
   ]
 }

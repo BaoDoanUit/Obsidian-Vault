@@ -1,3 +1,6 @@
+```
+Link: RETAIL-22004
+```
 ### **User Story**
 - Currently permission settings do not allow for restricting access to just the statement/invoice tab. The client is looking for further permission that will allow them to restrict access to that tab, but still give users access to remaining billing functionality.
 - As a CES BLUE client, users should have access to functionality with the <mark class="hltr-pink">Dual Billing section</mark> but also be able to assign certain users which should have access to the Statement/Invoice screen while restricting others from having access.
