@@ -27,6 +27,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","new-note-folder":"Pet Project/Requirement","hide-tags-in-title":false,"hide-tags-display":false,"show-relative-date":true,"hide-date-display":false,"hide-date-in-title":true}
+{"kanban-plugin":"basic","new-note-folder":"Pet Project/Requirement","hide-date-in-title":true}
 ```
 %%

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "61404df503161dcf",
+        "id": "ce988a7f0781abb2",
         "type": "tabs",
         "children": [
           {
-            "id": "d4fe276853aafcc2",
+            "id": "6f904df988a0de13",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
+                "file": "Pet Project/Business/General Business.md",
                 "mode": "source",
                 "source": true
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 227.5,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ffa88d1f3b30217b",
@@ -87,7 +86,26 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md"
+                "file": "Pet Project/Business/General Business.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "fc863653bc75c5b7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Pet Project/Business/General Business.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -116,14 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "Pet Project/Business/General Business.md"
               }
             }
           },
@@ -155,8 +166,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -176,48 +186,48 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "d4fe276853aafcc2",
+  "active": "6f904df988a0de13",
   "lastOpenFiles": [
-    "CES-WORK/Requirement/DIMS-22216.md",
-    "CES-WORK/Requirement/DIMS-21644.md",
-    "CES-WORK/Requirement/DIMS-1056.md",
-    "CES-WORK/Requirement/RETAIL-8026.md",
+    "Pet Project/Technical/MAUI.md",
+    "Pet Project/Technical/MVVM Pattern.md",
+    "Pet Project/Technical/EF or Dapper.md",
+    "Pet Project/Technical/EF Core.md",
+    "Pet Project/Technical/NET Documents.canvas",
+    "Profiles/Info.md",
+    "CES-WORK/WORK TRACK.md",
+    "Pet Project/Personal Tracking.md",
+    "Pet Project/Requirement/[SOFTWARE ARCHITECT] - Section 2 - Performance.md",
+    "CES-WORK/Requirement/MPS-124.md",
+    "Pet Project/Requirement/Minimal API with Dapper.md",
+    "Pet Project/Requirement",
     "CES-WORK/Requirement/RETAIL-22261.md",
     "CES-WORK/Requirement/RETAIL-22216.md",
+    "Test.md",
+    "CES-WORK/Requirement/DIMS-1056.md",
+    "CES-WORK/Requirement/DIMS-22216.md",
     "CES-WORK/Requirement/RETAIL-22146.md",
-    "CES-WORK/Requirement/RETAIL-22004.md",
     "CES-WORK/Requirement/RBC-21854.md",
-    "CES-WORK/Requirement/MPS-124.md",
+    "CES-WORK/Requirement/RETAIL-22004.md",
+    "CES-WORK/Requirement/RETAIL-8033.md",
+    "CES-WORK/Requirement/RETAIL-8032.md",
+    "CES-WORK/Requirement/RETAIL-8026.md",
+    "CES-WORK/Requirement/DIMS-21644.md",
     "CES-WORK/Requirement/DIMS-947.md",
-    "CES-WORK/Requirement/MPS/MPS-124.md",
-    "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-22261.md",
-    "CES-WORK/Memos/Technical/Storage.md",
-    "CES-WORK/Memos/Syntax Coding/SQL.md",
-    "CES-WORK/Requirement/DIMS/DIMS-1056.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-22004.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-8026.md",
-    "Personal_Scope/LifeStyle/2023/Strategy Planning.md",
-    "Personal_Scope/LifeStyle/2023/Travel.md",
-    "Pet Project/Personal Tracking.md",
-    "CES-WORK/WORK TRACK.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-22146.md",
-    "CES-WORK/Requirement/RBC/RBC-21854.md",
-    "CES-WORK/Requirement/MPS",
-    "CES-WORK/Requirement/DIMS/DIMS-947.md",
-    "CES-WORK/Requirement/RBC",
-    "CES-WORK/Requirement/RETAIL",
-    "CES-WORK/Requirement/DIMS",
-    "Profiles",
-    "Pet Project/Technical/NET Documents.canvas",
-    "Pet Project/Technical",
-    "Pet Project/Requirement",
+    "CES-WORK/Requirement/Diagrams/RETAIL-22008.md",
+    "CES-WORK/Requirement/Visualize Business/Tickets/RETAIL-22004.md",
+    "CES-WORK/Requirement/Visualize Business/Tickets/Retail-8033.md",
+    "textgenerator/prompts/trash/huggingface",
+    "textgenerator/prompts/trash",
+    "textgenerator/prompts/trash/default",
+    "textgenerator/prompts/default",
+    "textgenerator/prompts/huggingface",
+    "textgenerator/prompts",
+    "textgenerator",
     "Excalidraw/Pasted image 20230318103422.png",
     "Excalidraw/Pasted image 20230318102042.png",
     "Excalidraw/Pasted image 20230318101719.png",
-    "CES-WORK/Requirement/Diagrams",
-    "CES-WORK/Process",
-    "CES-WORK/Guideline/Training",
+    "Pet Project/Technical",
+    "Profiles",
     "Excalidraw/Pasted image 20230306085855.png"
   ]
 }

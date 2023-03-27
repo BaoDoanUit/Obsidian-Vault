@@ -8,3 +8,8 @@ I have 6 years experience in Software Industry. There are my responsibilities in
 - Database designing
 - Backend development
 - Technical solution
+- 
+
+Account FB
+- Bao@0982190003
+- 
