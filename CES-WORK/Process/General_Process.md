@@ -114,7 +114,7 @@ PostBill ^bFfLeWNs
 
 EDI Service Provider ^dUVxgESW
 
-[[Retail-8033]] ^CeY3S0jX
+[[RETAIL-8033]] ^CeY3S0jX
 
 [[814_Enrollment_Process]] ^I9ieMGU9
 

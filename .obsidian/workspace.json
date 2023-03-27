@@ -4,70 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "99505caefa8d080d",
+        "id": "61404df503161dcf",
         "type": "tabs",
         "children": [
           {
-            "id": "cf854015f7101030",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Pet Project/Personal Tracking.md"
-              }
-            }
-          },
-          {
-            "id": "d960bc6a8aae047f",
+            "id": "d4fe276853aafcc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pet Project/Requirement/Minimal API with Dapper.md",
+                "file": "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
                 "mode": "source",
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1,
         "stacked": true
-      },
-      {
-        "id": "fc206659f76ff7b7",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "607627998b1d17f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal_Scope/LifeStyle/2022/PluralSight Planning.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "fbc35d64d5fb6cad",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "3dd21fff73acfa09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal_Scope/LifeStyle/2023/Travel.md",
-                "mode": "preview",
-                "source": true
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 227.5,
     "collapsed": true
   },
   "right": {
@@ -134,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal_Scope/LifeStyle/2023/Travel.md"
+                "file": "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md"
               }
             }
           },
@@ -156,13 +109,59 @@
               "type": "online.larslockefeer.obsidian-plugin-todo",
               "state": {}
             }
+          },
+          {
+            "id": "210a2ffe9b43dfcf",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d78f147fadc09f66",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b6865c704ca4995",
+            "type": "leaf",
+            "state": {
+              "type": "BC-matrix",
+              "state": {}
+            }
+          },
+          {
+            "id": "a6baeca70eed21b5",
+            "type": "leaf",
+            "state": {
+              "type": "BC-tree",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 258.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,48 +176,48 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "3dd21fff73acfa09",
+  "active": "d4fe276853aafcc2",
   "lastOpenFiles": [
-    "Personal_Scope/Jobs/Turing Work.md",
+    "CES-WORK/Requirement/DIMS-22216.md",
+    "CES-WORK/Requirement/DIMS-21644.md",
     "CES-WORK/Requirement/DIMS-1056.md",
-    "Personal_Scope/LifeStyle/2023/Travel.md",
-    "Personal_Scope/LifeStyle/2022/PluralSight Planning.md",
-    "Pet Project/Requirement/Minimal API with Dapper.md",
-    "Pet Project/Personal Tracking.md",
-    "CES-WORK/WORK TRACK.md",
-    "CES-WORK/Requirement/RETAIL-22216.md",
-    "CES-WORK/Requirement/MPS-124.md",
-    "Personal_Scope/Private_Information/Health.md",
-    "Profiles/Info.md",
-    "Profiles",
-    "Pet Project/Technical/NET Documents.canvas",
-    "Pet Project/Technical/MVVM Pattern.md",
-    "Pet Project/Technical/EF or Dapper.md",
-    "Pet Project/Technical/MAUI.md",
-    "Pet Project/Technical/EF Core.md",
-    "Pet Project/Technical",
-    "Pet Project/Requirement/[SOFTWARE ARCHITECT] - Section 2 - Performance.md",
-    "Pet Project/Requirement",
-    "Personal_Scope/Jobs/Upwork.md",
-    "Excalidraw/Pasted image 20230318103422.png",
-    "Excalidraw/Pasted image 20230318102042.png",
-    "Excalidraw/Pasted image 20230318101719.png",
-    "CES-WORK/Requirement/RETAIL-8033.md",
-    "CES-WORK/Requirement/RETAIL-8032.md",
     "CES-WORK/Requirement/RETAIL-8026.md",
     "CES-WORK/Requirement/RETAIL-22261.md",
+    "CES-WORK/Requirement/RETAIL-22216.md",
     "CES-WORK/Requirement/RETAIL-22146.md",
     "CES-WORK/Requirement/RETAIL-22004.md",
     "CES-WORK/Requirement/RBC-21854.md",
-    "CES-WORK/Requirement/Diagrams/RETAIL-8032.md",
-    "CES-WORK/Requirement/Diagrams/RETAIL-22146.md",
+    "CES-WORK/Requirement/MPS-124.md",
+    "CES-WORK/Requirement/DIMS-947.md",
+    "CES-WORK/Requirement/MPS/MPS-124.md",
+    "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
+    "CES-WORK/Requirement/RETAIL/RETAIL-22261.md",
+    "CES-WORK/Memos/Technical/Storage.md",
+    "CES-WORK/Memos/Syntax Coding/SQL.md",
+    "CES-WORK/Requirement/DIMS/DIMS-1056.md",
+    "CES-WORK/Requirement/RETAIL/RETAIL-22004.md",
+    "CES-WORK/Requirement/RETAIL/RETAIL-8026.md",
+    "Personal_Scope/LifeStyle/2023/Strategy Planning.md",
+    "Personal_Scope/LifeStyle/2023/Travel.md",
+    "Pet Project/Personal Tracking.md",
+    "CES-WORK/WORK TRACK.md",
+    "CES-WORK/Requirement/RETAIL/RETAIL-22146.md",
+    "CES-WORK/Requirement/RBC/RBC-21854.md",
+    "CES-WORK/Requirement/MPS",
+    "CES-WORK/Requirement/DIMS/DIMS-947.md",
+    "CES-WORK/Requirement/RBC",
+    "CES-WORK/Requirement/RETAIL",
+    "CES-WORK/Requirement/DIMS",
+    "Profiles",
+    "Pet Project/Technical/NET Documents.canvas",
+    "Pet Project/Technical",
+    "Pet Project/Requirement",
+    "Excalidraw/Pasted image 20230318103422.png",
+    "Excalidraw/Pasted image 20230318102042.png",
+    "Excalidraw/Pasted image 20230318101719.png",
     "CES-WORK/Requirement/Diagrams",
     "CES-WORK/Process",
     "CES-WORK/Guideline/Training",
-    "CES-WORK/RETOPS",
-    "Personal_Scope/Pet Project/Business",
-    "Personal_Scope/Pet Project",
-    "Memos/Personal/LifeStyle",
     "Excalidraw/Pasted image 20230306085855.png"
   ]
 }

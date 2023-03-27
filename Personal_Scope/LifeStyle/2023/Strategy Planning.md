@@ -34,3 +34,9 @@ Spending time for making solutions
 Making strategy solution
 
 
+Keep everything simple when working
+Don't make too much thing around 
+Just one screen solution
+
+
+
