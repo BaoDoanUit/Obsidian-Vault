@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pet Project/Business/General Business.md",
+                "file": "Personal_Scope/Jobs/CES_Work.md",
                 "mode": "source",
                 "source": true
               }
@@ -86,14 +86,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Pet Project/Business/General Business.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "Personal_Scope/Jobs/CES_Work.md"
               }
             }
           },
@@ -103,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Pet Project/Business/General Business.md",
+                "file": "Personal_Scope/Jobs/CES_Work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +127,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Pet Project/Business/General Business.md"
+                "file": "Personal_Scope/Jobs/CES_Work.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -144,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
+                "file": "Personal_Scope/Jobs/CES_Work.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,12 +188,15 @@
   },
   "active": "6f904df988a0de13",
   "lastOpenFiles": [
+    "Profiles/Info.md",
+    "CES-WORK/Guideline/SSIS.md",
+    "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
+    "Pet Project/Business/General Business.md",
     "Pet Project/Technical/MAUI.md",
     "Pet Project/Technical/MVVM Pattern.md",
     "Pet Project/Technical/EF or Dapper.md",
     "Pet Project/Technical/EF Core.md",
     "Pet Project/Technical/NET Documents.canvas",
-    "Profiles/Info.md",
     "CES-WORK/WORK TRACK.md",
     "Pet Project/Personal Tracking.md",
     "Pet Project/Requirement/[SOFTWARE ARCHITECT] - Section 2 - Performance.md",
@@ -213,9 +216,6 @@
     "CES-WORK/Requirement/RETAIL-8026.md",
     "CES-WORK/Requirement/DIMS-21644.md",
     "CES-WORK/Requirement/DIMS-947.md",
-    "CES-WORK/Requirement/Diagrams/RETAIL-22008.md",
-    "CES-WORK/Requirement/Visualize Business/Tickets/RETAIL-22004.md",
-    "CES-WORK/Requirement/Visualize Business/Tickets/Retail-8033.md",
     "textgenerator/prompts/trash/huggingface",
     "textgenerator/prompts/trash",
     "textgenerator/prompts/trash/default",
