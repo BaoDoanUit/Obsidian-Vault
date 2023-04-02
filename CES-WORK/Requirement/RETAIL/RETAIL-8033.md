@@ -56,3 +56,6 @@ Link: https://ces-ltd.atlassian.net/browse/RETAIL-8033
 
 Process
 ![[RETAIL-8033]]
+
+Develope 
+- [x] Done

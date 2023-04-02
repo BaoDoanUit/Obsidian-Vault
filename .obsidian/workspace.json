@@ -4,19 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "281ade514f426080",
+        "id": "dee7b6238837bcc4",
         "type": "tabs",
         "children": [
           {
-            "id": "675a8edd73196faa",
+            "id": "549b19798ad28234",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CES-WORK/Tracking Task.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "e0434c0a0b20d509",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CES-WORK/Requirement/MPS/MPS-124.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ],
-        "stacked": true
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,7 +86,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ffa88d1f3b30217b",
@@ -81,7 +102,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CES-WORK/Requirement/MPS/MPS-124.md"
+              }
             }
           },
           {
@@ -90,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CES-WORK/Requirement/MPS/MPS-124.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -112,6 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CES-WORK/Requirement/MPS/MPS-124.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,6 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CES-WORK/Requirement/MPS/MPS-124.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,40 +192,40 @@
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "omnisearch:Omnisearch": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false,
-      "obsidian-extract-pdf-highlights:PDF Highlights": false
+      "obsidian-extract-pdf-highlights:PDF Highlights": false,
+      "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "675a8edd73196faa",
+  "active": "e0434c0a0b20d509",
   "lastOpenFiles": [
-    "Pet Project/Personal Tracking.md",
-    "CES-WORK/WORK TRACK.md",
     "CES-WORK/Tracking Task.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-8026.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-8032.md",
-    "CES-WORK/Requirement/DIMS/DIMS-1056.md",
+    "CES-WORK/Requirement/MPS/MPS-124.md",
+    "CES-WORK/Requirement/Diagrams/Drawing 2023-03-29 20.27.14.excalidraw.md",
     "CES-WORK/Requirement/RETAIL/RETAIL-22261.md",
     "Daily Task.md",
+    "CES-WORK/Requirement/RETAIL/RETAIL-8026.md",
+    "Personal_Scope/Technical/Architecture/SagaPattern for microservices.md",
+    "().md",
     "CES-WORK/RETOPS/RETOPS-25295.md",
+    "CES-WORK/Requirement/RBC/RBC-21854.md",
+    "CES-WORK/Requirement/DIMS/DIMS-1056.md",
+    "CES-WORK/Requirement/DIMS/DIMS-947.md",
+    "CES-WORK/Requirement/Diagrams/DIMS-947.md",
+    "CES-WORK/Requirement/RETAIL/RETAIL-22146.md",
     "CES-WORK/Requirement/RETAIL/RETAIL-22004.md",
+    "CES-WORK/Requirement/RETAIL/RETAIL-8033.md",
+    "CES-WORK/Requirement/RETAIL/RETAIL-8032.md",
+    "Pet Project/Personal Tracking.md",
+    "CES-WORK/WORK TRACK.md",
     "CES-WORK/Business/CES Billing Process.pdf",
     "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
     "Excalidraw/C4Model/Detail_Domain_Driven_Model.png",
-    "CES-WORK/Requirement/Diagrams/DIMS-947.md",
     "Pet Project/Diagrams/Admin Site.md",
-    "CES-WORK/Requirement/DIMS/DIMS-947.md",
     "CES-WORK/Requirement/DIMS/DIMS-21644.md",
     "CES-WORK/Requirement/DIMS/DIMS-22216.md",
-    "CES-WORK/Requirement/MPS/MPS-124.md",
     "Profiles/Info.md",
     "CES-WORK/Requirement/RETAIL-22261.md",
     "MPS.md",
-    "Pet Project/Technical/EF Core.md",
-    "Personal_Scope/Jobs/CES_Work.md",
-    "CES-WORK/Guideline/SSIS.md",
-    "Pet Project/Business/General Business.md",
-    "Pet Project/Technical/MAUI.md",
-    "Pet Project/Technical/MVVM Pattern.md",
     "Pet Project/Technical/NET Documents.canvas",
     "Pet Project/Requirement",
     "textgenerator/prompts/trash/huggingface",

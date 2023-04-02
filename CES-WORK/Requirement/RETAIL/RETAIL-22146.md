@@ -23,6 +23,9 @@ Try many way to improve coding
 Stop thinking the hard part of scope ticket
 
 
+Develope 
+- [x] Done
+
 
 
 

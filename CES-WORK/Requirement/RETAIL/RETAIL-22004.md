@@ -13,3 +13,7 @@ Link: RETAIL-22004
 #### Modify the CES BLUE > Billing > Dual Billing screen so that ONLY users who have permissions to the “Statement/Invoice” screen are able to see the corresponding tab.
 - Logic within the “Statement/Invoice” screen should remain the same
 - Users who do not have Statement/Invoice option checked under the Billing Admin screen but have other options enabled should be able to see the other tabs under the Dual Billing section but NOT the “Statement/Invoice” screen.
+
+
+Develope 
+- [x] Done
