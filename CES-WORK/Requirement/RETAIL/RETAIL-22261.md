@@ -7,7 +7,7 @@ Procedures
 - usp_enroll_batch_process_select
 - usp_enroll_merge_request 
 
-- [ ] Submit Code Review
+- [x] Submit Code Review ✅ 2023-04-08
 	- [x] Run CESBlueBatchDataReader -> Capture #progress ✅ 2023-03-27
 	- [x] Run API POST (Merge) -> Capture #progress ✅ 2023-03-27
 	- [x] Run BlueUI (Enrollment) -> Capture #progress ✅ 2023-03-27
@@ -17,11 +17,11 @@ Procedures
 
 ### Develope & Test
 Development
-- [ ] Change all stored procedure has query "insert into" table enroll_request 
+- [x] Change all stored procedure has query "insert into" table enroll_request ✅ 2023-04-08
 
 Unit-Test
-- [ ] CESBlueDataReader
-- [ ] usp_enroll_batch_process_select
+- [x] CESBlueDataReader ✅ 2023-04-08
+- [x] usp_enroll_batch_process_select ✅ 2023-04-08
 
 Promodos:: 1
 

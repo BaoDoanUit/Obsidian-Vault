@@ -1,11 +1,11 @@
 > ## Planning
-High priority 
+High priority
+Keep it simple
 - Back-End Side
 - Infrastructure
 - Front-End Side
      - Mobile app
      - Web app
->
 
 ## Hardware
 1 local machine 
@@ -36,12 +36,12 @@ Build a system for community and then using this for finding new income
 - Using all request-response through API-GateWay (Trigger if number of requests/min limitation use re-try)
 - Mobile App use SQLiteDB for work-offline mode
 - Push all request to RabitMQ
+- Do multiple automation processes
 
 
 ### Phase 2
 - Scaling System
 - Rent VPS x
-- 
 
     
 ## Notes

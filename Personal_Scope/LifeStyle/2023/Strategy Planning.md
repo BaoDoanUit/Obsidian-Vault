@@ -21,6 +21,11 @@ Coding
 Start gym at 10:30 if I'm at home
 Mediation in the afternoon or early morning
 Take action 
+Running is a simple motion of one step in front of the other
+1. Build a base of low-intensity sessions at a sustainable training frequency
+2. Increase the duration of your training sessions
+3. Add high intensity sparingly
+
 
 ### Devices
 Dev Machine use for developement and deployment Pet Project.

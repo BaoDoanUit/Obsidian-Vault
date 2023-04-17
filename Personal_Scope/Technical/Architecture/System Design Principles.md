@@ -42,3 +42,17 @@ Về mặt này thì như ABP framework triển khai, cần document chi tiết 
  1 project có apply DDD kèm thêm Mediator, mình thấy boilerplate code rất nhiều. Project bị phình to rất nhiều so với mono
 
  với mình việc đầu tiên sẽ là xác định các Root Entity và các mối quan hệ. Sau đó group các Root Entity này lại. Các group này là cơ sở để xác định domain. Tiếp theo mình xác định chiến lược chia sẻ dữ liệu giữa các domain, có thể là call api trực tiếp, dùng event bus hoặc gRPC. Cuối cùng thì như bạn nói, mình sẽ phải refactor, ghép hoăc tách domain cho phù hợp hơn nữa
+
+ ![[Pasted image 20230413162525.png]]
+ Advantages of using API Gateway
+ 1. Improved performance
+ 2. Simplified system design
+ 3. Enhanced security
+ 4. Improved scalability
+ 5. Better monitoring and visibility
+
+ Disadvantages of using API Gateway
+ 1. Increased complexity
+ 2. Performance overhead
+ 3. Single point of failure
+ 

@@ -34,6 +34,19 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "4548243be92cc8ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CES-WORK/Requirement/RETAIL/RETAIL-5658.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
         ],
         "currentTab": 1
@@ -65,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "account",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,32 +213,40 @@
   "lastOpenFiles": [
     "CES-WORK/Tracking Task.md",
     "CES-WORK/Requirement/MPS/MPS-124.md",
-    "CES-WORK/Requirement/Diagrams/Drawing 2023-03-29 20.27.14.excalidraw.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-22261.md",
-    "Daily Task.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-8026.md",
-    "Personal_Scope/Technical/Architecture/SagaPattern for microservices.md",
-    "().md",
-    "CES-WORK/RETOPS/RETOPS-25295.md",
-    "CES-WORK/Requirement/RBC/RBC-21854.md",
-    "CES-WORK/Requirement/DIMS/DIMS-1056.md",
-    "CES-WORK/Requirement/DIMS/DIMS-947.md",
-    "CES-WORK/Requirement/Diagrams/DIMS-947.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-22146.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-22004.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-8033.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-8032.md",
-    "Pet Project/Personal Tracking.md",
-    "CES-WORK/WORK TRACK.md",
-    "CES-WORK/Business/CES Billing Process.pdf",
-    "CES-WORK/Business/ELECTRIC INDUSTRY OVERVIEW.md",
-    "Excalidraw/C4Model/Detail_Domain_Driven_Model.png",
+    "CES-WORK/Requirement/RETAIL/RETAIL-5658.md",
+    "Personal_Scope/Technical/Architecture/System Design Principles.md",
+    "CES-WORK/RETOPS/Payment.md",
+    "Excalidraw/Pasted image 20230413215403.png",
+    "Excalidraw/Pasted image 20230413215351.png",
+    "Excalidraw/Pasted image 20230413214843.png",
+    "Excalidraw/Pasted image 20230413162525.png",
+    "Personal_Scope/Technical/Architecture/How to design a rate limiter.md",
+    "Personal_Scope/LifeStyle/2023/What do you want.md",
+    "Personal_Scope/LifeStyle/2023/Udemy Training.md",
+    "Personal_Scope/LifeStyle/2023/True North.md",
+    "Personal_Scope/LifeStyle/2023/Strategy Planning.md",
+    "Personal_Scope/LifeStyle/2023/PluralSight Training.md",
+    "Personal_Scope/LifeStyle/2023/Ideal Paying Job.md",
+    "Personal_Scope/LifeStyle/2023/Live a worth life.md",
+    "Personal_Scope/LifeStyle/2023/Habit Improve.md",
+    "Personal_Scope/LifeStyle/2023/General Information.md",
+    "Personal_Scope/LifeStyle/2023/Function Programming.md",
+    "Personal_Scope/LifeStyle/2023/Architecture for pet project.md",
+    "Personal_Scope/LifeStyle/2023/Architect's Guide.md",
+    "Personal_Scope/LifeStyle/2023/Software Development.md",
+    "Personal_Scope/Technical/Software Design/Domain Driven Design.md",
+    "Excalidraw/Pasted image 20230411111619.png",
+    "Excalidraw/Pasted image 20230411111545.png",
+    "Excalidraw/Pasted image 20230411105051.png",
+    "Excalidraw/Pasted image 20230411104647.png",
+    "Excalidraw/Pasted image 20230411104458.png",
+    "Excalidraw/Pasted image 20230410224142.png",
+    "Personal_Scope/Private_Information/Accounts.md",
     "Pet Project/Diagrams/Admin Site.md",
-    "CES-WORK/Requirement/DIMS/DIMS-21644.md",
-    "CES-WORK/Requirement/DIMS/DIMS-22216.md",
-    "Profiles/Info.md",
-    "CES-WORK/Requirement/RETAIL-22261.md",
-    "MPS.md",
+    "CES-WORK/Requirement/Diagrams/Drawing 2023-03-29 20.27.14.excalidraw.md",
+    "CES-WORK/Guideline/Training/SSIS Information.md",
+    "CES-WORK/Requirement/RETAIL/RETAIL-22261.md",
+    "CES-WORK/Business/CES Billing Process.pdf",
     "Pet Project/Technical/NET Documents.canvas",
     "Pet Project/Requirement",
     "textgenerator/prompts/trash/huggingface",
@@ -235,10 +256,6 @@
     "textgenerator/prompts/huggingface",
     "textgenerator/prompts",
     "textgenerator",
-    "Excalidraw/Pasted image 20230318103422.png",
-    "Excalidraw/Pasted image 20230318102042.png",
-    "Excalidraw/Pasted image 20230318101719.png",
-    "Pet Project/Technical",
-    "Excalidraw/Pasted image 20230306085855.png"
+    "Pet Project/Technical"
   ]
 }

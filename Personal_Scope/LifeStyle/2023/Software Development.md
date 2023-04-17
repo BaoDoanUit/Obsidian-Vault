@@ -56,6 +56,16 @@ try to make it clear and how to solve the problem
 
 
 
+## Balancing Architecture and Hands-on Coding
+
+An architecture should stay in technical side with the development team by aquiring the methodologies below;
+- Developing automation tool which assesses architectural decisions, code quality and other metrics in the codebase.
+- Attending the code reviews
+- Writing code but fixing some bugs at least.
+- Let the team pay the technical debts or paying himself at least.
+- Avoiding being a bottleneck to the team: While the project is growing, an architect may own some parts of project that team does not want to change. After this situation occurs, some development tasks might be impede and it should be avoided.
+
+A benefit of doing the methods above is defining architecture problems from inside, from developers' point of view.
 
 
 
