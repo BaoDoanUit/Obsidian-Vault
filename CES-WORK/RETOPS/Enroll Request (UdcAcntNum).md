@@ -11,7 +11,7 @@
      - NULL	PE000008769063244166
 
 ### PROCEDURE [blu].[usp_enroll_request_merge]
-![[Pasted image 20230220164341.png]]
+![[UdcAcntNumb.png]]
 
 ### PROC [blu].[usp_enroll_request_batch_process_bulk]
 table : fil.tbl_enroll_request_batch_staging_bulk

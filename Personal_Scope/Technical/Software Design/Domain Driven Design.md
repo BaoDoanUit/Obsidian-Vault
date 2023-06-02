@@ -1,12 +1,10 @@
 
-Overall
-![[Pasted image 20230411104458.png]]
-![[Pasted image 20230411104647.png]]
+<mark style="background: transparent;">Overall</mark><mark style="background: transparent;">![[DDD-1.png]]
+![[DDD-2.png]]</mark>
 
-DDD solve Business logic complexity
-![[Pasted image 20230411105051.png]]
+<mark style="background: transparent;">DDD solve Business logic complexity</mark><mark style="background: transparent;">
+![[DDD-3.png]]</mark>
 
-Main Concepts of Domain-driven Design
-![[Pasted image 20230411111619.png]]
+<mark style="background: transparent;">Main Concepts of Domain-driven Design</mark><mark style="background: transparent;">![[DDD-5.png]]</mark>
 
 DDD is not only about writing code

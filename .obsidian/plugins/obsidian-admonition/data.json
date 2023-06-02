@@ -11,7 +11,7 @@
   "hideEmpty": false,
   "open": {
     "admonitions": true,
-    "icons": true,
+    "icons": false,
     "other": true,
     "advanced": false
   },
@@ -19,6 +19,6 @@
   "useFontAwesome": true,
   "rpgDownloadedOnce": false,
   "msDocConverted": true,
-  "useSnippet": false,
+  "useSnippet": true,
   "snippetPath": "custom-admonitions.680ce8"
 }

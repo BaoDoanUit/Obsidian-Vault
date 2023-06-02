@@ -6,5 +6,10 @@
   "interfaceFontFamily": "Fira Code",
   "textFontFamily": "Fira Code",
   "monospaceFontFamily": "Fira Code",
-  "showViewHeader": false
+  "showViewHeader": false,
+  "enabledCssSnippets": [
+    "awesome-brain-manager",
+    "custom-admonitions.680ce8",
+    "bao-styles"
+  ]
 }

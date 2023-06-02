@@ -8,7 +8,7 @@
   "pinCoverMode": true,
   "imageMoveSpeed": 10,
   "imgTipToggle": true,
-  "imgFullScreenMode": "FIT",
+  "imgFullScreenMode": "STRETCH",
   "imgViewBackgroundColor": "#00000000",
   "imageBorderToggle": false,
   "imageBorderWidth": "medium",

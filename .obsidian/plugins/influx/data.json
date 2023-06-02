@@ -1,8 +1,8 @@
 {
   "settings": {
-    "liveUpdate": true,
-    "sortingPrinciple": "OLDEST_FIRST",
-    "sortingAttribute": "ctime",
+    "liveUpdate": false,
+    "sortingPrinciple": "NEWEST_FIRST",
+    "sortingAttribute": "mtime",
     "showBehaviour": "OPT_OUT",
     "exclusionPattern": [],
     "inclusionPattern": [],
@@ -15,8 +15,8 @@
     "listLimit": 0,
     "variant": "CENTER_ALIGNED",
     "fontSize": 13,
-    "entryHeaderVisible": true,
-    "influxAtTopOfPage": false,
-    "hideInfluxWhileTyping": true
+    "entryHeaderVisible": false,
+    "influxAtTopOfPage": true,
+    "hideInfluxWhileTyping": false
   }
 }

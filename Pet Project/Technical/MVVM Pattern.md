@@ -1,5 +1,8 @@
+---
+up: [[MAUI]]
+---
 [Tutorial](https://learn.microsoft.com/en-us/dotnet/maui/tutorials/notes-mvvm/?view=net-maui-7.0)
-<table></table>MVVM Pattern
+
 The .NET MAUI developer experience typically involves creating a user interface in XAML, and then adding code-behind that operates on the user interface. Complex maintenance issues can arise as apps are modified and grow in size and scope. These issues include the tight coupling between the UI controls and the business logic, which increases the cost of making UI modifications, and the difficulty of unit testing such code.
 
 The model-view-viewmodel (MVVM) pattern helps cleanly separate an app's business and presentation logic from its user interface (UI). Maintaining a clean separation between app logic and the UI helps address numerous development issues and makes an app easier to test, maintain, and evolve. It can also significantly improve code reuse opportunities and allows developers and UI designers to collaborate more easily when developing their respective parts of an app.
@@ -7,7 +10,8 @@ The model-view-viewmodel (MVVM) pattern helps cleanly separate an app's business
 The pattern
 There are three core components in the MVVM pattern: the model, the view, and the view model. Each serves a distinct purpose. The following diagram shows the relationships between the three components.
 
-![[Pasted image 20230318103422.png]]
+<mark style="background: transparent;"></mark><mark style="background: transparent;">![[MVVM-1.png]]</mark>
+
 In addition to understanding the responsibilities of each component, it's also important to understand how they interact. At a high level, the view "knows about" the view model, and the view model "knows about" the model, but the model is unaware of the view model, and the view model is unaware of the view. Therefore, the view model isolates the view from the model, and allows the model to evolve independently of the view.
 The key to using MVVM effectively lies in understanding how to factor app code into the correct classes and how the classes interact.
 

@@ -11,8 +11,8 @@ blu.tbl_billing_account ba
 blu.tbl_payment p
 blu.tbl_payment_allocation a
 ```
-![[Pasted image 20230413214843.png]]
+![[Payment-1.png]]
 
 proc get list payment -- blu.usp_payment_select
-![[Pasted image 20230413215403.png]]
-![[Pasted image 20230413215351.png]]
+![[Payment-3.png]]
+![[Payment-2.png]]

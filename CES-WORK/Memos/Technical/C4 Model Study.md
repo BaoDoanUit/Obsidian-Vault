@@ -20,11 +20,11 @@ Một số gợi ý để có thể tạo tài liệu C4 model hiệu quả:
 -   Hãy nghĩ về tài liệu bổ sung như một cuốn sách hướng dẫn bao gồm bản đồ, điểm ưa thích, điểm tham quan, hành trình, lịch sử, văn hóa, thông tin thực tế,… . Do đó tài liệu này phải thật đơn giản nhưng đầy đủ để có thể đọc được trong 1-2 giờ và cung cấp cho các nhà phát triển phần mềm đầy đủ thông tin để bắt đầu, thúc đẩy quá trình khám phá một hệ thống không quen thuộc với họ.
 -   Tài liệu không phải là nhiệm vụ một lần. Thay vào đó, hãy tạo tài liệu và luôn luôn cập nhật và phát triển liên tục. Hãy tự động cập nhật nó bằng cách sử dụng công cụ hoặc bằng cách thêm một mục vào “định nghĩa về việc đã làm” của bạn.
 -   Có nhiều tùy chọn dụng cụ; từ Microsoft Word và Atlassian Confluence đến các tập tin Markdown và AsciiDoc được phiên bản cùng với mã nguồn. Giảm trùng lặp và tăng tính nhất quán bằng cách tạo sơ đồ và tài liệu từ một nguồn nếu có thể.
-- 
+
 
 ![[visualising-software-architecture.pdf]]
 
-https://www.youtube.com/watch?v=e-JBV2ZsIkk&t=388s
+[Video](https://www.youtube.com/watch?v=e-JBV2ZsIkk&t=388s)
 Combine [Arc42](https://arc42.org/overview) vs [C4Model](https://www.ibm.com/garage/method/practices/code/c4-model-for-software-architecture/)
 -   Context and Scope => [System Context diagram](https://en.wikipedia.org/wiki/System_context_diagram)  
 -   Level 1 Building Block View => [Container diagram](https://www.hava.io/blog/container-diagram-generator)

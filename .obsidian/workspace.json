@@ -4,31 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dee7b6238837bcc4",
+        "id": "ac10083568d329fc",
         "type": "tabs",
         "children": [
           {
-            "id": "549b19798ad28234",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CES-WORK/Tracking Task.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "e0434c0a0b20d509",
+            "id": "7422c927552f8626",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CES-WORK/Requirement/MPS/MPS-124.md",
+                "file": "Personal_Scope/Technical/Software Design/UnitTesting/UnitTest.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -36,15 +21,12 @@
             }
           },
           {
-            "id": "4548243be92cc8ac",
+            "id": "7dcf41a1532ecbaa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "CES-WORK/Requirement/RETAIL/RETAIL-5658.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
+                "file": "Personal_Scope/Books/Technologies/Analystic.md"
               }
             }
           }
@@ -78,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "account",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,12 +76,20 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "501fd51f3d8f11d7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 351.5,
     "collapsed": true
   },
   "right": {
@@ -111,45 +101,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c42347ff760d5c0e",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "CES-WORK/Requirement/MPS/MPS-124.md"
-              }
-            }
-          },
-          {
-            "id": "fc863653bc75c5b7",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "CES-WORK/Requirement/MPS/MPS-124.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "8045e2ab287f3d7a",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
+                "sortOrder": "alphabetical",
                 "useHierarchy": true
               }
             }
           },
           {
-            "id": "210a2ffe9b43dfcf",
+            "id": "39d4b3d0eb561df5",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CES-WORK/Requirement/MPS/MPS-124.md",
+                "file": "Personal_Scope/Books/Technologies/Analystic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,27 +129,29 @@
             }
           },
           {
-            "id": "d78f147fadc09f66",
+            "id": "a945725d3e935878",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CES-WORK/Requirement/MPS/MPS-124.md",
+                "file": "Personal_Scope/Books/Technologies/Analystic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "9b6865c704ca4995",
+            "id": "7d7af1432b01458d",
             "type": "leaf",
             "state": {
-              "type": "BC-matrix",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "Personal_Scope/Books/Technologies/Analystic.md"
+              }
             }
           },
           {
-            "id": "a6baeca70eed21b5",
+            "id": "427b85e9ddf56d9e",
             "type": "leaf",
             "state": {
               "type": "BC-tree",
@@ -189,16 +159,15 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 258.5,
+    "width": 307.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-kindle-plugin:Sync your Kindle highlights": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -209,53 +178,54 @@
       "breadcrumbs:Breadcrumbs Visualisation": false
     }
   },
-  "active": "e0434c0a0b20d509",
+  "active": "7dcf41a1532ecbaa",
   "lastOpenFiles": [
-    "CES-WORK/Tracking Task.md",
-    "CES-WORK/Requirement/MPS/MPS-124.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-5658.md",
-    "Personal_Scope/Technical/Architecture/System Design Principles.md",
-    "CES-WORK/RETOPS/Payment.md",
-    "Excalidraw/Pasted image 20230413215403.png",
-    "Excalidraw/Pasted image 20230413215351.png",
-    "Excalidraw/Pasted image 20230413214843.png",
-    "Excalidraw/Pasted image 20230413162525.png",
-    "Personal_Scope/Technical/Architecture/How to design a rate limiter.md",
-    "Personal_Scope/LifeStyle/2023/What do you want.md",
-    "Personal_Scope/LifeStyle/2023/Udemy Training.md",
-    "Personal_Scope/LifeStyle/2023/True North.md",
-    "Personal_Scope/LifeStyle/2023/Strategy Planning.md",
-    "Personal_Scope/LifeStyle/2023/PluralSight Training.md",
-    "Personal_Scope/LifeStyle/2023/Ideal Paying Job.md",
-    "Personal_Scope/LifeStyle/2023/Live a worth life.md",
-    "Personal_Scope/LifeStyle/2023/Habit Improve.md",
-    "Personal_Scope/LifeStyle/2023/General Information.md",
-    "Personal_Scope/LifeStyle/2023/Function Programming.md",
-    "Personal_Scope/LifeStyle/2023/Architecture for pet project.md",
-    "Personal_Scope/LifeStyle/2023/Architect's Guide.md",
-    "Personal_Scope/LifeStyle/2023/Software Development.md",
-    "Personal_Scope/Technical/Software Design/Domain Driven Design.md",
-    "Excalidraw/Pasted image 20230411111619.png",
-    "Excalidraw/Pasted image 20230411111545.png",
-    "Excalidraw/Pasted image 20230411105051.png",
-    "Excalidraw/Pasted image 20230411104647.png",
-    "Excalidraw/Pasted image 20230411104458.png",
-    "Excalidraw/Pasted image 20230410224142.png",
-    "Personal_Scope/Private_Information/Accounts.md",
-    "Pet Project/Diagrams/Admin Site.md",
-    "CES-WORK/Requirement/Diagrams/Drawing 2023-03-29 20.27.14.excalidraw.md",
-    "CES-WORK/Guideline/Training/SSIS Information.md",
-    "CES-WORK/Requirement/RETAIL/RETAIL-22261.md",
-    "CES-WORK/Business/CES Billing Process.pdf",
-    "Pet Project/Technical/NET Documents.canvas",
-    "Pet Project/Requirement",
-    "textgenerator/prompts/trash/huggingface",
-    "textgenerator/prompts/trash",
-    "textgenerator/prompts/trash/default",
-    "textgenerator/prompts/default",
-    "textgenerator/prompts/huggingface",
-    "textgenerator/prompts",
-    "textgenerator",
-    "Pet Project/Technical"
+    "Personal_Scope/Books/Technologies/Documents/analytic-functions-part-1-slides.pdf",
+    "Personal_Scope/Technical/Software Design/UnitTesting/UnitTest.md",
+    "Untitled 1.table.md",
+    "Personal_Scope/Technical/Software Design/UnitTesting/Untitled 1.table",
+    "Untitled.md",
+    "Untitled.table",
+    "Personal_Scope/Books/Technologies/Practical Entity Framework.md",
+    "Personal_Scope/Technical/Software Design/UnitTesting",
+    "Personal_Scope/Books/Technologies/The Pragmatic Programmer.md",
+    "Pet Project/Technical/EF Core.md",
+    "Personal_Scope/Technical/Software Design/EF Core Best Practices/Using EF Core in your tests.md",
+    "Excalidraw/Pasted image 20230523091622.png",
+    "Personal_Scope/Technical/Software Design/EF Core Best Practices/Using EF with Net Core Apps.md",
+    "Personal_Scope/Technical/Software Design/EF Core Best Practices/EF Core General.md",
+    "Personal_Scope/Technical/Software Design/EF Core Best Practices/Querying Data in EF Core.md",
+    "Excalidraw/Pasted image 20230529173904.png",
+    "Excalidraw/Pasted image 20230529152321.png",
+    "Excalidraw/Pasted image 20230529173802.png",
+    "Personal_Scope/Technical/Software Design/EF Core Best Practices/EF vs Views and Stored Procedure and Raw SQL.md",
+    "Excalidraw/Pasted image 20230529173637.png",
+    "Excalidraw/Pasted image 20230529161242.png",
+    "Excalidraw/Pasted image 20230529155530.png",
+    "Excalidraw/Pasted image 20230529154400.png",
+    "Excalidraw/Pasted image 20230529153039.png",
+    "Excalidraw/Pasted image 20230529152945.png",
+    "Personal_Scope/Books/Technologies/Building a Career in Software.md",
+    "Personal_Scope/Books/Technologies/Documents/Building a Career in Software_ - Daniel Heller.pdf",
+    "Personal_Scope/Books/Technologies/Documents/The Pragmatic Programmer_ From - Hunt, Andrew;Thomas, David 2.pdf",
+    "Personal_Scope/Books/Technologies/Documents/The Pragmatic Programmer_ From - Hunt, Andrew;Thomas, David.epub",
+    "Personal_Scope/Books/Technologies/The Pragmatic Programmer 1.md",
+    "Personal_Scope/Books/Technologies/Documents/The Pragmatic Programmer_ From - Hunt, Andrew;Thomas, David 1.pdf",
+    "Personal_Scope/Books/Technologies/Analystic.md",
+    "Personal_Scope/Books/Technologies/Documents/The Pragmatic Programmer_ From - Hunt, Andrew;Thomas, David.pdf",
+    "Personal_Scope/Books/Technologies/Documents/Practical Entity Framework_ Dat - Brian L. Gorman.pdf",
+    "CES-WORK/Memos/Technical/C4 Model Study.md",
+    "CES-WORK/Memos/Technical/Best practices for Microservices Web Application for Developers.md",
+    "CES-WORK/MPS Projects/Document/Business Requirement.md",
+    "CES-WORK/MPS Projects/Document/Take note timeline projects.md",
+    "CES-WORK/MPS Projects/Document/General Information.md",
+    "Pet Project/Business/General Business.md",
+    "Pet Project/Automation/General.md",
+    "Draft/Microservices and Data.md",
+    "Draft/How to overcome Procrastination.md",
+    "Draft/High Performance Networking.md",
+    "Draft/Chibi_1.md",
+    "Test.canvas",
+    "Pet Project/Technical/NET Documents.canvas"
   ]
 }

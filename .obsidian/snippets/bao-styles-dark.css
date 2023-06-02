@@ -1,0 +1,189 @@
+/*Note Paper Editor*/
+.markdown-source-view .cm-contentContainer {
+    padding : 10px;
+    /* border-radius: 5px; */
+}
+
+.cm-line {
+    border-bottom: 0.5px solid #dcdc;
+}
+
+/* Header */
+.cm-header-2 {
+    color: rgb(164, 24, 24);
+}
+
+.cm-header-3 {
+    color: rgb(164, 34, 34);
+}
+
+.cm-header-4 {
+    color: rgb(79, 43, 113);
+}
+
+.cm-header-5 {
+    color: rgb(201, 106, 11);
+}
+
+.markdown-preview-view  .markdown--sizer .markdown-preview-section{
+    border: 1px solid red;
+    padding : 5px;
+    border-radius: 5px;
+}
+
+.admonition  {
+    text-align: left;
+}
+.callout-title{
+    margin-left: -10px;
+    /* color: rgb(164, 21, 21); */
+}
+.callout-title-inner{
+    padding-left: 5px;
+}
+.admonition-content {
+    padding-left: 15px;
+    padding-top: 10px;
+    font-style: italic;
+    font-size: large;
+    color: black;
+}
+
+
+
+/*View Mode*/
+
+.mod-header{
+    color: rgb(164, 24, 24);
+}
+
+.markdown-reading-view div h2{
+    color: rgb(164, 24, 24);
+    font-weight: 600;
+}
+.markdown-reading-view div h3{
+    color: rgb(164, 34, 34);
+    font-weight: 600;
+}
+.markdown-reading-view div h4{
+    color: rgb(79, 43, 113);
+    font-weight: 600;
+}
+.markdown-reading-view div h5 {
+    color: rgb(201, 106, 11);
+    font-weight: 600;
+}
+
+.markdown-reading-view .markdown-preview-sizer div h3{
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.markdown-reading-view .markdown-preview-view .markdown-preview-sizer div h5{
+    border-bottom: 1px solid rgb(201, 106, 11);
+}
+
+.markdown-reading-view .markdown-preview-view .markdown-preview-sizer div h4{
+    border-bottom: 1px solid rgb(79, 43, 113);
+}
+.markdown-reading-view .markdown-preview-view .markdown-preview-sizer div h3{
+    border-bottom: 1px solid rgb(164, 34, 34);;
+}
+.markdown-reading-view .markdown-preview-view .markdown-preview-sizer div h2{
+    border-bottom: 1px solid rgb(164, 24, 24);
+}
+
+.markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p:has(mark){
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p:has(img){
+    color : rgb(147, 28, 28);
+} */
+
+.markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p span:has(img){
+   margin-left: 15px;
+   /* max-width: 48%; */
+   max-height: 400px;
+}
+
+.markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p:has(mark) {
+    border-bottom: 1px solid brown;
+ }
+
+.markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p mark:not(img){
+    width: 150px;
+    color : #fff;
+    padding-top: 10px;
+ }
+
+.markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p mark:has(img){
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: flex-start;
+ }
+ .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p mark span {
+    /* width: 200px;
+    height: 150px; */
+    margin: 5px;
+ }
+
+ .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p mark span img {
+    /* width: 200px;
+    height: 150px; */
+    max-height: 400px;
+ }
+
+ .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div ol {
+    color: rgb(221, 24, 24);
+    border-bottom: 1px solid #dcdc;
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+    padding-left: 35px !important;
+ }
+ .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div ul {
+    color: #fff;
+    margin: 0 !important;
+    padding: 0 !important;
+    padding-left: 10px !important;
+    padding-top: 5px !important;
+    padding-left: 35px !important;
+ }
+
+ /* .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div ul li:has(img) {
+    list-style: none;
+ } */
+ 
+ .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p {
+    color: #fff;
+    padding-bottom: 10px;
+ }
+/*Images*/
+.markdown-reading-view .markdown-preview-view div p mark span img {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    margin-top: 3px;
+}
+
+/* img:hover{
+    transform: scale(3);
+    object-fit: scale-down !important;
+    border: 1px solid transparent !important;
+    margin-left: -120px;
+} */
+
+img{
+    max-height: 500px;
+}
+
+.tree-item-children .nav-file-title-content{
+    color:#fff;
+    
+}
