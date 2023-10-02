@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/Notes.md",
+                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/Notes.md",
+                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/Notes.md",
+                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/Notes.md"
+                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md"
               }
             }
           },
@@ -163,8 +163,9 @@
   },
   "active": "00ed59136d4f7a04",
   "lastOpenFiles": [
-    "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
     "Personal-WorkSpace/Learning/Entity Framework/Notes.md",
+    "Personal-WorkSpace/Learning/Entity Framework/Subtraction.md",
+    "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
     "Personal-WorkSpace/Personal Training/Swimming.md",
     "Personal-WorkSpace/Learning/Entity Framework",
     "Personal-WorkSpace/Learning",
@@ -196,7 +197,6 @@
     "Personal-WorkSpace/LifeStyle/Special Events.md",
     "CES-WORK/Guideline/Deployment/AzureDevOps.md",
     "Personal-WorkSpace/LifeStyle/Guitar.md",
-    "Personal-WorkSpace/LifeStyle/Work Strategy.md",
     "Gallery/Pasted image 20230921110725.png",
     "CES-WORK/Memos/Deployment",
     "Gallery/Pasted image 20230921100209.png",
