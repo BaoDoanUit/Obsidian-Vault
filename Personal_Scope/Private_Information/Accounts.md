@@ -1,4 +1,4 @@
-<mark style="background: transparent;">Paycom account question secret</mark><mark style="background: transparent;">![[Account Secret Question PayCom.png]]</mark>
+Paycom account question secret![[Account Secret Question PayCom.png]]
 
 0M099A0D4
 Qn@0982190003
@@ -16,6 +16,6 @@ BD_ks&5461$
 
 Password bank
 15he19*m6F
-	
+
 Password
 48FPw2DLPxHDy@P

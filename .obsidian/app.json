@@ -1,6 +1,6 @@
 {
   "showUnsupportedFiles": true,
-  "attachmentFolderPath": "Excalidraw",
+  "attachmentFolderPath": "Gallery",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
   "autoPairBrackets": true,
@@ -22,7 +22,11 @@
   "userIgnoreFilters": [
     "Fonts/"
   ],
-  "showInlineTitle": true,
+  "showInlineTitle": false,
   "showIndentGuide": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "focusNewTab": true,
+  "trashOption": "none",
+  "newLinkFormat": "relative",
+  "newFileLocation": "current"
 }

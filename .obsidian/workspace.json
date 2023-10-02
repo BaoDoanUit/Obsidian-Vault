@@ -4,34 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "ac10083568d329fc",
+        "id": "febe1221a45f4112",
         "type": "tabs",
         "children": [
           {
-            "id": "7422c927552f8626",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal_Scope/Technical/Software Design/UnitTesting/UnitTest.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7dcf41a1532ecbaa",
+            "id": "29431427bf727c92",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
               "state": {
-                "file": "Personal_Scope/Books/Technologies/Analystic.md"
+                "file": "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -45,13 +31,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "133061ed01521d07",
+            "id": "501fd51f3d8f11d7",
             "type": "leaf",
             "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical"
-              }
+              "type": "bookmarks",
+              "state": {}
             }
           },
           {
@@ -65,31 +49,26 @@
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabeticalReverse"
               }
             }
           },
           {
-            "id": "3c5bbded36e11f55",
+            "id": "3e7b26e7c16af0bc",
             "type": "leaf",
             "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "501fd51f3d8f11d7",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 351.5,
+    "width": 389.5,
     "collapsed": true
   },
   "right": {
@@ -106,18 +85,30 @@
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "frequency",
                 "useHierarchy": true
               }
             }
           },
           {
-            "id": "39d4b3d0eb561df5",
+            "id": "a945725d3e935878",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "34185a4bee66642a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal_Scope/Books/Technologies/Analystic.md",
+                "file": "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,41 +120,30 @@
             }
           },
           {
-            "id": "a945725d3e935878",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Personal_Scope/Books/Technologies/Analystic.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "7d7af1432b01458d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal_Scope/Books/Technologies/Analystic.md"
+                "file": "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes.md"
               }
             }
           },
           {
-            "id": "427b85e9ddf56d9e",
+            "id": "e0a7b04ca0d934f7",
             "type": "leaf",
             "state": {
-              "type": "BC-tree",
-              "state": {}
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 307.5,
+    "width": 241.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -171,60 +151,65 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "command-palette:Open command palette": true,
+      "obsidian-extract-pdf-highlights:PDF Highlights": true,
       "omnisearch:Omnisearch": false,
-      "obsidian-extract-pdf-highlights:PDF Highlights": false,
-      "breadcrumbs:Breadcrumbs Visualisation": false
+      "workspaces:Manage workspace layouts": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7dcf41a1532ecbaa",
+  "active": "29431427bf727c92",
   "lastOpenFiles": [
-    "Personal_Scope/Books/Technologies/Documents/analytic-functions-part-1-slides.pdf",
-    "Personal_Scope/Technical/Software Design/UnitTesting/UnitTest.md",
-    "Untitled 1.table.md",
-    "Personal_Scope/Technical/Software Design/UnitTesting/Untitled 1.table",
-    "Untitled.md",
-    "Untitled.table",
-    "Personal_Scope/Books/Technologies/Practical Entity Framework.md",
-    "Personal_Scope/Technical/Software Design/UnitTesting",
-    "Personal_Scope/Books/Technologies/The Pragmatic Programmer.md",
-    "Pet Project/Technical/EF Core.md",
-    "Personal_Scope/Technical/Software Design/EF Core Best Practices/Using EF Core in your tests.md",
-    "Excalidraw/Pasted image 20230523091622.png",
-    "Personal_Scope/Technical/Software Design/EF Core Best Practices/Using EF with Net Core Apps.md",
-    "Personal_Scope/Technical/Software Design/EF Core Best Practices/EF Core General.md",
-    "Personal_Scope/Technical/Software Design/EF Core Best Practices/Querying Data in EF Core.md",
-    "Excalidraw/Pasted image 20230529173904.png",
-    "Excalidraw/Pasted image 20230529152321.png",
-    "Excalidraw/Pasted image 20230529173802.png",
-    "Personal_Scope/Technical/Software Design/EF Core Best Practices/EF vs Views and Stored Procedure and Raw SQL.md",
-    "Excalidraw/Pasted image 20230529173637.png",
-    "Excalidraw/Pasted image 20230529161242.png",
-    "Excalidraw/Pasted image 20230529155530.png",
-    "Excalidraw/Pasted image 20230529154400.png",
-    "Excalidraw/Pasted image 20230529153039.png",
-    "Excalidraw/Pasted image 20230529152945.png",
-    "Personal_Scope/Books/Technologies/Building a Career in Software.md",
-    "Personal_Scope/Books/Technologies/Documents/Building a Career in Software_ - Daniel Heller.pdf",
-    "Personal_Scope/Books/Technologies/Documents/The Pragmatic Programmer_ From - Hunt, Andrew;Thomas, David 2.pdf",
-    "Personal_Scope/Books/Technologies/Documents/The Pragmatic Programmer_ From - Hunt, Andrew;Thomas, David.epub",
-    "Personal_Scope/Books/Technologies/The Pragmatic Programmer 1.md",
-    "Personal_Scope/Books/Technologies/Documents/The Pragmatic Programmer_ From - Hunt, Andrew;Thomas, David 1.pdf",
-    "Personal_Scope/Books/Technologies/Analystic.md",
-    "Personal_Scope/Books/Technologies/Documents/The Pragmatic Programmer_ From - Hunt, Andrew;Thomas, David.pdf",
-    "Personal_Scope/Books/Technologies/Documents/Practical Entity Framework_ Dat - Brian L. Gorman.pdf",
-    "CES-WORK/Memos/Technical/C4 Model Study.md",
-    "CES-WORK/Memos/Technical/Best practices for Microservices Web Application for Developers.md",
-    "CES-WORK/MPS Projects/Document/Business Requirement.md",
-    "CES-WORK/MPS Projects/Document/Take note timeline projects.md",
-    "CES-WORK/MPS Projects/Document/General Information.md",
-    "Pet Project/Business/General Business.md",
-    "Pet Project/Automation/General.md",
-    "Draft/Microservices and Data.md",
-    "Draft/How to overcome Procrastination.md",
-    "Draft/High Performance Networking.md",
-    "Draft/Chibi_1.md",
+    "Personal_Scope/Books/Nutrition/Body by Science.md",
+    "CES-WORK/MPS-Project/Document/Business Requirement.md",
+    "CES-WORK/MPS-Project/Document/Calculator.md",
+    "CES-WORK/MPS-Project/Document/HedgeData-Business.md",
+    "CES-WORK/MPS-Project/Document/MPS CrossOps.md",
+    "CES-WORK/Overview of BLUE system.md",
+    "Profiles/Info.md",
+    "Business.canvas",
+    "Personal_Scope/Technical/Training/EF Core Best Practices/Encapsulating EF Core 6 Usage.md",
+    "CES-WORK/MPS-Project/Tickets/MPS-124.md",
+    "Personal_Scope/Personal Training/Learn English.md",
+    "Personal_Scope/Technical/Training/EF Core Best Practices",
+    "Personal_Scope/Technical/Training",
+    "Personal_Scope/Personal Training/Swimming.md",
+    "Personal_Scope/Personal Training/Training Session.md",
+    "Personal_Scope/Personal Training/Workout.md",
+    "Pet Project/Software Development.md",
+    "Gallery/Pasted image 20231001124936.png",
+    "Gallery/Pasted image 20231001115133.png",
+    "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
+    "Personal_Scope/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf",
+    "Draft/Drawing 2023-09-26 10.16.23.excalidraw.md",
+    "Personal_Scope/LifeStyle/PluralSight Planning.md",
+    "Personal_Scope/LifeStyle/Mindset of work.md",
+    "Personal_Scope/LifeStyle/Strategy Planning.md",
+    "Personal_Scope/LifeStyle/Special Events.md",
+    "CES-WORK/Guideline/Deployment/AzureDevOps.md",
+    "Personal_Scope/LifeStyle/Guitar.md",
+    "Personal_Scope/LifeStyle/Work Strategy.md",
+    "Personal_Scope/LifeStyle/Training Strategy.md",
+    "Personal_Scope/LifeStyle/The meaning of LIFE.md",
+    "Personal_Scope/LifeStyle/How to enter FLOW State.md",
+    "Gallery/Pasted image 20230921110725.png",
+    "CES-WORK/Memos/Deployment",
+    "Gallery/Pasted image 20230921100209.png",
+    "Personal_Scope/Travel Planning",
+    "CES-WORK/Business/CES Billing Process.pdf",
+    "Draft/Untitled Diagram.svg",
+    "Big-Picture/Personal-Thinking.canvas",
+    "Personal_Scope/Books/Nutrition/Documents/Body by Science - John R. Little.pdf",
+    "Personal_Scope/Books/Nutrition/Documents",
+    "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes - Catherine Shanahan M. D_.pdf",
+    "Personal_Scope/Books/Deep Nutrition_ Why Your Genes - Catherine Shanahan M. D_.pdf",
+    "Gallery/Pasted image 20230612214447.png",
+    "Gallery/Pasted image 20230731212006.png",
+    "Gallery/Pasted image 20230731211959.png",
+    "Gallery/Pasted image 20230731210525.png",
+    "Gallery/Pasted image 20230724184133.png",
+    "Canvas/Collection-Notes.canvas",
     "Test.canvas",
     "Pet Project/Technical/NET Documents.canvas"
   ]

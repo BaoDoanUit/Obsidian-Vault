@@ -8,32 +8,32 @@
 ##### EF Core began as an ORM (Object Relational Mapper)
 High Level ORM Benefit/ Developer productivity
 
-<mark style="background: transparent;">Coding consistency</mark><mark style="background: transparent;">![[EFCore-1.png]]</mark> 
+Coding consistency![[EFCore-1.png]]
 
 ##### Summary Project
 Publisher of Solo Author Book
 Using EF Core to Query a Db
 
 ##### EF query workflow
-(1)Express and execute query -> (2)EF Core reads model, works with provider to work out SQL -> (3)Send SQL DB -> (4)Receives tabular results -> (5)Materializes results as objects -> (6)Add tracking details to DbContext instance 
+(1)Express and execute query -> (2)EF Core reads model, works with provider to work out SQL -> (3)Send SQL DB -> (4)Receives tabular results -> (5)Materializes results as objects -> (6)Add tracking details to DbContext instance
 
-<mark style="background: transparent;">Query Workflow</mark><mark style="background: transparent;">![[Query Workflow]]</mark>
+Query Workflow![[Query Workflow]]
 
 Two Ways to Express LINQ Queries
 LINQ Method (context.Authors.ToList())
 LINQ Operator ((from a in context.Authors select a).ToList())
 Should choose LINQ Method
 
-##### Basics of querying EF Core and Linq 
+##### Basics of querying EF Core and Linq
 
-<mark style="background: transparent;">Don't define the query variable via Enumeration for read the data</mark>  <mark style="background: transparent;">![[EFCore-2.png]] </mark> 
+Don't define the query variable via Enumeration for read the data  ![[EFCore-2.png]]
 
-<mark style="background: transparent;">To get the variable if manipulate data.</mark><mark style="background: transparent;"> ![[EFCore-3.png]]</mark>
+To get the variable if manipulate data. ![[EFCore-3.png]]
 
 ##### Filtering, sorting and aggregating in queries
 
-<mark style="background: transparent;">Filtering Partial Text in Queries</mark> <mark style="background: transparent;">![[EFCore-4.png]]</mark>
- 
+Filtering Partial Text in Queries ![[EFCore-4.png]]
+
 1) Finding an Entity Using its Key Value
 - DbSet.Find(keyvalue)
 - This is the only task that Find can be used fo
@@ -44,11 +44,11 @@ Should choose LINQ Method
 - Skip(0).Take(10) -- Get First 10 rows
 - Skip(10).Take(10) -- Get Next 10 rows
 
-<mark style="background: transparent;">Example:</mark> <mark style="background: transparent;">![[EFCore-5.png]]</mark>
+Example: ![[EFCore-5.png]]
 
-<mark style="background: transparent;">Sorting</mark> <mark style="background: transparent;">![[EFCore-9.png]] </mark>
+Sorting ![[EFCore-9.png]]
 
-<mark style="background: transparent;">Wrong Example</mark> <mark style="background: transparent;">![[EFCore-6.png]]</mark>
+Wrong Example ![[EFCore-6.png]]
 
 ##### Aggregating Results in Queries
 First() - FirstAsync()
@@ -62,14 +62,13 @@ LongCount() - LongCountAsync()
 Min(), Max()
 Average(), Sum()
 
-<mark style="background: transparent;">No Aggregation: ToList(),AsEnumerable()</mark> <mark style="background: transparent;">![[EFCore-11.png]]</mark>
+No Aggregation: ToList(),AsEnumerable() ![[EFCore-11.png]]
 
 Explore the SQL queries that EF Core is building to you
 Improve query performance by deactivating tracking when not needed.
 
-<mark style="background: transparent;">Enhancing Query Performance When tracking is needed </mark><mark style="background: transparent;"> ![[EFCore-13.png]]</mark>
+Enhancing Query Performance When tracking is needed  ![[EFCore-13.png]]
 
-
-
-
-
+| Name | Age | Sex |
+| ---- | --- | --- |
+| Bao  | 10  | Male    |

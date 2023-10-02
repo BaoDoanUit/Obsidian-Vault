@@ -1,0 +1,16 @@
+💟 Link các video tui coi để học phát âm:
+Tất tần tật về 21 thanh mẫu và 36 vận mẫu trong tiếng trung 学汉语:   
+
+ • Tất tần tật về 21...  
+TỰ HỌC PHÁT ÂM TIẾNG TRUNG BÀI 1 : 24 PHỤ ÂM:   
+
+ • TỰ HỌC PHÁT ÂM TI...  
+TỰ HỌC PHÁT ÂM TIẾNG TRUNG BÀI 2: 16 NGUYÊN ÂM TRONG TIẾNG TRUNG:   
+
+ • TỰ HỌC PHÁT ÂM TI...  
+Học phát âm tiếng Trung cơ bản từ đầu 5 Thanh điệu và biến điệu:   
+
+ • Học phát âm tiếng...  
+Pronunciation training:   
+
+ • Master Chinese "z...  

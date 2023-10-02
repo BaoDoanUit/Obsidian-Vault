@@ -1,8 +1,8 @@
 #### Overview
-<mark style="background: transparent;">.NET for Android, .NET for iOS, .NET for macOS, and Windows UI 3 (WinUI 3) library have access to the same .NET base class library (BCL)  [[MVVM Pattern]]</mark> <mark style="background: transparent;">![[MAUI-1.png]]
-![[MAUI-2.png]]</mark>
+.NET for Android, .NET for iOS, .NET for macOS, and Windows UI 3 (WinUI 3) library have access to the same .NET base class library (BCL)  [[MVVM Pattern]] ![[MAUI-1.png]]
+![[MAUI-2.png]]
 
-##### What .NET MAUI provides 
+##### What .NET MAUI provides
 1) .NET MAUI provides a collection of controls:
 - An elaborate layout engine for designing pages.
 - Multiple page types for creating rich navigation types, like drawers.
@@ -14,7 +14,7 @@
 - .NET hot reload, so that you can modify both your XAML and your managed source code while the app is running, then observe the result of your modifications without rebuilding the app. For more information, see .NET hot reload.
 
 2) Cross-platform APIs for device features
-- .NET MAUI provides cross-platform APIs for native device features. 
+- .NET MAUI provides cross-platform APIs for native device features.
 - Access to sensors, such as the accelerometer, compass, and gyroscope on devices.
 - Ability to check the device's network connectivity state, and detect changes.
 - Provide information about the device the app is running on.

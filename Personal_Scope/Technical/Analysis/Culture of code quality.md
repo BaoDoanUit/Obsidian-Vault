@@ -10,17 +10,18 @@ Use the power of group to advise and evaluate the best solution for your problem
 Challenge: Intimate understanding of the problem is needed to find subtle issues within the solution. Pick your patner wisely.
 
 
-Defect finding 
+Defect finding
 Now that an approrite solution path has been chosen and the first lines of code have been writen, it's time to pause and see if you can discover bugs and defects in the solution. The solution is reviewed to ensure the overal factoring makes sense , the right abstractions were chosen and core algorithms can perform what is needed.
 
 Challenge: Deep domain knowledge and understandign of the problem space are needed to discover subtle defects, bugs, and other quality-related issues
 
-Readability - Skip 
-When working on smaller features or stable code bases
-- Feature small, localized changes (the bulk of a change should usually be in one file/class)
-- Short-lived branches (1-3 days max)
-- 90% of reviews should not need more than two reviewer (most should do with one)
-- Pair program with someone who is a qualified reviewer for the code so your code is reviewed as you go along
-- Learn into in-person reviews where the reviewee can walk the reviewer through the code and the reviewer can ask questions online
-- During the review, focus on education, readability, maintainability, and accident prevention.
+Readability - Skip
+
+>### When working on smaller features or stable code bases
+Feature small, localized changes (the bulk of a change should usually be in one file/class)
+Short-lived branches (1-3 days max)
+90% of reviews should not need more than two reviewer (most should do with one)
+Pair program with someone who is a qualified reviewer for the code so your code is reviewed as you go along
+Learn into in-person reviews where the reviewee can walk the reviewer through the code and the reviewer can ask questions online
+During the review, focus on education, readability, maintainability, and accident prevention.
 

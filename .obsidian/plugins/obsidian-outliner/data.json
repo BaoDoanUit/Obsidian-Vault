@@ -1,7 +1,7 @@
 {
   "styleLists": false,
   "debug": false,
-  "stickCursor": "never",
+  "stickCursor": "bullet-only",
   "betterEnter": false,
   "betterTab": false,
   "selectAll": false,

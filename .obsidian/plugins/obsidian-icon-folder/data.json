@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
-      "SiXdadevelopers",
-      "FabAndroid",
-      "FabFirstdraft",
-      "IbDocumentPhoto",
-      "SiBookstack"
+      "IbRectangleSmallWithBlocks",
+      "Fab500px",
+      "SiDependabot",
+      "SiPicardsurgeles",
+      "FabKeycdn"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -19,13 +19,22 @@
       "bottom": 0,
       "left": 0
     },
-    "emojiStyle": "none"
+    "emojiStyle": "none",
+    "iconInTabsEnabled": false
   },
-  "Photos": "IbPhoto",
   "Personal_Scope": "SiAtom",
-  "CES-WORK": "SiProgress",
-  "Excalidraw": "IbDocumentPhoto",
   "Draft": "FabFirstdraft",
   "Pet Project": "FabAndroid",
-  "Profiles": "SiXdadevelopers"
+  "Profiles": "SiXdadevelopers",
+  "Gallery": "IbDocumentPhoto",
+  "CES-WORK": "IbRectangleSmallWithBlocks",
+  "CES-WORK/Overview of BLUE system.md": {
+    "iconName": null,
+    "inheritanceIcon": "SiXdadevelopers"
+  },
+  "Big-Picture": {
+    "iconName": "SiPicardsurgeles",
+    "inheritanceIcon": "FabKeycdn"
+  },
+  "Big-Picture/Personal-Thinking.canvas": "SiDependabot"
 }

@@ -16,6 +16,6 @@ The system architecture diagram is drawn for software developers, so this archit
 - It is necessary to clearly describe how many modules are in the system, the responsibilities of each module, and where the boundaries of each module
 - The relationship between modules and how they communicate
 - How to transfer data between modules.
-[C4 Model]([https://c4model.com](https://c4model.com/)
+[C4 Model]([https://c4model.com])
 ![[Arch2_Diagram.webp]]
 Architecture is a very abstract thing. It takes a long time to understand architecture. It is more difficult to draw the system architecture through your own understanding.

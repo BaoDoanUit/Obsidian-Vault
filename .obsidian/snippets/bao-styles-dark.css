@@ -5,9 +5,11 @@
 }
 
 .cm-line {
-    border-bottom: 0.5px solid #dcdc;
+    border-bottom: 1px solid #dcdc;
 }
-
+.cm-line:last-child {
+    border-color: transparent;
+}
 /* Header */
 .cm-header-2 {
     color: rgb(164, 24, 24);
@@ -44,9 +46,7 @@
 .admonition-content {
     padding-left: 15px;
     padding-top: 10px;
-    font-style: italic;
-    font-size: large;
-    color: black;
+    color: black !important;
 }
 
 
@@ -66,7 +66,7 @@
     font-weight: 600;
 }
 .markdown-reading-view div h4{
-    color: rgb(79, 43, 113);
+    color: rgb(160, 44, 120);
     font-weight: 600;
 }
 .markdown-reading-view div h5 {
@@ -83,7 +83,7 @@
 }
 
 .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div h4{
-    border-bottom: 1px solid rgb(79, 43, 113);
+    border-bottom: 1px solid rgb(160, 44, 120);
 }
 .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div h3{
     border-bottom: 1px solid rgb(164, 34, 34);;
@@ -109,12 +109,12 @@
 }
 
 .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p:has(mark) {
-    border-bottom: 1px solid brown;
+    /* border-bottom: 1px solid brown; */
  }
 
 .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p mark:not(img){
     width: 150px;
-    color : #fff;
+    color : rgb(16, 211, 185);
     padding-top: 10px;
  }
 
@@ -139,22 +139,40 @@
     max-height: 400px;
  }
 
- .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div ol {
-    color: rgb(221, 24, 24);
-    border-bottom: 1px solid #dcdc;
-    padding: 0 !important;
-    margin: 0 !important;
+ .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div ol{
+    padding-left: 0px;
+    padding-bottom: 0px !important;
     margin-bottom: 5px !important;
-    margin-top: 5px !important;
-    padding-left: 35px !important;
  }
- .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div ul {
-    color: #fff;
+
+ .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div ul{
+    padding-left: 0px;
+    padding-bottom: 0px !important;
+    margin-bottom: 5px !important;
+    padding-top: 0px !important;
+    margin-top: 0px !important;
+ }
+
+
+ .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div ol li {
+    color: rgb(7, 245, 150);
+    border-bottom: 1px solid #dcdc;
+    list-style:none;
+ }
+ .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div .has-list-bullet li{
+    color: rgb(255, 255, 255);
     margin: 0 !important;
     padding: 0 !important;
-    padding-left: 10px !important;
     padding-top: 5px !important;
     padding-left: 35px !important;
+    list-style: none;
+ }
+
+ .callout-content ul li{
+    padding-top: 5px !important;
+    padding-left: 5px;
+    list-style: none;
+    color: rgb(2, 0, 11);
  }
 
  /* .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div ul li:has(img) {
@@ -162,8 +180,9 @@
  } */
  
  .markdown-reading-view .markdown-preview-view .markdown-preview-sizer div p {
-    color: #fff;
-    padding-bottom: 10px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+    margin-bottom: 0px;
  }
 /*Images*/
 .markdown-reading-view .markdown-preview-view div p mark span img {
@@ -184,6 +203,50 @@ img{
 }
 
 .tree-item-children .nav-file-title-content{
-    color:#fff;
-    
+    color:rgb(132, 30, 227);
+}
+
+/*Tab Mode*/
+.tree-item-inner.nav-folder-title-content:nth-child(1) {
+    display: none;
+}
+
+/*Epub view mode*/
+#viewer{
+ border: 1px solid red !important;
+}
+
+.epub-container{
+    border: 2px solid black;
+    background-color: #dcdc;
+}
+
+/*Back-Link*/
+.cm-editor .embedded-backlinks {
+    display: none;
+}
+.markdown-reading-view .embedded-backlinks {
+    display: none;
+}
+
+table thead{
+    background-color: #dcdc;
+}
+
+table td {
+    /* color: rgb(149, 31, 31) !important; */
+    text-align: left !important;
+}
+
+table th {
+    color: rgb(149, 31, 31) !important;
+    text-align: left !important;
+}
+
+.markdown-reading-view .markdown-preview-sizer{
+    margin-top: -20px;
+}
+
+.global-nav-container {
+    display: none;
 }

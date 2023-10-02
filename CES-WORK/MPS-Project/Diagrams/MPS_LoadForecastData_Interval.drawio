@@ -1,0 +1,198 @@
+<mxfile host="Electron" modified="2023-06-20T08:24:53.013Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.8 Chrome/112.0.5615.165 Electron/24.2.0 Safari/537.36" etag="B7HS1EQHiaqzGZOuR66S" version="21.2.8" type="device">
+  <diagram name="Page-1" id="wDJ23AdpfB9dj9Zvvcwd">
+    <mxGraphModel dx="934" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="379.04" width="684.08" height="450.96" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-2" value="1. Start Date = Today() + 1&lt;br&gt;2. EndDate = EOMONTH (StartDate, [PositionMonth])&lt;br&gt;" style="rounded=0;html=1;align=left;horizontal=1;" vertex="1" parent="1">
+          <mxGeometry x="886" y="50" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-3" target="5rZE6PeOmjVxr1fyRuKJ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-3" value="1. Start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="663.5" y="10" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-96" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-4" target="5rZE6PeOmjVxr1fyRuKJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-4" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;2. Users inputs Company&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="641" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-6" target="5rZE6PeOmjVxr1fyRuKJ-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-6" value="3. Determine the Vendor / Source table for the company and number of months for which forecast data needs to inserted in table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="150" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-93" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-7" target="5rZE6PeOmjVxr1fyRuKJ-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-7" value="4. In MPS_LoadForecastData_Interval delete records for the Company for where [Date] &amp;gt;= StartDate and [Date] &amp;lt; EndDate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="230" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-91" value="Vendor table = MPS_ForecastData_CES" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-8" target="5rZE6PeOmjVxr1fyRuKJ-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-92" value="Vendor table = MPS_ForecastData_InnoWatts" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-8" target="5rZE6PeOmjVxr1fyRuKJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-8" value="5. Get all the Porfolios of input Company" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="576" y="320" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-9" value="MPS_Porfolio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="906" y="245" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-12" value="dbo.MPS_LoadForecastData_InnoWatts" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="86.00163934426229" y="379.0327868852459" width="261.6393442622951" height="30.98360655737705" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-14" value="10.1 Take the first Porfolio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225.172131147541" y="418.644262295082" width="185.32786885245898" height="29.95081967213115" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-15" value="10.2 Using Porfolio attributes, between StartDate and EndDate calculate [LoadMW]&amp;nbsp; for all HE intervals" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225.172131147541" y="469.2508196721312" width="185.32786885245898" height="72.29508196721311" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-14" target="5rZE6PeOmjVxr1fyRuKJ-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-17" value="10.3 Handle DST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225.172131147541" y="562.2016393442623" width="185.32786885245898" height="29.95081967213115" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-15" target="5rZE6PeOmjVxr1fyRuKJ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-18" value="10.4 Save [SourceTableName]&amp;nbsp; = &#39;MPS_LoadForecastData_InnoWatts&#39; and Coressponding&amp;nbsp; PK #ID in field [SourceTableRecordsID]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197.91803278688525" y="624.1688524590163" width="239.83606557377047" height="92.95081967213113" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-17" target="5rZE6PeOmjVxr1fyRuKJ-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-88" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-19" target="5rZE6PeOmjVxr1fyRuKJ-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-19" value="10.5 Are all Porfolios for &lt;br&gt;this company done?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="197.91803278688525" y="737.7754098360656" width="239.83606557377047" height="82.62295081967213" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-18" target="5rZE6PeOmjVxr1fyRuKJ-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-29" target="5rZE6PeOmjVxr1fyRuKJ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-29" value="10.6 Take the next Porfolio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="94.35245901639344" y="530.1852459016393" width="81.76229508196721" height="61.9672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-32" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-19" target="5rZE6PeOmjVxr1fyRuKJ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-34" value="LoadMW = STF if STF is available, else LTSF" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="445.18" y="448.3" width="270.82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-39" value="For LTSF - classify each date as WKDAY (Mon thru Fri) or WKEND (Sat and Sun). If it is NERC Holiday classify it as WKEND (tbl_nerc_holidays)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="445.18" y="488.3" width="270.82" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-40" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-15" target="5rZE6PeOmjVxr1fyRuKJ-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="366" y="378.3" as="sourcePoint" />
+            <mxPoint x="416" y="328.3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-41" value="Refer the table MPS_DST_Intervals. Btw LSD and LED&lt;br&gt;- Delete records where IntervalCount = 0&lt;br&gt;- Insert (duplicate) records where IntervalCount = 2" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="445.18" y="552.18" width="300.82" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-42" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="411" y="576.3" as="sourcePoint" />
+            <mxPoint x="445.18000000000006" y="576.462947071889" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-66" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="826" y="379.04" width="688.08" height="450.96" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-67" value="dbo.MPS_LoadForecastData_CES" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="836.0016393442623" y="379.0327868852459" width="261.6393442622951" height="30.98360655737705" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-68" value="11.1 Take the first Porfolio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="976.8221311475411" y="418.644262295082" width="185.32786885245898" height="29.95081967213115" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-69" value="11.2 Using Porfolio attributes, between StartDate and EndDate calculate [LoadMW]&amp;nbsp; for all HE intervals" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="976.8221311475411" y="469.2508196721312" width="185.32786885245898" height="72.29508196721311" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-68" target="5rZE6PeOmjVxr1fyRuKJ-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-71" value="10.3 Handle DST" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="976.8221311475411" y="562.2016393442623" width="185.32786885245898" height="29.95081967213115" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-69" target="5rZE6PeOmjVxr1fyRuKJ-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-73" value="10.4 Save [SourceTableName]&amp;nbsp; = &#39;MPS_LoadForecastData_InnoWatts&#39; and Coressponding&amp;nbsp; PK #ID in field [SourceTableRecordsID]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="949.5680327868853" y="624.1688524590163" width="239.83606557377047" height="92.95081967213113" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-71" target="5rZE6PeOmjVxr1fyRuKJ-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-87" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-75" target="5rZE6PeOmjVxr1fyRuKJ-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-75" value="10.5 Are all Porfolios for &lt;br&gt;this company done?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="949.5680327868853" y="737.7754098360656" width="239.83606557377047" height="82.62295081967213" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-73" target="5rZE6PeOmjVxr1fyRuKJ-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-78" target="5rZE6PeOmjVxr1fyRuKJ-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-78" value="10.6 Take the next Porfolio" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="846.0024590163936" y="530.1852459016393" width="81.76229508196721" height="61.9672131147541" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-79" value="No&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;align=center;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-75" target="5rZE6PeOmjVxr1fyRuKJ-78">
+          <mxGeometry x="0.0567" y="-9" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-80" value="LoadMW = STF if STF is available, else LTF" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="1196.83" y="448.3" width="270.82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-81" value="For LTSF - classify each date as WKDAY (Mon thru Fri) or WKEND (Sat and Sun). If it is NERC Holiday classify it as WKEND (tbl_nerc_holidays)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="1196.83" y="488.3" width="270.82" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-82" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-69" target="5rZE6PeOmjVxr1fyRuKJ-81">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1117.6499999999999" y="378.3" as="sourcePoint" />
+            <mxPoint x="1167.6499999999999" y="328.3" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-83" value="Use MPS_DST_Intervals to get Days when DST starts and DST Ends.&lt;br&gt;For days when DST Starts - HE= 3 is to be removed from table&lt;br&gt;For days when DST Starts - HE =2 is appears twice in the table" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="1196.83" y="539.76" width="300.82" height="96.12" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-84" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="5rZE6PeOmjVxr1fyRuKJ-83">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1162.6499999999999" y="576.3" as="sourcePoint" />
+            <mxPoint x="1196.1499999999999" y="577.68" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-86" value="20. End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="736" y="850" width="75" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-98" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="5rZE6PeOmjVxr1fyRuKJ-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="826" y="150" as="sourcePoint" />
+            <mxPoint x="766" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rZE6PeOmjVxr1fyRuKJ-99" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="5rZE6PeOmjVxr1fyRuKJ-8" target="5rZE6PeOmjVxr1fyRuKJ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="716" y="210" as="sourcePoint" />
+            <mxPoint x="766" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

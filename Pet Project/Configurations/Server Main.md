@@ -19,10 +19,9 @@ https://superuser.com/questions/1670429/create-a-https-tunnel-to-avoid-network-h
 https://linuxconfig.org/how-to-install-and-configure-dropbear-on-linux
 https://github.com/localtunnel/localtunnel/issues/120
 
-```ad-quote
- curl -O https://pagekite.net/pk/pagekite.py  
- python pagekite.py 42  baodoan.pagekite.me
-```
+> [!quote] Code
+curl -O https://pagekite.net/pk/pagekite.py  
+python pagekite.py 42  baodoan.pagekite.me
 
 
 

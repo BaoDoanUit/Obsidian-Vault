@@ -1,15 +1,13 @@
 {
   "accentColor": "#ef6b6b",
-  "cssTheme": "AnuPpuccin",
-  "theme": "moonstone",
-  "baseFontSize": 16,
-  "interfaceFontFamily": "Fira Code",
-  "textFontFamily": "Fira Code",
-  "monospaceFontFamily": "Fira Code",
+  "cssTheme": "Obsidian gruvbox",
+  "theme": "system",
+  "baseFontSize": 15,
+  "interfaceFontFamily": "Roboto Mono",
+  "textFontFamily": "Roboto Mono",
+  "monospaceFontFamily": "Roboto Mono",
   "showViewHeader": false,
-  "enabledCssSnippets": [
-    "awesome-brain-manager",
-    "custom-admonitions.680ce8",
-    "bao-styles"
-  ]
+  "enabledCssSnippets": [],
+  "nativeMenus": true,
+  "translucency": false
 }

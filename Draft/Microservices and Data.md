@@ -31,18 +31,13 @@ Query View
 
 Event Store ^RzFORAWE
 
-
-# Embedded files
-6204a8fa4c0f76ebb9d80eb67dabc4b51db1527d: [[Detail_Domain_Driven_Model.png]]
-e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
-
 %%
 # Drawing
 ```json
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://excalidraw.com",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.3",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -64,7 +59,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 44.800033569335945,
 			"seed": 252161560,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "gmEEoOu5wpzvFqrhdvY-5",
@@ -77,7 +72,10 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			],
 			"updated": 1669864493183,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "rectangle",
@@ -99,7 +97,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 34.4000244140625,
 			"seed": 180567656,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669185601682,
 			"link": null,
@@ -125,7 +123,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 43.20001220703125,
 			"seed": 568802664,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "mn7mn2M0kanAhjvHSlXyE",
@@ -138,7 +136,10 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			],
 			"updated": 1669864490959,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
@@ -156,11 +157,11 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"y": -177.26248168945312,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 143,
+			"width": 140.625,
 			"height": 24,
 			"seed": 852328984,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669185601682,
 			"link": null,
@@ -169,11 +170,12 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"fontFamily": 3,
 			"text": "Registration",
 			"rawText": "Registration",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Registration"
+			"originalText": "Registration",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "text",
@@ -191,11 +193,11 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"y": 155.83743286132812,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 95,
+			"width": 93.75,
 			"height": 24,
 			"seed": 2111992088,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864442360,
 			"link": null,
@@ -204,11 +206,12 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"fontFamily": 3,
 			"text": "Dispatch",
 			"rawText": "Dispatch",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Dispatch"
+			"originalText": "Dispatch",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "text",
@@ -226,11 +229,11 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"y": -183.36251831054688,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 84,
+			"width": 82.03125,
 			"height": 24,
 			"seed": 5169432,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669185601682,
 			"link": null,
@@ -239,11 +242,12 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"fontFamily": 3,
 			"text": "Finance",
 			"rawText": "Finance",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Finance"
+			"originalText": "Finance",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "line",
@@ -269,7 +273,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"6-ApSxZQj24ygra7z56Rz",
 				"D6rJfssHf9tB0ty7RHnPU"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1669185601682,
 			"link": null,
@@ -382,7 +388,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"6-ApSxZQj24ygra7z56Rz",
 				"D6rJfssHf9tB0ty7RHnPU"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669185601682,
 			"link": null,
@@ -412,7 +418,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"iUufnMO9K3Yr9Q4SIFDrY",
 				"LTASWs5AScdU63NHL5hih"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1669185601682,
 			"link": null,
@@ -525,7 +533,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"iUufnMO9K3Yr9Q4SIFDrY",
 				"LTASWs5AScdU63NHL5hih"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669185601682,
 			"link": null,
@@ -555,7 +563,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"ICfshRTOYCRjg2wK9qAhz",
 				"LRXLgG_VKgHcIue2a9ris"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1669864420624,
 			"link": null,
@@ -668,7 +678,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"ICfshRTOYCRjg2wK9qAhz",
 				"LRXLgG_VKgHcIue2a9ris"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669185601682,
 			"link": null,
@@ -696,7 +706,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"groupIds": [
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -756,7 +766,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"_S-ZDpGtK3yGIRCJ6jT6p",
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -785,7 +795,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"_S-ZDpGtK3yGIRCJ6jT6p",
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -836,7 +846,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"groupIds": [
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -880,7 +890,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"TYgdpCmLDpJ8FjWM5rPre",
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -909,7 +919,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"TYgdpCmLDpJ8FjWM5rPre",
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -961,7 +971,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"-2Eh46oyC-W3dSu2fCkjq",
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -990,7 +1000,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"-2Eh46oyC-W3dSu2fCkjq",
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -1035,13 +1045,13 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"y": 5.2695051842415985,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ced4da",
-			"width": 192,
-			"height": 16,
+			"width": 190.576171875,
+			"height": 15.619012995508943,
 			"seed": 234013288,
 			"groupIds": [
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "9uXWvguT069v4C-I9xOW0",
@@ -1055,15 +1065,19 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"updated": 1669864812280,
 			"link": null,
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"fontSize": 13.01584416292412,
 			"fontFamily": 3,
 			"text": "Message Queue (Rabbit MQ)",
 			"rawText": "Message Queue (Rabbit MQ)",
-			"baseline": 13,
 			"textAlign": "center",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Message Queue (Rabbit MQ)"
+			"originalText": "Message Queue (Rabbit MQ)",
+			"lineHeight": 1.2,
+			"baseline": 12
 		},
 		{
 			"type": "rectangle",
@@ -1088,7 +1102,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"u2TeOSa9W-Xajik9ZyRSX",
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -1117,7 +1131,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"u2TeOSa9W-Xajik9ZyRSX",
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -1169,7 +1183,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"FvLgzKeknm0hJ4pIa2UyO",
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -1198,7 +1212,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"FvLgzKeknm0hJ4pIa2UyO",
 				"EqS6TnIgpfgl1Ni0fhJnw"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -1243,13 +1257,13 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"y": 414.49814252919776,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 465,
-			"height": 62,
+			"width": 464.15582275390625,
+			"height": 67.2,
 			"seed": 1750378513,
 			"groupIds": [
 				"QrM1SxDlqrgpjyGIjr4EE"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864779017,
 			"link": "[[Event Sourcing]]",
@@ -1258,11 +1272,12 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"fontFamily": 4,
 			"text": "Event Sourcing Outgrows the Database\n",
 			"rawText": "Event Sourcing Outgrows the Database\n",
-			"baseline": 55,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Event Sourcing Outgrows the Database\n"
+			"originalText": "Event Sourcing Outgrows the Database\n",
+			"lineHeight": 1.2,
+			"baseline": 58
 		},
 		{
 			"type": "text",
@@ -1280,13 +1295,13 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"y": 466.2572018045237,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 247,
+			"width": 246.09375,
 			"height": 216,
 			"seed": 78127359,
 			"groupIds": [
 				"QrM1SxDlqrgpjyGIjr4EE"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669864779017,
 			"link": null,
@@ -1295,11 +1310,12 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"fontFamily": 3,
 			"text": "Event Sourcing?\n\nEvent Source Database\n\nStreams\n\nQuery View\n\n",
 			"rawText": "Event Sourcing?\n\nEvent Source Database\n\nStreams\n\nQuery View\n\n",
-			"baseline": 211,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Event Sourcing?\n\nEvent Source Database\n\nStreams\n\nQuery View\n\n"
+			"originalText": "Event Sourcing?\n\nEvent Source Database\n\nStreams\n\nQuery View\n\n",
+			"lineHeight": 1.2,
+			"baseline": 211
 		},
 		{
 			"type": "arrow",
@@ -1321,7 +1337,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 67.00000762939453,
 			"seed": 859537598,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1669864430096,
 			"link": null,
@@ -1366,7 +1384,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 75.00003814697266,
 			"seed": 507071294,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1669864437721,
 			"link": null,
@@ -1411,7 +1431,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 85.00235638528457,
 			"seed": 485603774,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1669864815161,
 			"link": null,
@@ -1456,7 +1478,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 80.00003814697271,
 			"seed": 938234110,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1669864449384,
 			"link": null,
@@ -1501,7 +1525,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 104.74249071322262,
 			"seed": 1241407614,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1669864812280,
 			"link": null,
@@ -1550,7 +1576,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 69.00005340576178,
 			"seed": 1169990334,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1669864493553,
 			"link": null,
@@ -1577,8 +1605,8 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 		},
 		{
 			"type": "line",
-			"version": 6184,
-			"versionNonce": 194725118,
+			"version": 6212,
+			"versionNonce": 447233543,
 			"isDeleted": false,
 			"id": "l4irkGOhXat3z3RVZD7tm",
 			"fillStyle": "solid",
@@ -1587,8 +1615,8 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 401.7175199462388,
-			"y": 63.44782986688946,
+			"x": 255.05085327957215,
+			"y": 114.11453722366024,
 			"strokeColor": "#000000",
 			"backgroundColor": "#ced4da",
 			"width": 71.66451803756424,
@@ -1599,9 +1627,11 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"e18TiPcrF3ANwOhJmmdXk",
 				"25kE4J3ctL5UqRszmBukD"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
-			"updated": 1669864773775,
+			"updated": 1695096262227,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1690,8 +1720,8 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 		},
 		{
 			"type": "ellipse",
-			"version": 7013,
-			"versionNonce": 40243682,
+			"version": 7041,
+			"versionNonce": 1904724457,
 			"isDeleted": false,
 			"id": "RYwvXlTtGsG9n3c58enqB",
 			"fillStyle": "solid",
@@ -1700,8 +1730,8 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 401.86802499215196,
-			"y": 56.23965960386154,
+			"x": 255.20135832548533,
+			"y": 106.90636696063231,
 			"strokeColor": "#000000",
 			"backgroundColor": "#fff",
 			"width": 71.20485008239825,
@@ -1712,16 +1742,16 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"e18TiPcrF3ANwOhJmmdXk",
 				"25kE4J3ctL5UqRszmBukD"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
-			"updated": 1669864773775,
+			"updated": 1695096262227,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "diamond",
-			"version": 1277,
-			"versionNonce": 1277556030,
+			"version": 1305,
+			"versionNonce": 589358375,
 			"isDeleted": false,
 			"id": "Tl_mMjC2WUhoxs_AYB9Hq",
 			"fillStyle": "solid",
@@ -1730,8 +1760,8 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 444.19443446579794,
-			"y": 77.93007288662119,
+			"x": 297.5277677991313,
+			"y": 128.59678024339195,
 			"strokeColor": "#000000",
 			"backgroundColor": "#868e96",
 			"width": 22.14493603658657,
@@ -1741,16 +1771,16 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"e18TiPcrF3ANwOhJmmdXk",
 				"25kE4J3ctL5UqRszmBukD"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
-			"updated": 1669864773775,
+			"updated": 1695096262227,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "ellipse",
-			"version": 1484,
-			"versionNonce": 1766688162,
+			"version": 1512,
+			"versionNonce": 1202234569,
 			"isDeleted": false,
 			"id": "bQBak8TbfYCm5iOmdfMWU",
 			"fillStyle": "solid",
@@ -1759,8 +1789,8 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 431.83447016630544,
-			"y": 117.06995983500724,
+			"x": 285.1678034996388,
+			"y": 167.736667191778,
 			"strokeColor": "#000000",
 			"backgroundColor": "#868e96",
 			"width": 23.68993157402284,
@@ -1770,16 +1800,16 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"e18TiPcrF3ANwOhJmmdXk",
 				"25kE4J3ctL5UqRszmBukD"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
-			"updated": 1669864773775,
+			"updated": 1695096262227,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "line",
-			"version": 2815,
-			"versionNonce": 1081122174,
+			"version": 2843,
+			"versionNonce": 1614260295,
 			"isDeleted": false,
 			"id": "DoCZ3_uolquouDRg9g21n",
 			"fillStyle": "solid",
@@ -1788,8 +1818,8 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 420.97754268010283,
-			"y": 91.2316097538505,
+			"x": 274.3108760134362,
+			"y": 141.8983171106213,
 			"strokeColor": "#000000",
 			"backgroundColor": "#868e96",
 			"width": 21.517963614269437,
@@ -1799,9 +1829,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 				"e18TiPcrF3ANwOhJmmdXk",
 				"25kE4J3ctL5UqRszmBukD"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
-			"updated": 1669864773775,
+			"updated": 1695096262227,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1830,8 +1860,8 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 		},
 		{
 			"type": "text",
-			"version": 737,
-			"versionNonce": 848331106,
+			"version": 765,
+			"versionNonce": 514532265,
 			"isDeleted": false,
 			"id": "RzFORAWE",
 			"fillStyle": "solid",
@@ -1840,36 +1870,37 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 376.2344534176391,
-			"y": 151.14634409963992,
+			"x": 229.56778675097246,
+			"y": 201.81305145641068,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 131,
+			"width": 128.90625,
 			"height": 24,
 			"seed": 410091966,
 			"groupIds": [
 				"25kE4J3ctL5UqRszmBukD"
 			],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
-			"updated": 1669864773775,
+			"updated": 1695096262227,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 3,
 			"text": "Event Store",
 			"rawText": "Event Store",
-			"baseline": 19,
 			"textAlign": "center",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Event Store"
+			"originalText": "Event Store",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "image",
-			"version": 193,
-			"versionNonce": 896010594,
-			"isDeleted": false,
+			"version": 194,
+			"versionNonce": 1505348489,
+			"isDeleted": true,
 			"id": "L_8XIOiCeDO53l0LhKynU",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1885,9 +1916,11 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 981.618254491525,
 			"seed": 1200231522,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
-			"updated": 1669865049570,
+			"updated": 1695096254332,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1899,9 +1932,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 		},
 		{
 			"type": "arrow",
-			"version": 23,
-			"versionNonce": 475320546,
-			"isDeleted": false,
+			"version": 25,
+			"versionNonce": 604969735,
+			"isDeleted": true,
 			"id": "kffdTxYBX5W-IMgUR-g7q",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1910,16 +1943,18 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"opacity": 100,
 			"angle": 0,
 			"x": 499.70512578332807,
-			"y": 100.16686627974707,
+			"y": 97.50013857792408,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 236.58549197284788,
 			"height": 12.061249473189264,
 			"seed": 1054902178,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
-			"updated": 1669864823246,
+			"updated": 1695096259336,
 			"link": null,
 			"locked": false,
 			"startBinding": null,
@@ -1940,9 +1975,9 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 		},
 		{
 			"type": "image",
-			"version": 236,
-			"versionNonce": 1289301154,
-			"isDeleted": false,
+			"version": 237,
+			"versionNonce": 272715143,
+			"isDeleted": true,
 			"id": "Xb21qMOQewQ_e8gCNhZb7",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
@@ -1958,9 +1993,11 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 			"height": 509,
 			"seed": 660668286,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
-			"updated": 1669865085342,
+			"updated": 1695096254332,
 			"link": null,
 			"locked": false,
 			"status": "pending",
@@ -1972,7 +2009,7 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 		}
 	],
 	"appState": {
-		"theme": "light",
+		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#000000",
 		"currentItemBackgroundColor": "transparent",
@@ -1984,17 +2021,18 @@ e7bebe738bd489441f14b8e52486c5688b593935: [[Event-Store-Logic-1.png]]
 		"currentItemFontFamily": 3,
 		"currentItemFontSize": 20,
 		"currentItemTextAlign": "left",
-		"currentItemStrokeSharpness": "sharp",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 532.4829282568512,
-		"scrollY": 679.1974943149273,
+		"scrollX": 640.607928256851,
+		"scrollY": 1057.8537544874532,
 		"zoom": {
-			"value": 0.4
+			"value": 0.30000000000000004
 		},
-		"currentItemLinearStrokeSharpness": "round",
+		"currentItemRoundness": "round",
 		"gridSize": null,
-		"colorPalette": {}
+		"colorPalette": {},
+		"currentStrokeOptions": null,
+		"previousGridSize": null
 	},
 	"files": {}
 }

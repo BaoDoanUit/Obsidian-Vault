@@ -14,7 +14,7 @@ tags: [excalidraw]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://excalidraw.com",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.3",
 	"elements": [
 		{
 			"type": "freedraw",
@@ -38,7 +38,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -371,7 +373,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -520,7 +524,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -717,7 +723,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -1050,7 +1058,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -1479,7 +1489,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -1864,7 +1876,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -2673,7 +2687,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -3290,7 +3306,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -3791,7 +3809,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -4113,7 +4133,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -4223,7 +4245,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -4289,7 +4313,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -4619,7 +4645,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -4921,7 +4949,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -5183,7 +5213,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -6257,7 +6289,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -7799,7 +7833,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -8313,7 +8349,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -8543,7 +8581,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -9237,7 +9277,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061663,
 			"link": null,
@@ -9679,7 +9721,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -9967,7 +10011,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -10763,7 +10809,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -12483,7 +12531,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -13919,7 +13969,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -15239,7 +15291,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -26955,7 +27009,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -27511,7 +27567,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -27971,7 +28029,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -28635,7 +28695,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -29923,7 +29985,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -32035,7 +32099,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -33019,7 +33085,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -33379,7 +33447,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -33791,7 +33861,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -34195,7 +34267,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -34435,7 +34509,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -34859,7 +34935,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -35099,7 +35177,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -36435,7 +36515,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -37087,7 +37169,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -39375,7 +39459,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -39855,7 +39941,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -40875,7 +40963,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -41159,7 +41249,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061664,
 			"link": null,
@@ -41375,7 +41467,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -41639,7 +41733,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -41807,7 +41903,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -42151,7 +42249,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -42615,7 +42715,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -43267,7 +43369,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -43707,7 +43811,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -43883,7 +43989,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -44211,7 +44319,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -44507,7 +44617,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -44699,7 +44811,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -44875,7 +44989,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -45147,7 +45263,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -46427,7 +46545,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -46935,7 +47055,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -47139,7 +47261,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -47555,7 +47679,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -47755,7 +47881,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -48311,7 +48439,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -48771,7 +48901,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -49311,7 +49443,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -49487,7 +49621,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -49715,7 +49851,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -49879,7 +50017,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -50291,7 +50431,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -50579,7 +50721,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -50931,7 +51075,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061665,
 			"link": null,
@@ -51239,7 +51385,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -51587,7 +51735,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -51775,7 +51925,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -51939,7 +52091,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -52099,7 +52253,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -52215,7 +52371,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -52435,7 +52593,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -52663,7 +52823,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -53483,7 +53645,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -54047,7 +54211,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -54515,7 +54681,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -54739,7 +54907,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -54951,7 +55121,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -55103,7 +55275,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -55447,7 +55621,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -55499,7 +55675,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -55695,7 +55873,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -56351,7 +56531,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -56811,7 +56993,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -57003,7 +57187,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -58507,7 +58693,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -58999,7 +59187,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -59239,7 +59429,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -59415,7 +59607,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -59563,7 +59757,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -60099,7 +60295,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -60407,7 +60605,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -60791,7 +60991,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -61099,7 +61301,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061666,
 			"link": null,
@@ -61255,7 +61459,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -61487,7 +61693,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -61619,7 +61827,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -61715,7 +61925,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -61791,7 +62003,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -61867,7 +62081,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -62147,7 +62363,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -63383,7 +63601,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -63495,7 +63715,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -63663,7 +63885,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -63851,7 +64075,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -64119,7 +64345,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -64431,7 +64659,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -64703,7 +64933,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -65383,7 +65615,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -65871,7 +66105,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -66271,7 +66507,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -66407,7 +66645,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -66619,7 +66859,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061667,
 			"link": null,
@@ -66963,7 +67205,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -67667,7 +67911,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -67971,7 +68217,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -68159,7 +68407,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -68335,7 +68585,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -68955,7 +69207,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -69223,7 +69477,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -69687,7 +69943,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -70455,7 +70713,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -71027,7 +71287,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -71271,7 +71533,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -71715,7 +71979,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -72267,7 +72533,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -72803,7 +73071,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -73475,7 +73745,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -74411,7 +74683,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -74827,7 +75101,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -75423,7 +75699,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -75527,7 +75805,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -75647,7 +75927,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -75719,7 +76001,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -75819,7 +76103,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -75863,7 +76149,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -76343,7 +76631,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -76385,7 +76675,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -76731,7 +77023,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -77093,7 +77387,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -77295,7 +77591,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -77597,7 +77895,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -78051,7 +78351,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -78457,7 +78759,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -78851,7 +79155,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -79029,7 +79335,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061668,
 			"link": null,
@@ -79087,7 +79395,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -79561,7 +79871,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -80479,7 +80791,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -81233,7 +81547,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -81343,7 +81659,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -81453,7 +81771,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -81527,7 +81847,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -81621,7 +81943,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -81711,7 +82035,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -81797,7 +82123,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -82071,7 +82399,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -82257,7 +82587,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -82511,7 +82843,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -82681,7 +83015,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -82887,7 +83223,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -83029,7 +83367,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -83179,7 +83519,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -83265,7 +83607,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -83407,7 +83751,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -83501,7 +83847,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -83651,7 +83999,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -83777,7 +84127,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -84119,7 +84471,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -84217,7 +84571,9 @@ tags: [excalidraw]
 				"crm-AcvovSUddFHCrUtov",
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -84494,7 +84850,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -84803,7 +85161,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -84988,7 +85348,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -85149,7 +85511,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -85326,7 +85690,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -85471,7 +85837,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -85664,7 +86032,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -87061,7 +87431,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -87270,7 +87642,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -87311,7 +87685,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -87360,7 +87736,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -87409,7 +87787,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -87466,7 +87846,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -87527,7 +87909,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -87576,7 +87960,9 @@ tags: [excalidraw]
 			"groupIds": [
 				"mn90aHjfxrgRMb4j0Gelq"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667573061669,
 			"link": null,
@@ -87609,12 +87995,18 @@ tags: [excalidraw]
 		"currentItemFontFamily": 4,
 		"currentItemFontSize": 20,
 		"currentItemTextAlign": "left",
-		"currentItemStrokeSharpness": "sharp",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"currentItemLinearStrokeSharpness": "round",
+		"scrollX": 926.1669929367417,
+		"scrollY": 1163.1094174234547,
+		"zoom": {
+			"value": 2
+		},
+		"currentItemRoundness": "round",
 		"gridSize": null,
-		"colorPalette": {}
+		"colorPalette": {},
+		"currentStrokeOptions": null,
+		"previousGridSize": null
 	},
 	"files": {}
 }

@@ -54,7 +54,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://excalidraw.com",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.3",
 	"elements": [
 		{
 			"type": "text",
@@ -72,11 +72,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": -163.36251831054688,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 354,
+			"width": 351.5625,
 			"height": 24,
 			"seed": 1436625503,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778061593,
 			"link": null,
@@ -85,11 +85,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "The many facets of Performance",
 			"rawText": "The many facets of Performance",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "The many facets of Performance"
+			"originalText": "The many facets of Performance",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "text",
@@ -107,11 +108,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": -159.97791701096762,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 260,
+			"width": 257.8125,
 			"height": 24,
 			"seed": 123136785,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778220465,
 			"link": null,
@@ -120,11 +121,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "What is 'Fast Enough'?",
 			"rawText": "What is 'Fast Enough'?",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "What is 'Fast Enough'?"
+			"originalText": "What is 'Fast Enough'?",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "rectangle",
@@ -146,7 +148,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 54.4000244140625,
 			"seed": 1861926175,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "D69LFKbab_XNlKa0szMe4",
@@ -167,7 +169,10 @@ and Multi-process Resource Loading ^k6C5sM8U
 			],
 			"updated": 1668778274207,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
@@ -185,11 +190,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": -3.895812988281307,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 271,
+			"width": 269.53125,
 			"height": 24,
 			"seed": 1043862449,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -198,11 +203,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "Browser(kernel) process",
 			"rawText": "Browser(kernel) process",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Browser(kernel) process"
+			"originalText": "Browser(kernel) process",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "rectangle",
@@ -224,7 +230,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 36,
 			"seed": 206378353,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -246,11 +252,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 44.37090047200513,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 166,
+			"width": 164.0625,
 			"height": 24,
 			"seed": 680299839,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "g71hmFUxRPHBz47Fh_6XL",
@@ -264,15 +270,19 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"updated": 1668778274207,
 			"link": null,
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"fontSize": 20,
 			"fontFamily": 3,
 			"text": "User Interface",
 			"rawText": "User Interface",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "User Interface"
+			"originalText": "User Interface",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "rectangle",
@@ -294,7 +304,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 36,
 			"seed": 1016894975,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -316,11 +326,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 44.17088826497388,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 84,
+			"width": 82.03125,
 			"height": 24,
 			"seed": 1503595889,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -329,11 +339,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "Network",
 			"rawText": "Network",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Network"
+			"originalText": "Network",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "rectangle",
@@ -355,7 +366,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 36,
 			"seed": 724563807,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "D69LFKbab_XNlKa0szMe4",
@@ -364,7 +375,10 @@ and Multi-process Resource Loading ^k6C5sM8U
 			],
 			"updated": 1668778274207,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
@@ -382,11 +396,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 41.57085164388013,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 84,
+			"width": 82.03125,
 			"height": 24,
 			"seed": 1500836369,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -395,11 +409,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "Storage",
 			"rawText": "Storage",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Storage"
+			"originalText": "Storage",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "text",
@@ -417,11 +432,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 150.77087741427943,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 166,
+			"width": 164.0625,
 			"height": 24,
 			"seed": 139991857,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "g71hmFUxRPHBz47Fh_6XL",
@@ -435,15 +450,19 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"updated": 1668778274207,
 			"link": null,
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"fontSize": 20,
 			"fontFamily": 3,
 			"text": "Render process",
 			"rawText": "Render process",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Render process"
+			"originalText": "Render process",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "rectangle",
@@ -465,7 +484,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 175.20001220703128,
 			"seed": 587570527,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "g71hmFUxRPHBz47Fh_6XL",
@@ -478,7 +497,10 @@ and Multi-process Resource Loading ^k6C5sM8U
 			],
 			"updated": 1668778274207,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "rectangle",
@@ -500,7 +522,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 36,
 			"seed": 1863792543,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -522,11 +544,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 204.57092624240443,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 155,
+			"width": 152.34375,
 			"height": 24,
 			"seed": 449893841,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -535,11 +557,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "HTML Renderer",
 			"rawText": "HTML Renderer",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "HTML Renderer"
+			"originalText": "HTML Renderer",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "rectangle",
@@ -561,7 +584,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 36,
 			"seed": 1806831569,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -583,11 +606,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 254.57092624240443,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 107,
+			"width": 105.46875,
 			"height": 24,
 			"seed": 1813270975,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -596,11 +619,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "V8 Engine",
 			"rawText": "V8 Engine",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "V8 Engine"
+			"originalText": "V8 Engine",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "rectangle",
@@ -622,7 +646,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 36,
 			"seed": 1390725311,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -644,11 +668,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 298.5708652072482,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 143,
+			"width": 140.625,
 			"height": 24,
 			"seed": 1362650801,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -657,11 +681,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "DOM Bindings",
 			"rawText": "DOM Bindings",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "DOM Bindings"
+			"originalText": "DOM Bindings",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "text",
@@ -679,11 +704,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 153.2597283257378,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 166,
+			"width": 164.0625,
 			"height": 24,
 			"seed": 1289674975,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "D69LFKbab_XNlKa0szMe4",
@@ -693,15 +718,19 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"updated": 1668778274207,
 			"link": null,
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"fontSize": 20,
 			"fontFamily": 3,
 			"text": "Render process",
 			"rawText": "Render process",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Render process"
+			"originalText": "Render process",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "rectangle",
@@ -723,7 +752,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 175.20001220703128,
 			"seed": 1443724177,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "D69LFKbab_XNlKa0szMe4",
@@ -736,7 +765,10 @@ and Multi-process Resource Loading ^k6C5sM8U
 			],
 			"updated": 1668778274207,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "rectangle",
@@ -758,7 +790,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 36,
 			"seed": 2017886719,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -780,11 +812,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 203.05980767144092,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 155,
+			"width": 152.34375,
 			"height": 24,
 			"seed": 1993990513,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -793,11 +825,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "HTML Renderer",
 			"rawText": "HTML Renderer",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "HTML Renderer"
+			"originalText": "HTML Renderer",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "rectangle",
@@ -819,7 +852,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 36,
 			"seed": 1698949663,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -841,11 +874,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 253.05980767144092,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 107,
+			"width": 105.46875,
 			"height": 24,
 			"seed": 1893632849,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -854,11 +887,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "V8 Engine",
 			"rawText": "V8 Engine",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "V8 Engine"
+			"originalText": "V8 Engine",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "rectangle",
@@ -880,7 +914,7 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"height": 36,
 			"seed": 2057260607,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -902,11 +936,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 297.0597466362847,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 143,
+			"width": 140.625,
 			"height": 24,
 			"seed": 2087909681,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -915,11 +949,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "DOM Bindings",
 			"rawText": "DOM Bindings",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "DOM Bindings"
+			"originalText": "DOM Bindings",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "text",
@@ -937,11 +972,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 231.83750745985236,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 37,
+			"width": 35.15625,
 			"height": 24,
 			"seed": 372027231,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -950,11 +985,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "...",
 			"rawText": "...",
-			"baseline": 19,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "..."
+			"originalText": "...",
+			"lineHeight": 1.2,
+			"baseline": 19
 		},
 		{
 			"type": "arrow",
@@ -978,7 +1014,9 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"groupIds": [
 				"VS1-3vCD6dryDiaKwahig"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1668778274411,
 			"link": null,
@@ -1033,7 +1071,9 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"groupIds": [
 				"VS1-3vCD6dryDiaKwahig"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1668778274411,
 			"link": null,
@@ -1084,7 +1124,9 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"groupIds": [
 				"wOksieqo1-9Up42stP2mP"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1668778274411,
 			"link": null,
@@ -1139,7 +1181,9 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"groupIds": [
 				"wOksieqo1-9Up42stP2mP"
 			],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1668778274411,
 			"link": null,
@@ -1184,11 +1228,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": 406.1498498749314,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 692,
+			"width": 691.40625,
 			"height": 96,
 			"seed": 511140785,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -1197,11 +1241,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "The architect dedicates one render process to each tab. \nEach render process contains instances of the Blink layout \nengine and the V8 JavaScript engine, along with glue code \nthat bridges these (and a few other) components.",
 			"rawText": "The architect dedicates one render process to each tab. \nEach render process contains instances of the Blink layout \nengine and the V8 JavaScript engine, along with glue code \nthat bridges these (and a few other) components.",
-			"baseline": 91,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "The architect dedicates one render process to each tab. \nEach render process contains instances of the Blink layout \nengine and the V8 JavaScript engine, along with glue code \nthat bridges these (and a few other) components."
+			"originalText": "The architect dedicates one render process to each tab. \nEach render process contains instances of the Blink layout \nengine and the V8 JavaScript engine, along with glue code \nthat bridges these (and a few other) components.",
+			"lineHeight": 1.2,
+			"baseline": 91
 		},
 		{
 			"type": "text",
@@ -1219,11 +1264,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": -57.52476955467148,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 428,
-			"height": 34,
+			"width": 426.5625,
+			"height": 33.6,
 			"seed": 392876913,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1668778274207,
 			"link": null,
@@ -1232,11 +1277,12 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "Multi-process Architecture",
 			"rawText": "Multi-process Architecture",
-			"baseline": 27,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Multi-process Architecture"
+			"originalText": "Multi-process Architecture",
+			"lineHeight": 1.2,
+			"baseline": 27
 		},
 		{
 			"type": "text",
@@ -1254,11 +1300,11 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"y": -34.62475531313498,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 400,
+			"width": 398.4375,
 			"height": 48,
 			"seed": 736390001,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1669264986497,
 			"link": null,
@@ -1267,15 +1313,16 @@ and Multi-process Resource Loading ^k6C5sM8U
 			"fontFamily": 3,
 			"text": "Internal-process Communication\nand Multi-process Resource Loading",
 			"rawText": "Internal-process Communication\nand Multi-process Resource Loading",
-			"baseline": 43,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Internal-process Communication\nand Multi-process Resource Loading"
+			"originalText": "Internal-process Communication\nand Multi-process Resource Loading",
+			"lineHeight": 1.2,
+			"baseline": 43
 		}
 	],
 	"appState": {
-		"theme": "light",
+		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#000000",
 		"currentItemBackgroundColor": "transparent",
@@ -1287,12 +1334,18 @@ and Multi-process Resource Loading ^k6C5sM8U
 		"currentItemFontFamily": 3,
 		"currentItemFontSize": 20,
 		"currentItemTextAlign": "left",
-		"currentItemStrokeSharpness": "sharp",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"currentItemLinearStrokeSharpness": "round",
+		"scrollX": 692.617793946032,
+		"scrollY": 398.0349230849952,
+		"zoom": {
+			"value": 0.7000000000000001
+		},
+		"currentItemRoundness": "round",
 		"gridSize": null,
-		"colorPalette": {}
+		"colorPalette": {},
+		"currentStrokeOptions": null,
+		"previousGridSize": null
 	},
 	"files": {}
 }

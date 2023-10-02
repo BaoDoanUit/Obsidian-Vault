@@ -1,34 +1,31 @@
-Fours Types of Analytics
-- Descriptive
-- Diagnostic
-- Predictive
-- Prescriptive
+>[!info] Fours Types of Analytics
+Descriptive
+Diagnostic
+Predictive
+Prescriptive
 
-How can analytics help within Salesforce?
-- Identify trends on opportunitites
-- Understand what types of cases take the longest to close
-- Track conversion rate for leads
-- 
+> #### How can analytics help within Salesforce?
+Identify trends on opportunitites
+Understand what types of cases take the longest to close
+Track conversion rate for leads
 
-CRM Analytics Overview
-- Advanced Dashboarding Analytics
-- Control & Security in CRM
-- Embedded & Context Driven
-- Data prep with CRM  & external data
-- Predictive Modeling
+>[!info] CRM Analytics Overview
+Advanced Dashboarding Analytics
+Control & Security in CRM
+Embedded & Context Driven
+Data prep with CRM  & external data
+Predictive Modeling
 
-Data to Insights
-
+>[!info] Data to Insights
 (Cloud, Data Center) Source -> Data Prep -> (Data Mart) Data Set -> Dashboard
  
-
-CRM Anaytics Apps
-- Sales
-- Service
-- Marketing
-- Commerce
-- Industries
-- Admins
+>[!success] CRM Anaytics Apps
+Sales
+Service
+Marketing
+Commerce
+Industries
+Admins
 
 Setup Analytics
 - Enable CRM Analytics
@@ -43,9 +40,4 @@ Logomantics Situation
      - Make analytics easier to access
      - Create predictions to inform actions
 
-
 Make the data pipeline for extracting data from multiple resources
-
-
-
-

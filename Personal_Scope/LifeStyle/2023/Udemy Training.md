@@ -1,7 +1,0 @@
-### Target
-
-
-### Time Schedule
-
-
-### Topics

@@ -17,7 +17,7 @@
      - Don't overthink it. If something looks more complicated than it should be, it probably is.
      - Don't focus on one specific thing, take a step back and look at the whole problem. And slowly, but surely, go into detail.
 
--- Commented about Domain Driven Design
+### Commented about Domain Driven Design
 Chia sẻ một chút về cách tiếp cập của mình.
 
 Đầu tiên, sẽ có dùng Event Storming để quickly discover ra business flow và các entity tham gia vào.
@@ -55,4 +55,5 @@ Về mặt này thì như ABP framework triển khai, cần document chi tiết 
  1. Increased complexity
  2. Performance overhead
  3. Single point of failure
- 
+
+ Scale ![[Pasted image 20230604103313.png]]

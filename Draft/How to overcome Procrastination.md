@@ -46,15 +46,15 @@ Research document related to book ^QVmxIqnx
 
 
 # Embedded files
-0339e1b32478dcccd29568122a798f79ac2d8dd9: [[workout.png]]
-40fcfeb071e54d0f07c9a94a35af5c1ba088f94a: [[gym.png]]
-e0c1a086d75fff27aacfc2cfce1d50d2867e6827: [[running.png]]
-0cf49a89975955244967604dd0bc58d5192ec663: [[note.png]]
-2f0068e8ee72fc6fff406376e47a0c028d7dc512: [[NoImage.png]]
-97438e8d23a89b7a38082738825c1662b54deabb: [[folder.png]]
-d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
-92da2f655997baaca2d10764f0c7151a4c155321: [[alarm.png]]
-3b169f6978eb50a2c7e8f53317f36ec566c84848: [[Brain_Storm.png]]
+0339e1b32478dcccd29568122a798f79ac2d8dd9: [[../Gallery/Personal/workout.png]]
+40fcfeb071e54d0f07c9a94a35af5c1ba088f94a: [[../Gallery/Personal/gym.png]]
+e0c1a086d75fff27aacfc2cfce1d50d2867e6827: [[../Gallery/Personal/running.png]]
+0cf49a89975955244967604dd0bc58d5192ec663: [[../Gallery/Personal/note.png]]
+2f0068e8ee72fc6fff406376e47a0c028d7dc512: [[../Gallery/Personal/NoImage.png]]
+97438e8d23a89b7a38082738825c1662b54deabb: [[../Gallery/Personal/folder.png]]
+d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[../Gallery/Personal/typing.png]]
+92da2f655997baaca2d10764f0c7151a4c155321: [[../Gallery/Personal/alarm.png]]
+3b169f6978eb50a2c7e8f53317f36ec566c84848: [[../Gallery/Personal/Brain_Storm.png]]
 
 %%
 # Drawing
@@ -62,7 +62,7 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://excalidraw.com",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.3",
 	"elements": [
 		{
 			"type": "text",
@@ -80,11 +80,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": -180.0246158169431,
 			"strokeColor": "#1864ab",
 			"backgroundColor": "transparent",
-			"width": 153,
-			"height": 31,
+			"width": 151.0319366455078,
+			"height": 33.6,
 			"seed": 1677326776,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667636964762,
 			"link": null,
@@ -93,11 +93,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "Brain Storm ",
 			"rawText": "Brain Storm ",
-			"baseline": 24,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Brain Storm "
+			"originalText": "Brain Storm ",
+			"lineHeight": 1.2,
+			"baseline": 25
 		},
 		{
 			"type": "text",
@@ -115,11 +116,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": -54.862518310546875,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 234,
-			"height": 22,
+			"width": 231.47979736328125,
+			"height": 24,
 			"seed": 1179672760,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635701457,
 			"link": null,
@@ -128,11 +129,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "How many day to workout?",
 			"rawText": "How many day to workout?",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "How many day to workout?"
+			"originalText": "How many day to workout?",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "image",
@@ -154,7 +156,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 47.621371247047634,
 			"seed": 231605944,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667635701457,
 			"link": null,
@@ -186,7 +190,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 48.99999999999999,
 			"seed": 310180024,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -214,11 +220,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": -52.38546983882301,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 115,
-			"height": 22,
+			"width": 113.57992553710938,
+			"height": 24,
 			"seed": 2120383944,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -227,11 +233,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "4 times/week",
 			"rawText": "4 times/week",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "4 times/week"
+			"originalText": "4 times/week",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "text",
@@ -249,11 +256,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 48.0774674409991,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 69,
-			"height": 22,
+			"width": 66.73994445800781,
+			"height": 24,
 			"seed": 1862671544,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -262,11 +269,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "Jogging",
 			"rawText": "Jogging",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Jogging"
+			"originalText": "Jogging",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "text",
@@ -284,11 +292,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 103.01576110572483,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
-			"width": 253,
-			"height": 22,
+			"width": 250.67979431152344,
+			"height": 24,
 			"seed": 965750728,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -297,11 +305,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "Take note idea when jogging?",
 			"rawText": "Take note idea when jogging?",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Take note idea when jogging?"
+			"originalText": "Take note idea when jogging?",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "text",
@@ -319,11 +328,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 153.2450701462148,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 55,
-			"height": 22,
+			"width": 52.939971923828125,
+			"height": 24,
 			"seed": 1052269512,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -332,11 +341,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "When?",
 			"rawText": "When?",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "When?"
+			"originalText": "When?",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "text",
@@ -354,11 +364,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 151.67536868614405,
 			"strokeColor": "#e67700",
 			"backgroundColor": "transparent",
-			"width": 337,
-			"height": 22,
+			"width": 334.6796875,
+			"height": 24,
 			"seed": 1977364920,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -367,11 +377,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "It should be take place in the morning!",
 			"rawText": "It should be take place in the morning!",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "It should be take place in the morning!"
+			"originalText": "It should be take place in the morning!",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "image",
@@ -393,7 +404,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 63.179031726636026,
 			"seed": 144848824,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -425,7 +438,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 50.37077812711169,
 			"seed": 20091592,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -466,11 +481,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 45.10798921039125,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 345,
-			"height": 22,
+			"width": 343.23974609375,
+			"height": 24,
 			"seed": 1730559176,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -479,11 +494,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "How to plan for the next day effective?",
 			"rawText": "How to plan for the next day effective?",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "How to plan for the next day effective?"
+			"originalText": "How to plan for the next day effective?",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "text",
@@ -501,11 +517,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 278.0658563949796,
 			"strokeColor": "#0b7285",
 			"backgroundColor": "transparent",
-			"width": 483,
-			"height": 22,
+			"width": 480.25946044921875,
+			"height": 24,
 			"seed": 659089592,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "Zfj5HMRTHfUBYlIeSUBRy",
@@ -515,15 +531,19 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"updated": 1667635701458,
 			"link": null,
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"fontSize": 20,
 			"fontFamily": 4,
 			"text": "Which is the better tool for taking note on the morning?",
 			"rawText": "Which is the better tool for taking note on the morning?",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Which is the better tool for taking note on the morning?"
+			"originalText": "Which is the better tool for taking note on the morning?",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "image",
@@ -545,7 +565,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 30.78550858109716,
 			"seed": 441699528,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667635717209,
 			"link": null,
@@ -573,11 +595,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 276.6952184550221,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 148,
-			"height": 22,
+			"width": 146.13987731933594,
+			"height": 24,
 			"seed": 1064278984,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635719548,
 			"link": null,
@@ -586,11 +608,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "Pencil and Paper",
 			"rawText": "Pencil and Paper",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Pencil and Paper"
+			"originalText": "Pencil and Paper",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "text",
@@ -608,11 +631,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 327.9039031222051,
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
-			"width": 98,
-			"height": 22,
+			"width": 95.49993896484375,
+			"height": 24,
 			"seed": 415688,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "Zfj5HMRTHfUBYlIeSUBRy",
@@ -626,15 +649,19 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"updated": 1667635742818,
 			"link": null,
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"fontSize": 20,
 			"fontFamily": 4,
 			"text": "What next?",
 			"rawText": "What next?",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "What next?"
+			"originalText": "What next?",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "arrow",
@@ -656,7 +683,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 50.84779391841357,
 			"seed": 1180096200,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -705,11 +734,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 329.75295869558425,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 191,
-			"height": 22,
+			"width": 188.37986755371094,
+			"height": 24,
 			"seed": 807184824,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635723349,
 			"link": null,
@@ -718,11 +747,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "Capture and stored in",
 			"rawText": "Capture and stored in",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Capture and stored in"
+			"originalText": "Capture and stored in",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "image",
@@ -744,7 +774,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 32.6829290833034,
 			"seed": 1565418696,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -776,7 +808,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 36.51801879670808,
 			"seed": 867145672,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667635701458,
 			"link": null,
@@ -804,11 +838,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 329.75295869558425,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 108,
-			"height": 22,
+			"width": 105.93988037109375,
+			"height": 24,
 			"seed": 280684728,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635702810,
 			"link": null,
@@ -817,11 +851,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "draft folder",
 			"rawText": "draft folder",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "draft folder"
+			"originalText": "draft folder",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "text",
@@ -839,11 +874,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 379.82167978747333,
 			"strokeColor": "#364fc7",
 			"backgroundColor": "transparent",
-			"width": 93,
-			"height": 22,
+			"width": 91.25993347167969,
+			"height": 24,
 			"seed": 1334688952,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [
 				{
 					"id": "cLYxbzmXQQalivPd_u5Ao",
@@ -853,15 +888,19 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"updated": 1667635755336,
 			"link": null,
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"fontSize": 20,
 			"fontFamily": 4,
 			"text": "Next Step?",
 			"rawText": "Next Step?",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Next Step?"
+			"originalText": "Next Step?",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "arrow",
@@ -883,7 +922,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 49.789384273582755,
 			"seed": 1885544888,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667635755337,
 			"link": null,
@@ -936,7 +977,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 39.26725954441905,
 			"seed": 1920120760,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667635810620,
 			"link": null,
@@ -964,11 +1007,11 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"y": 383.4634798407204,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 170,
-			"height": 22,
+			"width": 167.47987365722656,
+			"height": 24,
 			"seed": 16046264,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
+			"roundness": null,
 			"boundElements": [],
 			"updated": 1667635830268,
 			"link": null,
@@ -977,11 +1020,12 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"fontFamily": 4,
 			"text": "Input to excalidraw",
 			"rawText": "Input to excalidraw",
-			"baseline": 18,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Input to excalidraw"
+			"originalText": "Input to excalidraw",
+			"lineHeight": 1.2,
+			"baseline": 18
 		},
 		{
 			"type": "image",
@@ -1003,7 +1047,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 46.688667376534916,
 			"seed": 288954824,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667636412902,
 			"link": null,
@@ -1035,7 +1081,9 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			"height": 74.86936647742922,
 			"seed": 1241330632,
 			"groupIds": [],
-			"strokeSharpness": "round",
+			"roundness": {
+				"type": 2
+			},
 			"boundElements": [],
 			"updated": 1667636993350,
 			"link": null,
@@ -1048,78 +1096,80 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 			]
 		},
 		{
-			"id": "nc2BCe7t",
 			"type": "text",
-			"x": -379.82771602864807,
-			"y": 566.4314835552965,
-			"width": 347,
-			"height": 31,
-			"angle": 0,
-			"strokeColor": "#e67700",
-			"backgroundColor": "transparent",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"groupIds": [],
-			"strokeSharpness": "sharp",
-			"seed": 123443547,
 			"version": 59,
 			"versionNonce": 1246160213,
 			"isDeleted": false,
-			"boundElements": null,
-			"updated": 1672647071763,
-			"link": null,
-			"locked": false,
-			"text": "How to prepare for reading?",
-			"rawText": "How to prepare for reading?",
-			"fontSize": 28,
-			"fontFamily": 4,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"baseline": 24,
-			"containerId": null,
-			"originalText": "How to prepare for reading?"
-		},
-		{
-			"id": "QVmxIqnx",
-			"type": "text",
-			"x": -334.1167386643096,
-			"y": 604.0537911298566,
-			"width": 245,
-			"height": 53,
-			"angle": 0,
-			"strokeColor": "#364fc7",
-			"backgroundColor": "transparent",
+			"id": "nc2BCe7t",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": -379.82771602864807,
+			"y": 566.4314835552965,
+			"strokeColor": "#e67700",
+			"backgroundColor": "transparent",
+			"width": 344.5958557128906,
+			"height": 33.6,
+			"seed": 123443547,
 			"groupIds": [],
-			"strokeSharpness": "sharp",
-			"seed": 1521560629,
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1672647071763,
+			"link": null,
+			"locked": false,
+			"fontSize": 28,
+			"fontFamily": 4,
+			"text": "How to prepare for reading?",
+			"rawText": "How to prepare for reading?",
+			"textAlign": "left",
+			"verticalAlign": "top",
+			"containerId": null,
+			"originalText": "How to prepare for reading?",
+			"lineHeight": 1.2,
+			"baseline": 25
+		},
+		{
+			"type": "text",
 			"version": 158,
 			"versionNonce": 104229781,
 			"isDeleted": false,
-			"boundElements": null,
+			"id": "QVmxIqnx",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -334.1167386643096,
+			"y": 604.0537911298566,
+			"strokeColor": "#364fc7",
+			"backgroundColor": "transparent",
+			"width": 243.35980224609375,
+			"height": 57.599999999999994,
+			"seed": 1521560629,
+			"groupIds": [],
+			"roundness": null,
+			"boundElements": [],
 			"updated": 1672647066731,
 			"link": null,
 			"locked": false,
-			"text": "Build process reading book\nPrepare knowledge before reading\nResearch document related to book",
-			"rawText": "Build process reading book\nPrepare knowledge before reading\nResearch document related to book",
 			"fontSize": 16,
 			"fontFamily": 4,
+			"text": "Build process reading book\nPrepare knowledge before reading\nResearch document related to book",
+			"rawText": "Build process reading book\nPrepare knowledge before reading\nResearch document related to book",
 			"textAlign": "left",
 			"verticalAlign": "top",
-			"baseline": 49,
 			"containerId": null,
-			"originalText": "Build process reading book\nPrepare knowledge before reading\nResearch document related to book"
+			"originalText": "Build process reading book\nPrepare knowledge before reading\nResearch document related to book",
+			"lineHeight": 1.2,
+			"baseline": 53
 		}
 	],
 	"appState": {
-		"theme": "light",
+		"theme": "dark",
 		"viewBackgroundColor": "#ffffff",
 		"currentItemStrokeColor": "#e67700",
 		"currentItemBackgroundColor": "transparent",
@@ -1131,17 +1181,18 @@ d50a7bc9b5aba80fbc6443f41b6f8c9da4920c2e: [[typing.png]]
 		"currentItemFontFamily": 4,
 		"currentItemFontSize": 16,
 		"currentItemTextAlign": "left",
-		"currentItemStrokeSharpness": "sharp",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 662.4358839581579,
-		"scrollY": 34.394455685216045,
+		"scrollX": 524.6242087602209,
+		"scrollY": -152.8092916681612,
 		"zoom": {
-			"value": 0.722560329905077
+			"value": 0.8500000000000001
 		},
-		"currentItemLinearStrokeSharpness": "round",
+		"currentItemRoundness": "round",
 		"gridSize": null,
-		"colorPalette": {}
+		"colorPalette": {},
+		"currentStrokeOptions": null,
+		"previousGridSize": null
 	},
 	"files": {}
 }
