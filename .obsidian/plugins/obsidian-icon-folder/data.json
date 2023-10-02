@@ -22,7 +22,6 @@
     "emojiStyle": "none",
     "iconInTabsEnabled": false
   },
-  "Personal_Scope": "SiAtom",
   "Draft": "FabFirstdraft",
   "Pet Project": "FabAndroid",
   "Profiles": "SiXdadevelopers",
@@ -36,5 +35,6 @@
     "iconName": "SiPicardsurgeles",
     "inheritanceIcon": "FabKeycdn"
   },
-  "Big-Picture/Personal-Thinking.canvas": "SiDependabot"
+  "Big-Picture/Personal-Thinking.canvas": "SiDependabot",
+  "Personal-WorkSpace": "SiAtom"
 }

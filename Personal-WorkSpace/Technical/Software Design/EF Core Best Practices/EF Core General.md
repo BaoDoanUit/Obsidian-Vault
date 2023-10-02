@@ -17,7 +17,7 @@ Using EF Core to Query a Db
 ##### EF query workflow
 (1)Express and execute query -> (2)EF Core reads model, works with provider to work out SQL -> (3)Send SQL DB -> (4)Receives tabular results -> (5)Materializes results as objects -> (6)Add tracking details to DbContext instance
 
-Query Workflow![[Query Workflow]]
+Query Workflow![[../Draws/Query Workflow]]
 
 Two Ways to Express LINQ Queries
 LINQ Method (context.Authors.ToList())

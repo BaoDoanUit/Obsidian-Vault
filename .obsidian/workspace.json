@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "febe1221a45f4112",
+        "id": "985b1a02908f3173",
         "type": "tabs",
         "children": [
           {
-            "id": "29431427bf727c92",
+            "id": "8ce414b26dda4c44",
             "type": "leaf",
             "state": {
               "type": "pdf-annotator",
               "state": {
-                "file": "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes.md"
+                "file": "Personal-WorkSpace/Books/Nutrition/Body by Science.md"
               }
             }
           }
@@ -68,8 +68,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5,
-    "collapsed": true
+    "width": 389.5
   },
   "right": {
     "id": "ffa88d1f3b30217b",
@@ -96,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
+                "file": "Personal-WorkSpace/Books/Nutrition/Body by Science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
+                "file": "Personal-WorkSpace/Books/Nutrition/Body by Science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes.md"
+                "file": "Personal-WorkSpace/Books/Nutrition/Body by Science.md"
               }
             }
           },
@@ -159,9 +158,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "29431427bf727c92",
+  "active": "3e7b26e7c16af0bc",
   "lastOpenFiles": [
-    "Personal_Scope/Books/Nutrition/Body by Science.md",
+    "Personal-WorkSpace/Private_Information/Medicine.md",
+    "Personal-WorkSpace/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
+    "Personal-WorkSpace/Books/Nutrition/Body by Science.md",
     "CES-WORK/MPS-Project/Document/Business Requirement.md",
     "CES-WORK/MPS-Project/Document/Calculator.md",
     "CES-WORK/MPS-Project/Document/HedgeData-Business.md",
@@ -169,39 +170,37 @@
     "CES-WORK/Overview of BLUE system.md",
     "Profiles/Info.md",
     "Business.canvas",
-    "Personal_Scope/Technical/Training/EF Core Best Practices/Encapsulating EF Core 6 Usage.md",
+    "Personal-WorkSpace/Technical/Training/EF Core Best Practices/Encapsulating EF Core 6 Usage.md",
     "CES-WORK/MPS-Project/Tickets/MPS-124.md",
-    "Personal_Scope/Personal Training/Learn English.md",
-    "Personal_Scope/Technical/Training/EF Core Best Practices",
-    "Personal_Scope/Technical/Training",
-    "Personal_Scope/Personal Training/Swimming.md",
-    "Personal_Scope/Personal Training/Training Session.md",
-    "Personal_Scope/Personal Training/Workout.md",
+    "Personal-WorkSpace/Personal Training/Learn English.md",
+    "Personal-WorkSpace/Technical/Training/EF Core Best Practices",
+    "Personal-WorkSpace/Technical/Training",
+    "Personal-WorkSpace/Personal Training/Swimming.md",
+    "Personal-WorkSpace/Personal Training/Training Session.md",
+    "Personal-WorkSpace/Personal Training/Workout.md",
     "Pet Project/Software Development.md",
     "Gallery/Pasted image 20231001124936.png",
     "Gallery/Pasted image 20231001115133.png",
-    "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
-    "Personal_Scope/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf",
+    "Personal-WorkSpace/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf",
     "Draft/Drawing 2023-09-26 10.16.23.excalidraw.md",
-    "Personal_Scope/LifeStyle/PluralSight Planning.md",
-    "Personal_Scope/LifeStyle/Mindset of work.md",
-    "Personal_Scope/LifeStyle/Strategy Planning.md",
-    "Personal_Scope/LifeStyle/Special Events.md",
+    "Personal-WorkSpace/LifeStyle/PluralSight Planning.md",
+    "Personal-WorkSpace/LifeStyle/Mindset of work.md",
+    "Personal-WorkSpace/LifeStyle/Strategy Planning.md",
+    "Personal-WorkSpace/LifeStyle/Special Events.md",
     "CES-WORK/Guideline/Deployment/AzureDevOps.md",
-    "Personal_Scope/LifeStyle/Guitar.md",
-    "Personal_Scope/LifeStyle/Work Strategy.md",
-    "Personal_Scope/LifeStyle/Training Strategy.md",
-    "Personal_Scope/LifeStyle/The meaning of LIFE.md",
-    "Personal_Scope/LifeStyle/How to enter FLOW State.md",
+    "Personal-WorkSpace/LifeStyle/Guitar.md",
+    "Personal-WorkSpace/LifeStyle/Work Strategy.md",
+    "Personal-WorkSpace/LifeStyle/Training Strategy.md",
+    "Personal-WorkSpace/LifeStyle/The meaning of LIFE.md",
     "Gallery/Pasted image 20230921110725.png",
     "CES-WORK/Memos/Deployment",
     "Gallery/Pasted image 20230921100209.png",
-    "Personal_Scope/Travel Planning",
+    "Personal-WorkSpace/Travel Planning",
     "CES-WORK/Business/CES Billing Process.pdf",
     "Draft/Untitled Diagram.svg",
     "Big-Picture/Personal-Thinking.canvas",
-    "Personal_Scope/Books/Nutrition/Documents/Body by Science - John R. Little.pdf",
-    "Personal_Scope/Books/Nutrition/Documents",
+    "Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf",
+    "Personal-WorkSpace/Books/Nutrition/Documents",
     "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes - Catherine Shanahan M. D_.pdf",
     "Personal_Scope/Books/Deep Nutrition_ Why Your Genes - Catherine Shanahan M. D_.pdf",
     "Gallery/Pasted image 20230612214447.png",

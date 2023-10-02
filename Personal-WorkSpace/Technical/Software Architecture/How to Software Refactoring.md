@@ -126,13 +126,13 @@ Functional programming helps reduce complexity
 
 Combining the best of OOP and FP (Functional Programming)
 
-Type of Language![[Overview Type of Languages Code]]
+Type of Language![[../Software Design/Draws/Overview Type of Languages Code]]
 
 Refactoring is about **reducing** or **isolating** complexity
 **Object oriented programming** makes code understandable by **encapsulating (isolating)** moving parts (complexity).
 **Functional programming** makes code understandable by **minimizing (reducing)** moving parts (complexity)
 
-What if we can get the best of both worlds?![[Functional Corem Imperative Shell]]
+What if we can get the best of both worlds?![[../Software Design/Draws/Functional Corem Imperative Shell]]
 
 Link references
 https://mokacoding.com/blog/functional-core-reactive-shell/
