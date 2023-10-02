@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "985b1a02908f3173",
+        "id": "21f7054caa2e277c",
         "type": "tabs",
         "children": [
           {
-            "id": "8ce414b26dda4c44",
+            "id": "4750f53d53e41c6d",
             "type": "leaf",
             "state": {
-              "type": "pdf-annotator",
+              "type": "markdown",
               "state": {
-                "file": "Personal-WorkSpace/Books/Nutrition/Body by Science.md"
+                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
               }
             }
           }
@@ -95,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal-WorkSpace/Books/Nutrition/Body by Science.md",
+                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -107,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal-WorkSpace/Books/Nutrition/Body by Science.md",
+                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal-WorkSpace/Books/Nutrition/Body by Science.md"
+                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md"
               }
             }
           },
@@ -158,11 +161,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3e7b26e7c16af0bc",
+  "active": "4750f53d53e41c6d",
   "lastOpenFiles": [
+    "Personal-WorkSpace/Books/Nutrition/Body by Science.md",
+    "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
+    "Personal-WorkSpace/Learning/Entity Framework",
     "Personal-WorkSpace/Private_Information/Medicine.md",
     "Personal-WorkSpace/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
-    "Personal-WorkSpace/Books/Nutrition/Body by Science.md",
     "CES-WORK/MPS-Project/Document/Business Requirement.md",
     "CES-WORK/MPS-Project/Document/Calculator.md",
     "CES-WORK/MPS-Project/Document/HedgeData-Business.md",
@@ -191,7 +196,6 @@
     "Personal-WorkSpace/LifeStyle/Guitar.md",
     "Personal-WorkSpace/LifeStyle/Work Strategy.md",
     "Personal-WorkSpace/LifeStyle/Training Strategy.md",
-    "Personal-WorkSpace/LifeStyle/The meaning of LIFE.md",
     "Gallery/Pasted image 20230921110725.png",
     "CES-WORK/Memos/Deployment",
     "Gallery/Pasted image 20230921100209.png",
@@ -202,7 +206,6 @@
     "Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf",
     "Personal-WorkSpace/Books/Nutrition/Documents",
     "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes - Catherine Shanahan M. D_.pdf",
-    "Personal_Scope/Books/Deep Nutrition_ Why Your Genes - Catherine Shanahan M. D_.pdf",
     "Gallery/Pasted image 20230612214447.png",
     "Gallery/Pasted image 20230731212006.png",
     "Gallery/Pasted image 20230731211959.png",
