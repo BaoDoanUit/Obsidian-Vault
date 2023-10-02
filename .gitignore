@@ -1,6 +1,7 @@
 # to exclude Obsidian workspace settings (including plugin and hotkey configurations)
 .obsidian/*
-.obsidian/workspace.json
+
+.obsidian/workspace*
 
 # Exclude plugins
 .obsidian/plugins/*
@@ -16,6 +17,4 @@ Day*Planners/*
 
 # Exclude Untitled Notes
 Untitled*
-# Exclude "bad" names
-null*
-.obsidian/workspace.json
+# Exclude "bad" name
