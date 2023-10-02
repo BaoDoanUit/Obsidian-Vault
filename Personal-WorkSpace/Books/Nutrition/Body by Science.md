@@ -127,3 +127,18 @@ annotation-target: Body by Science - John R. Little.pdf
 >%%TAGS%%
 >
 ^ae06z6as32w
+
+
+
+>%%
+>```annotation-json
+>{"created":"2023-10-02T09:04:09.161Z","updated":"2023-10-02T09:04:09.161Z","document":{"title":"Body by Science","link":[{"href":"urn:x-pdf:5dd1fadfb803ff0901b692b7ee454e60"},{"href":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf"}],"documentFingerprint":"5dd1fadfb803ff0901b692b7ee454e60"},"uri":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","target":[{"source":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","selector":[{"type":"TextPositionSelector","start":245104,"end":245134},{"type":"TextQuoteSelector","exact":"they’ll be happening in muscle","prefix":"those metabolic changes happen, ","suffix":".CHAPTER 6 Enhancing the Body’s "}]}]}
+>```
+>%%
+>*%%PREFIX%%those metabolic changes happen,%%HIGHLIGHT%% ==they’ll be happening in muscle== %%POSTFIX%%.CHAPTER 6 Enhancing the Body’s*
+>%%LINK%%[[#^cy59raxzaob|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^cy59raxzaob
