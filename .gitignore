@@ -1,23 +1,5 @@
-# OR only to exclude workspace cache
-.obsidian/workspace/*
-
-# This file is used to keep track of last auto backup/pull
-.obsidian-git-data
-
-# Exclude Untitled Notes
-Untitled*
-# Exclude "bad" names
-null*
-
-# Add below lines to exclude OS settings and caches
-.trash/
-.DS_Store
-
 # to exclude Obsidian workspace settings (including plugin and hotkey configurations)
 .obsidian/*
-
-# OR only to exclude workspace cache
-.obsidian/workspace/*
 
 # Exclude plugins
 .obsidian/plugins/*
@@ -35,7 +17,3 @@ Day*Planners/*
 Untitled*
 # Exclude "bad" names
 null*
-
-# Add below lines to exclude OS settings and caches
-.trash/
-.DS_Store
