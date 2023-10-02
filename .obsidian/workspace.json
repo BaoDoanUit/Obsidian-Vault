@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "21f7054caa2e277c",
+        "id": "95ea5965cfd4e4db",
         "type": "tabs",
         "children": [
           {
-            "id": "4750f53d53e41c6d",
+            "id": "00ed59136d4f7a04",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
+                "file": "Personal-WorkSpace/Personal Training/Swimming.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -98,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
+                "file": "Personal-WorkSpace/Personal Training/Swimming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
+                "file": "Personal-WorkSpace/Personal Training/Swimming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md"
+                "file": "Personal-WorkSpace/Personal Training/Swimming.md"
               }
             }
           },
@@ -161,13 +161,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4750f53d53e41c6d",
+  "active": "00ed59136d4f7a04",
   "lastOpenFiles": [
-    "Personal-WorkSpace/Books/Nutrition/Body by Science.md",
     "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
     "Personal-WorkSpace/Learning/Entity Framework",
-    "Personal-WorkSpace/Private_Information/Medicine.md",
+    "Personal-WorkSpace/Learning",
     "Personal-WorkSpace/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
+    "Personal-WorkSpace/Books/Nutrition/Body by Science.md",
+    "Personal-WorkSpace/Private_Information/Medicine.md",
     "CES-WORK/MPS-Project/Document/Business Requirement.md",
     "CES-WORK/MPS-Project/Document/Calculator.md",
     "CES-WORK/MPS-Project/Document/HedgeData-Business.md",
@@ -205,7 +206,6 @@
     "Big-Picture/Personal-Thinking.canvas",
     "Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf",
     "Personal-WorkSpace/Books/Nutrition/Documents",
-    "Personal_Scope/Books/Nutrition/Deep Nutrition_ Why Your Genes - Catherine Shanahan M. D_.pdf",
     "Gallery/Pasted image 20230612214447.png",
     "Gallery/Pasted image 20230731212006.png",
     "Gallery/Pasted image 20230731211959.png",
