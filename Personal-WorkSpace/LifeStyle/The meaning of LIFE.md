@@ -54,3 +54,19 @@ Giáo dục sẽ tạo ra sự đồng nhất của cộng đồng
 ### Work together
 Figure out the issue on project
 Solve this together
+
+
+### The Journey of LIFE
+Don't try to be a someone who has power, money and 
+Evaluation come from your expression and mindfulness
+The journey hard to be choosen the best one for the first time
+Should experience new thing and re-correct after practice
+The hard part is not findout yourself inside
+Example: Acceptable the injure inside and need a help from someone to health your life.
+
+Zen is status recognize the FACT Natural
+Record exactly what happenning around your life.
+
+
+
+
