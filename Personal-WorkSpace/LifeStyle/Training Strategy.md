@@ -121,13 +121,19 @@ Gym-Sport training Log
 . Meal 2: Protein và Fiber và Probiotic (Những thực phẩm chứa lợi khuẩn - thường là thực phẩm lên men).
 . Meal 3: Protein và Carb (Fructose - trái cây + Glucose - cơm/ bún/ khoai, …). Rồi sau đó, ĂN GÌ CŨNG ĐƯỢC.
 => chỉ có meal 3 là meal bự quá. chắc ăn như này chỉ dành cho mấy bạn ish genetic, lúc nào cũng đói & natual fat percentage cao tự nhiên => khó giảm cân
-chứ ng khỏe mạnh mà ăn như này thì đánh đổi rất nhiều. ko có carb trong tgian dài dễ bị "đ.ần" lắm
+chứ ng khỏe mạnh mà ăn như này thì đánh đổi rất nhiều. ko có carb trong tgian dài dễ bị "đ.ần" lắm ?? -> 
+Cách khắc phục thiếu tinh bột dễ "đần"
+
+Điều chỉnh:
+Meal 1: Protein (100g thịt) + Fat (Fish Oil + CLA)
+Meal 2: Protein (50g thịt) + Fiber + Probiotic + Carb (1 chén cơm) (1/3) bình thường
+Meal 3: Protein (100g thịt) + Fiber + Carb (2 chén cơm) 
 
 
 Meal Rep Log
 - 
 
-Working Log
+Working Logwd
 - Get feedback from Rohit
 - Update Vega factor
 - Set up CI/CD
@@ -138,6 +144,14 @@ My TOMO
 - Contribute to team by writing document for new business
 - Ready study issue and think how to solve problems
 
-Another skills
+Set Goal skills
 - Keep track anything on project
-- 
+- Make it obviously 
+- Make TODO list to get the goals
+
+
+For personal statistic
+- Should allow tracking daily
+- Focus on the sleep
+- The Important of Consuming Carb for a day.
+

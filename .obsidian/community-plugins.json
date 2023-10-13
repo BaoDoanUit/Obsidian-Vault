@@ -21,5 +21,7 @@
   "table-editor-obsidian",
   "editing-toolbar",
   "drawio-obsidian",
-  "oz-clear-unused-images"
+  "oz-clear-unused-images",
+  "image-window",
+  "image-captions"
 ]

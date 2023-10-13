@@ -1,7 +1,7 @@
 ### What is a Service on a Code Base (Domain Driven Approach)
 ### Definition, characteristics, types, and accessing Services
 
->#### 🖊 **Definition**
+#### 🖊 **Definition**
 *A Service is an operation that can't fit natural in a domain model without encapsulating state*
 In simple words, a Service supports and extends the functions of a domain model without an internal state and with a well-defined responsibility
 
@@ -15,7 +15,7 @@ In simple words, a Service supports and extends the functions of a domain model 
 
 
 
-> ## 🐶 Types
+## 🐶 Types
 Services on a Layer Based Architecture App can fall into 3 types
 [Design an Application with 3 Layer Architecture](https://petran.substack.com/p/design-an-application-with-3-layer?utm_source=substack&utm_campaign=post_embed&utm_medium=web)
 *Application*
@@ -54,7 +54,7 @@ A benefit of doing the methods above is defining architecture problems from insi
 - Improve code better
 
 Behind the Scene Code into the World
-![[../Gallery/Pasted image 20231001115133.png]]
+![[../Gallery/Pasted image 20231001115133.png|500]]
 
 Storage Data Types
-![[../Gallery/Pasted image 20231001124936.png]]
+![[../Gallery/Pasted image 20231001124936.png|500]]

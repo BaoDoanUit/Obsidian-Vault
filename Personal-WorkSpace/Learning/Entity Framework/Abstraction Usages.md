@@ -52,7 +52,6 @@ Tackling Performance Implications in Reads
 - Modify the student : Enroll & EditPersonalInfo
 - Read the student 
 ![[../../../Gallery/Screen Shot 2023-10-07 at 15.28.46.png]]
-
 ![[../../../Gallery/Screen Shot 2023-10-07 at 23.01.18.png]]
 
 
@@ -61,21 +60,17 @@ Custom Unit of Work Class
 - Still a red flag
 
 ![[../../../Gallery/Screen Shot 2023-10-07 at 23.08.19.png]]
-
 ![[../../../Gallery/Screen Shot 2023-10-07 at 23.09.34.png]]
 
 Repositories know about UoW
 UoW doesn't know about repositories
 
 ![[../../../Gallery/Screen Shot 2023-10-07 at 23.10.29.png]]
-
 ![[../../../Gallery/Screen Shot 2023-10-07 at 23.13.56.png]]
-
 ![[../../../Gallery/Screen Shot 2023-10-07 at 23.17.12.png]]
 
 Not execute condition below  
 ![[../../../Gallery/Screen Shot 2023-10-07 at 23.18.04.png]]
-
 ![[../../../Gallery/Screen Shot 2023-10-07 at 23.19.58.png]]
 
 Don't use IQueryable as part of the public API
