@@ -84,3 +84,5 @@ Don't use IQueryable as part of the public API
 
 
 IEnumerable and Lazy Evaluation
+
+![[../../../Gallery/Screen Shot 2023-10-15 at 22.07.10.png]]

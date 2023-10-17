@@ -71,3 +71,17 @@ annotation-target: Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf
 >%%TAGS%%
 >
 ^dxasfeviphs
+
+
+>%%
+>```annotation-json
+>{"created":"2023-10-16T03:20:04.730Z","updated":"2023-10-16T03:20:04.730Z","document":{"title":"Deep Nutrition: Why Your Genes Need Traditional Food (2nd Edition)","link":[{"href":"urn:x-pdf:4f90edeee8770dfabb3fd0d15b93db4f"},{"href":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf"}],"documentFingerprint":"4f90edeee8770dfabb3fd0d15b93db4f"},"uri":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf","target":[{"source":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf","selector":[{"type":"TextPositionSelector","start":337428,"end":337429},{"type":"TextQuoteSelector","exact":" ","prefix":"oment forward,America would turn","suffix":"to Keys for advice on preventing"}]}]}
+>```
+>%%
+>*%%PREFIX%%oment forward,America would turn%%HIGHLIGHT%% ==== %%POSTFIX%%to Keys for advice on preventing*
+>%%LINK%%[[#^nr5c6kcglen|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^nr5c6kcglen
