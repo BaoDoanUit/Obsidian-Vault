@@ -33,3 +33,7 @@ Code Booking
 10. Mời cưới (2 tuần trước khi cưới).
 11. Lên nhà hàng chốt lại số bàn tiệc và những điều khoản trong hợp đồng (3 tuần trước khi cưới).
 12. Mua sắm thêm vật dụng cần thiết cho CD-CR sau ngày cưới (chăn ra gối nệm, áo quần để cô dâu mặc sau khi về nhà chồng…): 1 tháng trước ngày cưới.
+
+
+![[../../Gallery/Pasted image 20231017153951.png]]
+![[../../Gallery/Pasted image 20231017154016.png]]

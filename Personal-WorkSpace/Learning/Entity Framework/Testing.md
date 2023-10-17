@@ -8,7 +8,7 @@ But the challenge is that adding TTL to big tables will bring a heavy load to th
 
 ![[../../../Gallery/0 pA8RDirVbaGHH_4Z.webp]]
 
-Even if Kafka can provide 99.95% SLA, there is still the chance of stream producer failures. When the producer fails, they will store the message in an Amazon Simple Queue Service (SQS) and retry. If the retry also fails, it will be moved to the SQS dead letter queue (DLQ), to be consumed at a later time.
+Even if Kafka can provide 99.95% SLA (Service Level Aggreements), there is still the chance of stream producer failures. When the producer fails, they will store the message in an Amazon Simple Queue Service (SQS) and retry. If the retry also fails, it will be moved to the SQS dead letter queue (DLQ), to be consumed at a later time.
 
 
 BENEFIT

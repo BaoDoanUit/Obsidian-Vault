@@ -142,3 +142,45 @@ annotation-target: Body by Science - John R. Little.pdf
 >%%TAGS%%
 >
 ^cy59raxzaob
+
+
+>%%
+>```annotation-json
+>{"created":"2023-10-09T07:27:45.305Z","updated":"2023-10-09T07:27:45.305Z","document":{"title":"Body by Science","link":[{"href":"urn:x-pdf:5dd1fadfb803ff0901b692b7ee454e60"},{"href":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf"}],"documentFingerprint":"5dd1fadfb803ff0901b692b7ee454e60"},"uri":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","target":[{"source":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","selector":[{"type":"TextPositionSelector","start":354899,"end":354922},{"type":"TextQuoteSelector","exact":"The Science of Fat Loss","prefix":"rward into the future.CHAPTER 9 ","suffix":"Fat is an amazing tissue. It has"}]}]}
+>```
+>%%
+>*%%PREFIX%%rward into the future.CHAPTER 9%%HIGHLIGHT%% ==The Science of Fat Loss== %%POSTFIX%%Fat is an amazing tissue. It has*
+>%%LINK%%[[#^zy0t0v26a8|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^zy0t0v26a8
+
+
+>%%
+>```annotation-json
+>{"created":"2023-10-09T07:28:09.999Z","updated":"2023-10-09T07:28:09.999Z","document":{"title":"Body by Science","link":[{"href":"urn:x-pdf:5dd1fadfb803ff0901b692b7ee454e60"},{"href":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf"}],"documentFingerprint":"5dd1fadfb803ff0901b692b7ee454e60"},"uri":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","target":[{"source":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","selector":[{"type":"TextPositionSelector","start":355534,"end":355605},{"type":"TextQuoteSelector","exact":"ly the main reason we are even here atall. Throughout human history, th","prefix":"althful. Actually, fat is probab","suffix":"e ready availability of food was"}]}]}
+>```
+>%%
+>*%%PREFIX%%althful. Actually, fat is probab%%HIGHLIGHT%% ==ly the main reason we are even here atall. Throughout human history, th== %%POSTFIX%%e ready availability of food was*
+>%%LINK%%[[#^fvzdxfhxx5|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^fvzdxfhxx5
+
+
+>%%
+>```annotation-json
+>{"created":"2023-10-09T07:33:34.768Z","text":"Should follow good food.","updated":"2023-10-09T07:33:34.768Z","document":{"title":"Body by Science","link":[{"href":"urn:x-pdf:5dd1fadfb803ff0901b692b7ee454e60"},{"href":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf"}],"documentFingerprint":"5dd1fadfb803ff0901b692b7ee454e60"},"uri":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","target":[{"source":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","selector":[{"type":"TextPositionSelector","start":401543,"end":401755},{"type":"TextQuoteSelector","exact":"First, eat natural, unprocessed foods. These foods typically have a lowercalorie density per unit of weight. Research has shown that humansgravitate toward eating a specific weight-based quantity of food each day","prefix":"ly accelerated fat-loss process.","suffix":".In one such study, subjects wer"}]}]}
+>```
+>%%
+>*%%PREFIX%%ly accelerated fat-loss process.%%HIGHLIGHT%% ==First, eat natural, unprocessed foods. These foods typically have a lowercalorie density per unit of weight. Research has shown that humansgravitate toward eating a specific weight-based quantity of food each day== %%POSTFIX%%.In one such study, subjects wer*
+>%%LINK%%[[#^hex8bhjvhhv|show annotation]]
+>%%COMMENT%%
+>Should follow good food.
+>%%TAGS%%
+>
+^hex8bhjvhhv
