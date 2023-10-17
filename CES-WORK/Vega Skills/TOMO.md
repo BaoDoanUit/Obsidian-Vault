@@ -26,3 +26,16 @@ Seeking certain work items because they are highly visible and easy.
 ### Notes:
 We've all been there—feeling judged and insecure, and feeling like you have to get your leaders to like you. You start solving for that, and not the work, which only digs your hole deeper. Trust me, I know. The thing that is really tough about this skill is that people who are struggling with their tomo are typically unwilling to admit it. And it is really uncomfortable to bring it up with your friends, leaders, and coaches. My biggest tip to you - make it easy for your colleagues to point out that you're struggling with this skill so that you can get help and see your blind spot.
 Learn more in Primed to Perform: http://a.co/bOwz5SL
+
+
+
+1. If I feel overworked, consider delegating some of your tasks or asking for (Khai, Nguyen) help . 
+**If I am struggling with a particular task,** consider breaking it down into smaller parts or seeking guidance from colleagues (Ask who I think can solve this (Thao, Nguyen, Khai and sometimes Vinh, Linh, Thac). It's depend on my struggles. 
+**And then taking breaks,** practicing mindfulness, and engaging in activities that bring I joy can help stress relief and improve your overall well-being
+
+2. If you didn’t achieve the expected outcome at work, it can be helpful to take a step back and analyze the situation. 
+Here are some steps I following: 
+**Acknowledge the reasons** why you didn’t achieve the expected outcome. Take ownership of the circumstances that led to this outcome.
+**Communicate with (Thao, Khai, Thac) about the situation**. Seek feedback on how you can improve and what steps you can take to ensure better outcomes in the future.
+**Create an improvement plan** that outlines specific steps you will take to improve your performance.
+**Stay positive and don’t give up**. Remember that setbacks are a natural part of the learning process, and that every failure is an opportunity to learn and grow.
