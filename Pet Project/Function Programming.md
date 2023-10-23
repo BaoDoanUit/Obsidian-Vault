@@ -1,4 +1,4 @@
-##### Information
+### Information
 Functional programming is not about not having state. It about keeping the functions [referential transparency](http://en.wikipedia.org/wiki/Referential_transparency_%28computer_science%29) and without side effects. Usually this mean having no state, but that not has to be the case.  
 
 #### Effects
@@ -62,7 +62,7 @@ It is a complete model for computation. As with the Turing machine, anything whi
 It’s also an accessible model. I explained it to my mother in a way that made sense to her. Wouldn’t even attempt that with the Turing machine.
 So the concepts which FP offers to help humans think about their code are based on the fundamentals of a computation model. FP provides a consistent way to reason at every level of the solution (um, until you get to the very bottom, where current digital computer design means it has to be translated into something imperative).
 
-##### FP is, if you like, a full-stack paradigm. Computation all the way down.
+#### Function Programming is, if you like, a full-stack paradigm. Computation all the way down.
 Foundations of Object Oriented Programming
 So what is the origin and basis of OOP?
 It’s not the Turing machine. Hell, who bases their language on an infinite paper tape going backwards and forwards? When would that ever help you think about your code and the problem you are trying to solve? The point of the Turing machine, for language design, is that it can solve any computable problem. If it can be shown that your language can create a simulated Turing machine, then it has at least one way to solve any problem because you can always feed simulated tape to the simulated machine.

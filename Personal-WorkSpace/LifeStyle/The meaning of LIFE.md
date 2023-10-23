@@ -70,3 +70,9 @@ Record exactly what happenning around your life.
 
 
 
+Điều chỉnh sự nhàm chán trong một mối quan hệ 
+Nhận diện những nghịch lý trong mối quan hệ và sửa chữa nó
+
+
+bao.doan@ces-ltd.com
+m!2!CcsUv3u7ZTd

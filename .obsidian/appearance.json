@@ -8,6 +8,6 @@
   "monospaceFontFamily": "Roboto Mono",
   "showViewHeader": false,
   "enabledCssSnippets": [],
-  "nativeMenus": true,
+  "nativeMenus": false,
   "translucency": false
 }
