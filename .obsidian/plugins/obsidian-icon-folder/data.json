@@ -5,11 +5,11 @@
     "fontSize": 16,
     "iconColor": null,
     "recentlyUsedIcons": [
-      "IbRectangleSmallWithBlocks",
-      "Fab500px",
-      "SiDependabot",
-      "SiPicardsurgeles",
-      "FabKeycdn"
+      "SiBookstack",
+      "SiAdobe",
+      "SiFluentd",
+      "FabBattleNet",
+      "SiSololearn"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -23,8 +23,6 @@
     "iconInTabsEnabled": false
   },
   "Draft": "FabFirstdraft",
-  "Pet Project": "FabAndroid",
-  "Profiles": "SiXdadevelopers",
   "Gallery": "IbDocumentPhoto",
   "CES-WORK": "IbRectangleSmallWithBlocks",
   "Big-Picture": {
@@ -36,5 +34,14 @@
   "CES-WORK/Business/Overview of BLUE system.md": {
     "iconName": null,
     "inheritanceIcon": "SiXdadevelopers"
-  }
+  },
+  "Personal-WorkSpace/Pet Project": "FabAndroid",
+  "Personal-WorkSpace/Personal Training": "SiTrainerroad",
+  "Personal-WorkSpace/LifeStyle": "SiStylelint",
+  "Personal-WorkSpace/Learning": "SiSololearn",
+  "Personal-WorkSpace/Technical": "FabBattleNet",
+  "Personal-WorkSpace/Travel Planning": "SiFluentd",
+  "Personal-WorkSpace/Languages": "SiAdobe",
+  "Personal-WorkSpace/Books": "SiBookstack",
+  "Personal-WorkSpace/Profiles": "SiXdadevelopers"
 }

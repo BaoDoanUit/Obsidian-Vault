@@ -4,4 +4,4 @@ Purpose of this document is provide all information processes related to local (
 2. Optimize all resources
 
 ### Business
-[[General Business]]
+[[../Business/General Business]]

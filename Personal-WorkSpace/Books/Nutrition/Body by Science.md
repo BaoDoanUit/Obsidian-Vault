@@ -184,3 +184,17 @@ annotation-target: Body by Science - John R. Little.pdf
 >%%TAGS%%
 >
 ^hex8bhjvhhv
+
+
+>%%
+>```annotation-json
+>{"created":"2023-10-27T08:23:39.910Z","updated":"2023-10-27T08:23:39.910Z","document":{"title":"Body by Science","link":[{"href":"urn:x-pdf:5dd1fadfb803ff0901b692b7ee454e60"},{"href":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf"}],"documentFingerprint":"5dd1fadfb803ff0901b692b7ee454e60"},"uri":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","target":[{"source":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","selector":[{"type":"TextPositionSelector","start":302612,"end":302623},{"type":"TextQuoteSelector","exact":"repetitions","prefix":"f weight lifted or the amount of","suffix":" (or both), then it is time to m"}]}]}
+>```
+>%%
+>*%%PREFIX%%f weight lifted or the amount of%%HIGHLIGHT%% ==repetitions== %%POSTFIX%%(or both), then it is time to m*
+>%%LINK%%[[#^cyna2tloha|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^cyna2tloha
