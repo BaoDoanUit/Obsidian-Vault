@@ -37,3 +37,5 @@ Set clear goals: Setting clear goals can help you stay motivated and focused on 
 Create a plan: Once you have set your goals, it’s essential to create a plan that works for you. Create a plan for the short-term and long-term every day.
 
 Track progress: Record what you have accomplished so far and what you still need to do. Write down the result review it every week and make an adjustment appropriate.
+
+
