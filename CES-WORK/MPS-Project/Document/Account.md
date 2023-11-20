@@ -8,3 +8,5 @@ Remote Desktop - B^OI#gG7&6)mSHkL*
 USORAWASP001A:
 user: bao.doan
 password: *hTuG$Ju^k5!
+
+

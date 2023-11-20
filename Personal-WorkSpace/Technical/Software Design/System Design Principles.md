@@ -57,3 +57,5 @@ Về mặt này thì như ABP framework triển khai, cần document chi tiết 
  3. Single point of failure
 
  Scale ![[Pasted image 20230604103313.png]]
+
+![[../../../Gallery/APIGateWay.png]]

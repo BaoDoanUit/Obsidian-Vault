@@ -22,3 +22,11 @@ How to speaking english well
 Add english learning session (30min) 
 Try to learn English 3 times a week
 
+
+
+#### Tip focus on working
+
+
+#### Ramp up to any new codebase quickly
+- Learn a few component in depth
+- 

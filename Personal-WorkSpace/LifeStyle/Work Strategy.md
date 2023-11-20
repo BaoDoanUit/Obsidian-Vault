@@ -48,3 +48,16 @@ Hoàn thành ít nhất 10h/1 ngày
 - Hotpot Wifi
 - Youtube
 - Facebook
+
+
+Why most of company lay off too much staff?
+- Cut Cost immediately
+- No investment the new product
+- Outsources no job
+- AI will create a new trend NO CODE
+
+Write down something related to health and the focus
+
+Buy Supplement
+- 2 Fish Oil
+- 2 Joint Guard
