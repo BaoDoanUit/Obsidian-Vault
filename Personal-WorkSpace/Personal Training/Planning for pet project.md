@@ -8,4 +8,7 @@ Convert C# app to NET 7
 Deploy API GateWay
 Deploy Authentication Server
 
+Coding Projects:
+- Set up codebase for electron app
+
 

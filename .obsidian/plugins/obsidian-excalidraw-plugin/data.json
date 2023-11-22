@@ -72,7 +72,7 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.19",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.9.20",
     "libraryItems": [
       {
         "status": "unpublished",
@@ -2531,7 +2531,7 @@
             "containerId": null,
             "originalText": "{",
             "lineHeight": 1.1978329067229467,
-            "baseline": 27
+            "baseline": 28
           },
           {
             "type": "text",
@@ -2573,7 +2573,7 @@
             "containerId": null,
             "originalText": "}",
             "lineHeight": 1.191103508370571,
-            "baseline": 27
+            "baseline": 28
           },
           {
             "type": "text",
@@ -4701,7 +4701,7 @@
             "containerId": null,
             "originalText": "Key",
             "lineHeight": 1.3205884515795052,
-            "baseline": 6
+            "baseline": 5
           },
           {
             "type": "text",
@@ -4741,7 +4741,7 @@
             "containerId": null,
             "originalText": "Key",
             "lineHeight": 1.3205884515795052,
-            "baseline": 6
+            "baseline": 5
           },
           {
             "type": "text",
@@ -4781,7 +4781,7 @@
             "containerId": null,
             "originalText": "Value",
             "lineHeight": 1.3205884515795019,
-            "baseline": 6
+            "baseline": 5
           },
           {
             "type": "text",
@@ -4821,7 +4821,7 @@
             "containerId": null,
             "originalText": "Value",
             "lineHeight": 1.3205884515795019,
-            "baseline": 6
+            "baseline": 5
           },
           {
             "type": "text",
@@ -4865,7 +4865,7 @@
             "containerId": null,
             "originalText": "Cache",
             "lineHeight": 1.2252700543605994,
-            "baseline": 18
+            "baseline": 19
           }
         ],
         "id": "xpCzjHc23K3MX6NEH3Rau",
@@ -5493,7 +5493,7 @@
             "containerId": null,
             "originalText": "Auth &\n IAM",
             "lineHeight": 1.2574328565604995,
-            "baseline": 43
+            "baseline": 42
           }
         ],
         "id": "qDHVIOsaS_5bRfXU2dS49",
@@ -5867,7 +5867,7 @@
             "containerId": null,
             "originalText": "DNS",
             "lineHeight": 1.1940035041557016,
-            "baseline": 24
+            "baseline": 25
           },
           {
             "type": "text",
@@ -6769,7 +6769,7 @@
             "containerId": null,
             "originalText": "Message Q",
             "lineHeight": 1.2429172407900155,
-            "baseline": 15
+            "baseline": 16
           }
         ],
         "id": "ytryXvV_Tui8vGTnFjquQ",
@@ -8948,7 +8948,7 @@
             "containerId": null,
             "originalText": "Lorem ipsum dolor sit amet, \nconsectetur adipiscing elit,sed\n do eiusmod tempor incididunt\n ut labore et dolore magna\n aliqua. Ut enim ad miveniam,\n quis nostrud exercitaullamco \nlaboris nisi ut aliquip ex ea \nommodo consequat. Duis aute \nirure dolor in reprehenderit i",
             "lineHeight": 1.2794815650906497,
-            "baseline": 28
+            "baseline": 27
           },
           {
             "type": "text",
@@ -8990,7 +8990,7 @@
             "containerId": null,
             "originalText": "Lorem ipsum dolor s, \nconsectetur adipng d\n do eiusmopor incididunt\nut labore et dolore magna\naliqua. Ut enim ad miveniam,\nquis nostrud exercitaullamco \nlaboris nisi ut aliquip ex ea \nommodo consequat. Duis aute \n",
             "lineHeight": 1.2794815650906497,
-            "baseline": 28
+            "baseline": 27
           },
           {
             "type": "rectangle",
@@ -9260,7 +9260,7 @@
             "containerId": null,
             "originalText": "G",
             "lineHeight": 1.2406791341169863,
-            "baseline": 12
+            "baseline": 11
           },
           {
             "type": "text",
@@ -9302,7 +9302,7 @@
             "containerId": null,
             "originalText": "o",
             "lineHeight": 1.2406791341169867,
-            "baseline": 12
+            "baseline": 11
           },
           {
             "type": "text",
@@ -9344,7 +9344,7 @@
             "containerId": null,
             "originalText": "o",
             "lineHeight": 1.2406791341169867,
-            "baseline": 12
+            "baseline": 11
           },
           {
             "type": "text",
@@ -9386,7 +9386,7 @@
             "containerId": null,
             "originalText": "g",
             "lineHeight": 1.2406791341169867,
-            "baseline": 12
+            "baseline": 11
           },
           {
             "type": "text",
@@ -9428,7 +9428,7 @@
             "containerId": null,
             "originalText": "l",
             "lineHeight": 1.2406791341169867,
-            "baseline": 12
+            "baseline": 11
           },
           {
             "type": "text",
@@ -9470,7 +9470,7 @@
             "containerId": null,
             "originalText": "e",
             "lineHeight": 1.2406791341169867,
-            "baseline": 12
+            "baseline": 11
           },
           {
             "type": "rectangle",
@@ -10235,7 +10235,7 @@
             "containerId": null,
             "originalText": "Slack",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           }
         ],
         "id": "mb6aDt8lLpnjb9BXfkKzo",
@@ -10728,7 +10728,7 @@
             "containerId": null,
             "originalText": "Docker",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           }
         ],
         "id": "Qsr_bCZKjzSUef9igg3F_",
@@ -11094,7 +11094,7 @@
             "containerId": null,
             "originalText": "GitHub",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           }
         ],
         "id": "K39d22cEulRClkwYv67oo",
@@ -11173,7 +11173,7 @@
             "containerId": null,
             "originalText": "VPC",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           },
           {
             "type": "rectangle",
@@ -11564,7 +11564,7 @@
             "containerId": null,
             "originalText": "Private subnet",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           },
           {
             "type": "rectangle",
@@ -11851,7 +11851,7 @@
             "containerId": null,
             "originalText": "Public subnet",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           },
           {
             "type": "rectangle",
@@ -12106,7 +12106,7 @@
             "containerId": null,
             "originalText": "User",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           },
           {
             "type": "line",
@@ -12246,7 +12246,7 @@
             "containerId": null,
             "originalText": "Users",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           },
           {
             "type": "ellipse",
@@ -12848,7 +12848,7 @@
             "containerId": null,
             "originalText": "Device",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           }
         ],
         "id": "9_9pebw1kmiJPt-x9timk",
@@ -12924,7 +12924,7 @@
             "containerId": null,
             "originalText": "Server",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           },
           {
             "type": "line",
@@ -13155,7 +13155,7 @@
             "containerId": null,
             "originalText": "Email",
             "lineHeight": 1.25,
-            "baseline": 18
+            "baseline": 17
           },
           {
             "type": "rectangle",
