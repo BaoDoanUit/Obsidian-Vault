@@ -36,3 +36,20 @@ A State Pattern for the Booking Process
 
 The Abstract State
 
+
+
+### Saga with State Machine
+The system is composed of four RESTful services:
+
+- Order Controller: Responsible for creating or deleting an order.
+- Inventory Controller: Handles updating the inventory and can roll back the inventory if needed.
+- Notifier: Sends notifications via email, text message, or other forms.
+- Order Orchestrator: Manages the distributed transaction using a state machine.
+
+The Order Orchestrator uses proxies to call all the services and manage the distributed transaction. The proxies include an Order Proxy, Notification Proxy, and Inventory Proxy.
+
+The Order Manager class is introduced, which uses the Stateless NuGet package to implement a state machine for managing the order transaction. It defines different states for the order transaction and different actions that can be performed.
+
+The startup is updated to register all the classes and interfaces. The implementation of the state machine in the Order Manager is yet to be done.
+
+The transcript emphasizes that while the example uses RESTful APIs, the same saga orchestration can be implemented using asynchronous microservices with a queue or a stream. However, RESTful APIs are used for simplicity in this example. The goal is to ensure that if any part of the order process fails, the system can roll back to maintain data integrity.

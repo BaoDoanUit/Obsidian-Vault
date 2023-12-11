@@ -9,6 +9,7 @@ Two options
 >##### The Long Term
 You can only hardware-patch over bad code for so long
 You begin by having good habits
+So good deal with practice
 There are different dimension of quality in software
 Sometimes the -ilities conflict with each other
 You must choose your -ilities wisely
@@ -97,3 +98,7 @@ Learn a new-ish way to work with strings
 Message Queuing ![[Pasted image 20230612192133.png]]
 
 Planetary Scale Architecture ![[Pasted image 20230612192333.png]] ![[Pasted image 20230612192351.png]] ![[Pasted image 20230612192423.png]] ![[Pasted image 20230612192443.png]] ![[Pasted image 20230612192503.png]]
+
+
+OpenAI Key
+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

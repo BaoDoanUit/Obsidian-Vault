@@ -14,7 +14,10 @@ up: [[What Software Architecture 101]]
 - References
      - [Idea mapping 1 - 1](https://towardsdatascience.com/table-design-best-practices-for-etl-200accee9cc9?gi=71f1101c2509)
      - [Materialized View](https://dogy.io/2020/10/27/database-301-materialized-view/ )
-     - [Oltp - Olap](https://dogy.io/2020/11/13/database-302-oltp-hay-olap/)
+     - [[OLTP-OLAP]]
+	
+	
+ 
 
 #### Partition mapping table -- (Transperiod time)
 - If have combine key it should be better
