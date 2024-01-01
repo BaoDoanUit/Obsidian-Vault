@@ -16,7 +16,6 @@ annotation-target: Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf
 >
 ^qiuqpsma8e
 
-
 >%%
 >```annotation-json
 >{"created":"2023-09-15T05:36:35.152Z","updated":"2023-09-15T05:36:35.152Z","document":{"title":"Deep Nutrition: Why Your Genes Need Traditional Food (2nd Edition)","link":[{"href":"urn:x-pdf:4f90edeee8770dfabb3fd0d15b93db4f"},{"href":"vault:/Personal_Scope/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf"}],"documentFingerprint":"4f90edeee8770dfabb3fd0d15b93db4f"},"uri":"vault:/Personal_Scope/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf","target":[{"source":"vault:/Personal_Scope/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf","selector":[{"type":"TextPositionSelector","start":45763,"end":45777},{"type":"TextQuoteSelector","exact":"Mediterranean ","prefix":"Okinawa  diet.Others prefer the ","suffix":"or the French. But have you ever"}]}]}

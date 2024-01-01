@@ -29,4 +29,19 @@ Try to learn English 3 times a week
 
 #### Ramp up to any new codebase quickly
 - Learn a few component in depth
-- 
+- Write overview function of business
+
+### Planning so important
+Have something need to prepare before starting set up environment
+At least visualize the target of made something go over
+List down all the things related the requirements
+Which part is dependency
+
+
+Could be better if you choose exactly what you wanna do.
+Step by step finding the root cause:
+- First of all, finding the behavior of process
+- List down the impact each step 
+- Visualize data flow of behavior
+
+Could you back to the logic optimize process?
