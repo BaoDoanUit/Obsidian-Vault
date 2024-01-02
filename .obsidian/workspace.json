@@ -4,19 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "95ea5965cfd4e4db",
+        "id": "408cdf4c2a2ee238",
         "type": "tabs",
         "children": [
           {
-            "id": "00ed59136d4f7a04",
+            "id": "ffee6bce2b5a3725",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf-annotator",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/New Notes Editing.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
+                "file": "Personal-WorkSpace/Books/Nutrition/Deep Nutrition_ Why Your Genes.md"
               }
             }
           }
@@ -71,7 +68,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 318.5,
+    "collapsed": true
   },
   "right": {
     "id": "ffa88d1f3b30217b",
@@ -98,7 +96,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/New Notes Editing.md",
+                "file": "Personal-WorkSpace/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -110,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/New Notes Editing.md",
+                "file": "Personal-WorkSpace/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal-WorkSpace/Learning/Entity Framework/New Notes Editing.md"
+                "file": "Personal-WorkSpace/Books/Nutrition/Deep Nutrition_ Why Your Genes.md"
               }
             }
           },
@@ -140,12 +138,21 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "93c620f6a0ce6401",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 241.5,
+    "width": 349.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -158,59 +165,63 @@
       "omnisearch:Omnisearch": false,
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "copilot:Copilot Chat": false,
+      "hidden-folder-obsidian:Show Folders": false
     }
   },
-  "active": "00ed59136d4f7a04",
+  "active": "ffee6bce2b5a3725",
   "lastOpenFiles": [
-    "Personal-WorkSpace/Learning/Entity Framework/Notes.md",
-    "Personal-WorkSpace/Learning/Entity Framework/New Notes Editing.md",
-    "Personal-WorkSpace/Learning/Entity Framework/Not updates.md",
-    "Personal-WorkSpace/Learning/Entity Framework/Another Changes.md",
-    "Personal-WorkSpace/Learning/Entity Framework/Abstraction Usages.md",
-    "Personal-WorkSpace/Learning/Entity Framework/Subtraction.md",
-    "Personal-WorkSpace/Personal Training/Swimming.md",
-    "Personal-WorkSpace/Learning/Entity Framework",
-    "Personal-WorkSpace/Learning",
     "Personal-WorkSpace/Books/Nutrition/Deep Nutrition_ Why Your Genes.md",
     "Personal-WorkSpace/Books/Nutrition/Body by Science.md",
-    "Personal-WorkSpace/Private_Information/Medicine.md",
+    "CES-WORK/MPS-Project/Tickets/MPS-124.md",
+    "CES-WORK/Vega Skills/Set own goals.md",
+    "CES-WORK/Vega Skills/Take Notes.md",
+    "CES-WORK/Vega Skills/Pulling in Help.md",
+    "CES-WORK/Vega Skills/Performance Review.md",
+    "CES-WORK/Business/Overview of BLUE system.md",
+    "CES-WORK/Business/Invoice Generation - Dual Billing.md",
+    "CES-WORK/Vega Skills/TOMO.md",
+    "Gallery/Pasted image 20231211142928.png",
+    "Personal-WorkSpace/LifeStyle/Youtube Notes.md",
+    "CES-WORK/MPS-Project/Document/MPS CrossOps.md",
+    "CES-WORK/MPS-Project/Diagrams/Managed_Portfolio_Solution_Blocks.drawio",
     "CES-WORK/MPS-Project/Document/Business Requirement.md",
     "CES-WORK/MPS-Project/Document/Calculator.md",
-    "CES-WORK/MPS-Project/Document/HedgeData-Business.md",
-    "CES-WORK/MPS-Project/Document/MPS CrossOps.md",
-    "CES-WORK/Overview of BLUE system.md",
-    "Profiles/Info.md",
-    "Business.canvas",
-    "Personal-WorkSpace/Technical/Training/EF Core Best Practices/Encapsulating EF Core 6 Usage.md",
-    "CES-WORK/MPS-Project/Tickets/MPS-124.md",
-    "Personal-WorkSpace/Personal Training/Learn English.md",
-    "Personal-WorkSpace/Technical/Training/EF Core Best Practices",
-    "Personal-WorkSpace/Technical/Training",
-    "Personal-WorkSpace/Personal Training/Training Session.md",
-    "Personal-WorkSpace/Personal Training/Workout.md",
-    "Pet Project/Software Development.md",
-    "Gallery/Pasted image 20231001124936.png",
-    "Gallery/Pasted image 20231001115133.png",
-    "Personal-WorkSpace/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf",
-    "Draft/Drawing 2023-09-26 10.16.23.excalidraw.md",
-    "Personal-WorkSpace/LifeStyle/PluralSight Planning.md",
+    "CES-WORK/MPS-Project/Architecture/EF Core Power Tool.md",
+    "Personal-WorkSpace/Technical/Software Design/Service Mesh Pattern in Software Architecture.md",
+    "Personal-WorkSpace/Technical/Software Design/Driven Data.md",
+    "Personal-WorkSpace/Technical/Software Design/Domain Driven Design.md",
+    "CES-WORK/Memos/Issue Invoice Generation.md",
+    "CES-WORK/Vega Skills/Examples.md",
+    "Personal-WorkSpace/LifeStyle/Fitness Style.md",
+    "Gallery/1 4aSkZg7MqYNZMCNb9TXvEQ.webp",
+    "Gallery/1 8wvoc5poPH6hAsZrY0AffA.webp",
+    "Gallery/1 oCmEstsLdh-HJEWeCjZUJQ.webp",
     "Personal-WorkSpace/LifeStyle/Mindset of work.md",
-    "Personal-WorkSpace/LifeStyle/Strategy Planning.md",
-    "Gallery/Pasted image 20230921110725.png",
-    "CES-WORK/Memos/Deployment",
-    "Gallery/Pasted image 20230921100209.png",
-    "Personal-WorkSpace/Travel Planning",
+    "Personal-WorkSpace/LifeStyle/Ideal Paying Job.md",
+    "Personal-WorkSpace/LifeStyle/How to enter FLOW State.md",
+    "Gallery/Pasted image 20231207154447.png",
+    "Tét.md",
+    "Gallery/Pasted image 20231207115735.png",
+    "Personal-WorkSpace/Technical/Software Design/Microservices.md",
     "CES-WORK/Business/CES Billing Process.pdf",
-    "Draft/Untitled Diagram.svg",
+    "copilot-conversations",
+    "Gallery/1 2uyLikWezFWaqNmzD3f68w.webp",
+    "Gallery/Pasted image 20231124113319.png",
+    "Gallery/Pasted image 20231124110301.png",
+    "Gallery/Pasted image 20231117164946.png",
+    "Personal-WorkSpace/Profiles",
+    "Personal-WorkSpace/Pet Project/Technical/NET Documents.canvas",
+    "Personal-WorkSpace/Pet Project/Tracking",
+    "Personal-WorkSpace/Pet Project/Technical",
+    "Personal-WorkSpace/Pet Project/Requirement",
+    "Personal-WorkSpace/Pet Project/Infrastructure",
+    "Personal-WorkSpace/Pet Project/Configurations",
+    "Personal-WorkSpace/Pet Project/Business",
+    "Business.canvas",
     "Big-Picture/Personal-Thinking.canvas",
-    "Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf",
-    "Personal-WorkSpace/Books/Nutrition/Documents",
-    "Gallery/Pasted image 20230612214447.png",
-    "Gallery/Pasted image 20230731212006.png",
-    "Gallery/Pasted image 20230731211959.png",
-    "Gallery/Pasted image 20230731210525.png",
-    "Gallery/Pasted image 20230724184133.png",
     "Canvas/Collection-Notes.canvas",
     "Test.canvas",
     "Pet Project/Technical/NET Documents.canvas"

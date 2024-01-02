@@ -73,8 +73,8 @@ AWS throttling errors
 AWS random errors (yes, they do occur)
 Lambda timeouts
 
-
-“cost of lambda = memory * execution time ms”
-“cost of lambda = memory * round_up(execution time ms, 100)”
-“Was it actually more cost efficient than just running a couple of servers?”
-
+```
+cost of lambda = memory * execution time ms
+cost of lambda = memory * round_up(execution time ms, 100)
+Was it actually more cost efficient than just running a couple of servers?
+```
