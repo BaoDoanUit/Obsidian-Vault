@@ -1,7 +1,3 @@
----
-up: [[What Software Architecture 101]]
----
-
 ### Why rate limiting is used
 Benefit
 - Prevent resource starvation caused by Denial of Service (DoS) attack.

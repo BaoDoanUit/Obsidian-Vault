@@ -45,3 +45,8 @@ Step by step finding the root cause:
 - Visualize data flow of behavior
 
 Could you back to the logic optimize process?
+
+Finding the way improve the technical side.
+- Observable the issue with manager eyes
+- Go through all the tasks of teams and take a look 
+- Keep it in your mind and process it easily

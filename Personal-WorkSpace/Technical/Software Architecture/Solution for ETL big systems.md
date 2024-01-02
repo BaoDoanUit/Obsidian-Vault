@@ -3,44 +3,46 @@ up: [[What Software Architecture 101]]
 ---
 
 #### Mapping 1 - 1 table (source - target)
-- Table source (reference by primary key) (Materialized view) (Apply for the status of this objects change many times)
-     - Has field changed (bit) 1 - 0 for picking data to synchronize 
-     - Has field finish (bit)  1 - 0 never pick this item for synchronize
-     - Consume all transactions changed impact to table source
+Table source (reference by primary key) (Materialized view) (Apply for the status of this objects change many times)
+- Has field changed (bit) 1 - 0 for picking data to synchronize 
+- Has field finish (bit)  1 - 0 never pick this item for synchronize
+- Consume all transactions changed impact to table source
 - Table target (reference by primary key)
-- Pros & Cons
-     - Easy to inserting and updating new data change
-     - Hard make table source consistency
-- References
-     - [Idea mapping 1 - 1](https://towardsdatascience.com/table-design-best-practices-for-etl-200accee9cc9?gi=71f1101c2509)
-     - [Materialized View](https://dogy.io/2020/10/27/database-301-materialized-view/ )
-     - [[OLTP-OLAP]]
+
+**Pros & Cons**
+- Easy to inserting and updating new data change
+- Hard make table source consistency
+
+**References**
+ - [Idea mapping 1 - 1](https://towardsdatascience.com/table-design-best-practices-for-etl-200accee9cc9?gi=71f1101c2509)
+ - [Materialized View](https://dogy.io/2020/10/27/database-301-materialized-view/ )
+ - [[OLTP-OLAP]]
 	
 	
  
 
 #### Partition mapping table -- (Transperiod time)
-- If have combine key it should be better
-- All transaction should be updated field "Modified Date" all table related?
-     - Impact all current processes related 
+If have combine key it should be better
+All transaction should be updated field "Modified Date" all table related?
+Impact all current processes related 
 
-#### Bulk import (ETL) hoặc sử dụng event stream
+#### Bulk import (ETL) or event stream
 Conversation ETL
 Here's my thoughts on your questions.
 
-1) Warehouse Design:
+**Warehouse Design:**
 Read Ralph Kimball's Book: The Data Warehouse Toolkit.
-- Your dimension table has a bunch of columns with meaningless names. Instead of field_5, the column should be given a name that has a business meaning. Data Warehousing is for ease of querying by business & reporting folks.
+- Your dimension table has a bunch of columns with meaningless names. Instead of field_5, the column should be given a name that has a business meaning. Data Warehousing is for ease of querying by business & reporting folks.	
 - I don't see any fact tables here. Understanding what the user dimension will be used for is important in it's design.
 
-2) The ETL Process
+**The ETL Process**
 - Have you identified where the bottleneck in the ETL process is? Is it on the reading of data from the source, the transformation of that data, or the writing to the database? You may be writing at 40,000 rows / sec but if you can only read 1,000 rows/sec from an XML data source, you're not going to get very far.
 - Have you considered loading the changed records to a stage table in the database first, without any transformation, then using SQL to transform and update the data? Often you'll find performance in the database is better than offloading the work to an ETL Tool.
 
-3) It's very realistic to update a few million records daily, if the hardware can handle it. I think it's important to understand if you are just going for a Type 1 dimension where you just overwrite changes (in which case a delete change rows, and then insert, may be a better option than a update/else/insert).
+- It's very realistic to update a few million records daily, if the hardware can handle it. I think it's important to understand if you are just going for a Type 1 dimension where you just overwrite changes (in which case a delete change rows, and then insert, may be a better option than a update/else/insert).
 - If you are keeping history of changes in a type 2 dimension, you might want to consider snowflaking the fields you want to track changes on in a separate minidimension. Kimball discusses this technique when you have a very large "customer" dimension. You would then use a periodic snapshot fact table which would allow you to track the changes to the users over time.
 
-4) Your friend's suggestion to create a primary key out of the natural business keys is not a good idea for a data warehouse environment. We create an integer surrogate key so we can include it in the Fact Tables, to keep them skinny, since they will be orders of magnitude larger than the dimension tables.
+- Your friend's suggestion to create a primary key out of the natural business keys is not a good idea for a data warehouse environment. We create an integer surrogate key so we can include it in the Fact Tables, to keep them skinny, since they will be orders of magnitude larger than the dimension tables.
 
 ### A data pipeline
 So it is a sequence of data processing steps. Due to *logical data flow connections* between these stages, each state generates an output that serves as an input for the following stage.
@@ -86,7 +88,7 @@ This is a platform level architecture example:
 ![[ETL-2.png]]
 
 This is a very common pattern for many lake house architecture solutions. In this blog post I created a bespoke data ingestion manager that is triggered by new object events when they are created in Cloud Storage:
-https://towardsdatascience.com/how-to-handle-data-loading-in-bigquery-with-serverless-ingest-manager-and-node-js-4f99fba92436
+[Link](https://towardsdatascience.com/how-to-handle-data-loading-in-bigquery-with-serverless-ingest-manager-and-node-js-4f99fba92436)
 
 ### Streaming
 Application can trigger immediate response to new data events thanks to stream processing.

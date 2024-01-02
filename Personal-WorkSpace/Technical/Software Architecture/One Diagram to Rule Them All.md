@@ -1,6 +1,3 @@
----
-up: [[Architecture 101]]
----
 ## The Why: Visuals Will..
 ### Stick in Long-Term Memory
 Words are processed by short-term memory, images go directly to long-term memory

@@ -1,6 +1,3 @@
----
-up: [[Microservices]]
----
 Link implement distributed transaction
 https://mahedee.net/distributed-transaction-using-saga-rabbitmq-aspnetcore/
 
