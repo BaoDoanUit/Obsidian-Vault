@@ -84,3 +84,17 @@ annotation-target: Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf
 >%%TAGS%%
 >
 ^nr5c6kcglen
+
+
+>%%
+>```annotation-json
+>{"created":"2024-01-03T12:20:39.811Z","updated":"2024-01-03T12:20:39.811Z","document":{"title":"Deep Nutrition: Why Your Genes Need Traditional Food (2nd Edition)","link":[{"href":"urn:x-pdf:4f90edeee8770dfabb3fd0d15b93db4f"},{"href":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf"}],"documentFingerprint":"4f90edeee8770dfabb3fd0d15b93db4f"},"uri":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf","target":[{"source":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Deep Nutrition_ Why Your Genes - Catherine Shanahan.pdf","selector":[{"type":"TextPositionSelector","start":323742,"end":323968},{"type":"TextQuoteSelector","exact":"In the Florence, Italy, episode of Phil Rosenthal’s most excellent PBSseries I’ll Have What Phil’s Having, Phil is accompanied by celebritychef Fabio Picchi and his elderly but remarkably spry mother to visither rooftop garden","prefix":"back toEarth.LIFE IN OUTER SPACE","suffix":". Taking in the 360-degree view "}]}]}
+>```
+>%%
+>*%%PREFIX%%back toEarth.LIFE IN OUTER SPACE%%HIGHLIGHT%% ==In the Florence, Italy, episode of Phil Rosenthal’s most excellent PBSseries I’ll Have What Phil’s Having, Phil is accompanied by celebritychef Fabio Picchi and his elderly but remarkably spry mother to visither rooftop garden== %%POSTFIX%%. Taking in the 360-degree view*
+>%%LINK%%[[#^ytrr4x6rveh|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^ytrr4x6rveh
