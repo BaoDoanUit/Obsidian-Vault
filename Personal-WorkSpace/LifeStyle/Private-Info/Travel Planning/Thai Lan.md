@@ -20,7 +20,7 @@ Những địa điểm du lịch Chiang Mai “được lòng” du khách nhấ
 🥘🍲Chợ đêm Bazaar Chiang Mai.
 🚗Địa chỉ: Changklan Rd, Chang Moi Sub-district, Mueang Chiang Mai District, Chiang Mai 50100, Thái Lan.
 ⏰Giờ mở cửa:17:00–00:00
-![[../../Gallery/Pasted image 20230921100209.png]]
+![[../../../../Gallery/Pasted image 20230921100209.png]]
 
 🛕🛕Chùa Chedu Luang (Wat Chedi Luang) -  Ngôi chùa có kiến trúc cực độc đáo.
 🚗Địa chỉ: 103 Prapokkloa Rd, Tambon Si Phum, Mueang Chiang Mai District, Chiang Mai 50200, Thái Lan.

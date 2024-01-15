@@ -35,5 +35,5 @@ Code Booking
 12. Mua sắm thêm vật dụng cần thiết cho CD-CR sau ngày cưới (chăn ra gối nệm, áo quần để cô dâu mặc sau khi về nhà chồng…): 1 tháng trước ngày cưới.
 
 
-![[../../Gallery/Pasted image 20231017153951.png]]
-![[../../Gallery/Pasted image 20231017154016.png]]
+![[../../../Gallery/Pasted image 20231017153951.png]]
+![[../../../Gallery/Pasted image 20231017154016.png]]
