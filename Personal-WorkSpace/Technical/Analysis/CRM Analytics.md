@@ -4,7 +4,7 @@ Diagnostic
 Predictive
 Prescriptive
 
-> #### How can analytics help within Salesforce?
+#### How can analytics help within Salesforce?
 Identify trends on opportunitites
 Understand what types of cases take the longest to close
 Track conversion rate for leads
@@ -27,7 +27,7 @@ Commerce
 Industries
 Admins
 
-Setup Analytics
+#### Setup Analytics
 - Enable CRM Analytics
 - Navigate to CRM Analytics
 Level Setting
