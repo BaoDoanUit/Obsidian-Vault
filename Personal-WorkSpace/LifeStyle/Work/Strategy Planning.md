@@ -91,3 +91,6 @@ LỘ TRÌNH CHI TIẾT
 - Take 30 minutes for planning (5)
 - Take 15 minutes for drawing (5)
 - Take 10 minutes for relaxing (before switch mode) (6)
+
+Preparation at least 1 task before finish current task.
+
