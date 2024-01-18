@@ -198,3 +198,17 @@ annotation-target: Body by Science - John R. Little.pdf
 >%%TAGS%%
 >
 ^cyna2tloha
+
+
+>%%
+>```annotation-json
+>{"created":"2024-01-03T16:42:06.440Z","updated":"2024-01-03T16:42:06.440Z","document":{"title":"Body by Science","link":[{"href":"urn:x-pdf:5dd1fadfb803ff0901b692b7ee454e60"},{"href":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf"}],"documentFingerprint":"5dd1fadfb803ff0901b692b7ee454e60"},"uri":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","target":[{"source":"vault:/Personal-WorkSpace/Books/Nutrition/Documents/Body by Science - John R. Little.pdf","selector":[{"type":"TextPositionSelector","start":355427,"end":355605},{"type":"TextQuoteSelector","exact":"Probably the biggest misconception regarding fat is the idea that it isunhealthful. Actually, fat is probably the main reason we are even here atall. Throughout human history, th","prefix":"cialized body tissue.FAT STORAGE","suffix":"e ready availability of food was"}]}]}
+>```
+>%%
+>*%%PREFIX%%cialized body tissue.FAT STORAGE%%HIGHLIGHT%% ==Probably the biggest misconception regarding fat is the idea that it isunhealthful. Actually, fat is probably the main reason we are even here atall. Throughout human history, th== %%POSTFIX%%e ready availability of food was*
+>%%LINK%%[[#^jzfk2e0ixx|show annotation]]
+>%%COMMENT%%
+>
+>%%TAGS%%
+>
+^jzfk2e0ixx
