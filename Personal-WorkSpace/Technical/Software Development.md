@@ -54,7 +54,7 @@ A benefit of doing the methods above is defining architecture problems from insi
 - Improve code better
 
 Behind the Scene Code into the World
-![[../../Gallery/Pasted image 20231001115133.png|500]]
+![[../../Gallery/Pasted image 20231001115133.png]]
 
 Storage Data Types
-![[../../Gallery/Pasted image 20231001124936.png|500]]
+![[../../Gallery/Pasted image 20231001124936.png]]

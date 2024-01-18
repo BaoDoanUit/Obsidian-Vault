@@ -140,13 +140,17 @@ https://www.destroyallsoftware.com/talks/boundaries
 
 All code can be classified into two distinct roles: code that does work (algorithms) and code that coordinates work (coordinators)
 
-Problems![[Problems.png]]
+Problems
+![[Problems.png]]
 
-Traditional OOP![[OO Design.png]]
+Traditional OOP
+![[OO Design.png]]
 
-Functional core - pure functions for behaviors![[Pure Function For Behaviors.png]]
+Functional core - pure functions for behaviors
+![[Pure Function For Behaviors.png]]
 
-OOP shell - objects![[OO Shell.png]]
+OOP shell - objects
+![[OO Shell.png]]
 
 Functional programming deals with values, imperative programming deals with objects.
 
@@ -162,4 +166,5 @@ Mutations, Side-effects, dependencies, control flow can either be minimized or i
 **Reliability**: Validation can be easily added to value classes, ensure the system is always in a valid state. Side effects and exceptions are isolated within coodinator classes.
 **Readability**: Functional core has no dependency and self-contained -> very easy to read and understand in isolation
 
-Functional Core - Immutable values![[Immutable Values.png]]
+Functional Core - Immutable values
+![[Immutable Values.png]]
