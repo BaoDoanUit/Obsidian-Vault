@@ -56,4 +56,26 @@ fork again
 end merge
 :Outer Join 2 table above into TableB;
 
+
+```
+
+```plantuml
+top to bottom direction
+[HedgeData] as HD
+[HedgeDataStage] as HDS
+[HedgeDataInterval] as HDI
+[HedgeDetailHourly] as HDH
+[HedgeStrike] as HS
+[HedgeDataIntervalAllocation] as HIA
+[HedgeAllocationSchedule] as HAS
+[LoadForeCast] as LFC
+[LoadForeCastInterval] as LFCI
+
+HDS -> HD
+HD -> HDI
+HDH -> HDI
+HS -> HDI
+HDI -> HIA
+HAS -> HIA
+LFC -> LFCI
 ```

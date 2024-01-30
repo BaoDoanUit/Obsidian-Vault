@@ -22,3 +22,8 @@
 2) Handle upload file
 3) Fix the issue
 4) New item
+
+
+#### Nightly Process
+
+Structure for BatchProcess run over day
