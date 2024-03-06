@@ -1,0 +1,42 @@
+@startuml MPS-139 MPS-85
+!theme spacelab
+title LoadForecastData
+start
+repeat
+:Input/Pick a Company;
+:Determine the Vendor/Source table for the company;
+repeat
+:pick file in vendor folder;
+:Vendor forecast;
+if (Valid File) then (yes)
+:Upserted data to InnoWatt_Forcast table;
+:Move file to Archive Folder;
+else (no)
+:Write message to error file;
+:Move file to Error Folder;
+endif
+repeat while (Exists file in vendor folder?);
+:Determine StartDate and EndDate via number
+of months for which forecast data nees to
+inserted in table;
+note left
+StartDate = TODAY() + 1
+EndDate =EOMONTH(StartDate, PositionMonths)
+end note
+:Delete records in MPS_LoadForecastData_Interval
+where Date > StartDate and Date < EndDate;
+:Get all the Portfolio of InputCompany;
+fork
+partition "InnoWatt"{
+:InnoWatt_Forcast;
+}
+fork again
+partition "CES"{
+:CES Forecast;
+}
+end fork
+repeat while (Exists any company not process?);
+end
+@enduml
+
+

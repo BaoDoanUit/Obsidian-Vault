@@ -1,0 +1,63 @@
+@startuml MPS-232
+!theme spacelab
+title Calculate MPS_HedgeData_Interval_Allocation
+start
+:Input Company & get DT_last run process
+\n from MPS_HedgeData_Interval_Allocation;
+fork
+:1. MPS_HedgeData_Interval pick all records
+\n Where CreatedDateTime & ModifiedDateTime > DT_last;
+:1.1 Join MPS_HedgeData_Interval with #1 table;
+fork again
+:2. MPS_HedgeData_Interval pick all records
+\n Where CreatedDateTime & ModifiedDateTime > DT_last;
+:2.1. Join MPS_HedgeData_Interval_Allocation with #2 table;
+endfork
+:3. Union 1.1 and 2.1;
+fork
+:Get #3 with HedgeAllocationMethod 'Direct Allocation';
+:4.1 HedgeMWh = HedgeMW * AllocationPercent / 100
+\n Cost = Cost * AllocationPercent / 100;
+fork again
+:Get #3 with HedgeAllocationMethod 'Load Ratio Share';
+:4.2 Get unique list of HedgeDataID and Date combine use #3;
+repeat
+:4.3 Pick first HedgeDataID & Date from #4.2;
+:4.4 Get all Participation Portfolio for HedgeDataID & Date combine;
+:4.5 For each Hour Ending (interval) calculate Load
+\n Ratio Share of each participating Portfolio;
+:Calculate each HourEnding
+\n HedgeMWh = HedgeMW * Hourly LRS of Portfolio
+\n Cost = Cost * Hourly LRS of Portfolio;
+repeatwhile (Does finish all HedgeDataID & Date combine #4.2)
+endfork
+:5. Save records in MPS_HedgeData_Interval_Allocation;
+note left
+If HedgeDataID & Date combination
+already exists in table - <b>delete</b>
+all the records for the combination and
+insert newly calculated records. Else
+insert newly calculated records
+end note
+
+note left
+Doing a pure Upsert*on HedgeDataID,
+PortfolioID, and Date will o/p
+incorrect results as processes MPS-234
+perform limited UPSERT (delete + insert)
+in the upstream table
+end note
+:6. Handle DST;
+note right
+In the table [MPS_HedgeData_Interval_Allocation] HedgeDataID,
+Date, HourEnding, PortfolioID make a unique combination except
+for DST End Interval(in Nov)
+- When DST Start (HE3) in March - the table should contain 0 records
+- When DST Ends (HE2) in Nov - the table should contain 2 records
+Note - Fields HedgeDataIntervalID & PortfolioID can be used
+in place of 4 fields mention above to identify unique combinations
+end note
+:test 2;
+
+stop
+@enduml

@@ -1,0 +1,44 @@
+@startuml MPS-290
+!theme spacelab
+title Insert Client LMP Scalar Values
+start
+: Input Company;
+repeat
+: Pick oldest file 'LMPScalars' in sub-folders;
+: Set VersionNumer = Select max(VersionNumber) from MPS_LMP_Scalars;
+note right
+Version number informs all Scalars values
+that are created by a process run
+(instance) or data load
+end note
+
+note right
+All records created by process run have the
+same version number
+Similiarly, all records created by data upload
+have the same version numer
+end note
+
+note right
+If mutilple files are processes by a data
+load <b>each successful file upload</b>
+gets a new version number.
+end note
+:<b>Run all Validations</b>
+- Template column and values
+- Data sanity
+- FeedId determination;
+if (Did file pass all validations?) then (no)
+: Move the to 'Error' folder;
+else (yes)
+: Insert data in table MPS_LMP_Scalar;
+note right
+//MonthHEAverage and MonthIntervalAverage = NULL//
+//VersionNumber = VersionNumber + 1//
+end note
+endif
+repeat while (Exists file in sub-folder) is(yes)
+-> no;
+stop
+
+@enduml

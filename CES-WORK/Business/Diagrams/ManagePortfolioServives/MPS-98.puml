@@ -1,0 +1,35 @@
+@startuml MPS-98
+!theme spacelab
+title Calculator MPS_Position_Monthly
+start
+:Provide inputs: CompanyName, ISO and LoadSegmentGroup;
+:Delete All records in table MPS_Position_Monthly
+which belong to input Company and ISO;
+repeat
+:Take one Load Segment of
+the Load_Segment_Group not yet process;
+:Take all the records in table
+MPS_Position_Hourly;
+partition "Filter records to which Load Segment is applicable - LIST-A" {
+    :Flag dates that are NERC holidays;
+    :Assign WkDay to each of the dates;
+    :Use Load Segment definition in
+    Load_Segment_Shape to filter the records
+    to which this Load Segment can be applied;
+}
+partition "Calculate and Save" {
+    :Group the records in List-A by Company,
+    Allocated_to_Portfolio_ID and Month to calculate;
+    :Intervals = Count(Records);
+    :LoadMWh = Sum(LoadMWh) | LoadMW = LoadMWh / Intervals;
+    :HedgeMWh = Sum(HedgeMWh) | HedgeMW = HedgeMWh / Intervals;
+    :NOPMWh = Sum(NOPMWh) | NOPMW = NOPMWh /Intervals;
+    :Cost = Sum(Cost);
+}
+repeat while (Are all Load Segment
+              of Load Segment Group
+              done?)
+
+end
+
+@enduml

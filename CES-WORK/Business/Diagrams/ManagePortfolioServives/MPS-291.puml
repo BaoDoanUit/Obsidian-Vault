@@ -1,0 +1,96 @@
+@startuml MPS-291
+!theme spacelab
+title Process for calculating and saving LMP Scalars
+start
+:Get all <b>Market Location</b> for which Scalars need to
+be calculated;
+note right
+MPS_Zone
+end note
+:Get <b>Version Number</b> = max(VersionNumber) from MPS_LMP_Scalar;
+:Get the values of <b>ScalarLookBackStartDate</b>
+and <b>ScalarLookBackEndDate</b>;
+repeat
+:Get the first ISO;
+note right
+Ref Step 1:
+No need to take the ISO that's
+didn't have MktLocation configured
+in the system
+end note
+
+:For the ISO, b/w LBSD adn LBED for each HE
+interval (for all days) get the intervalType
+(On Peak, Off Peak) designation;
+note right
+Use table MPS_ISO_interval_Map
+end note
+:For the ISO, get hourly DA LMP and hourly
+RT LMP values for all MktLocation for all
+dates between LBSD and LBED;
+note right
+Use DWData views
+end note
+partition "**Process Options Scalar**" {
+note
+- <b>*Month(number)</b> is informed by
+[MPS_ISO_Interval_Map].[Date] fields
+end note
+
+fork
+:<b>'On-Peak'</b> and <b>'Off-Peak'</b> Scalar;
+    fork
+    :7.1 Calculate <b>MonthlyHEAverage</b>
+    //Group the records by//
+    - Month(number)*
+    - HourEnding
+    - IntervalType (On-Peak/Off-Peak)
+    - MktLocation
+    - SettlementType (DA/RT)
+    When grouping, Use AVG for aggregating LMP
+    ;
+    fork again
+    :7.2 Calculated <b>MonthlyIntervalTypeAverage</b>
+    //Group the records by//
+    - Month(number)*
+    - IntervalType (On-Peak/Off-Peak)
+    - MktLocation
+    - SettlementType (DA/RT)
+    When grouping, Use AVG for aggregating LMP
+    ;
+    end fork
+    :7.3 Calculated <b>ScalarValue</b>
+    Divide MonthlyHEAverage by MonthlyIntervalTypeAverage
+    ;
+fork again
+:<b>ATC</b> Scalars;
+
+    fork
+    :8.1 Calculated <b>MonthlyIntervalTypeAverage</b>
+    //Group the records by//
+    - Month(number)*
+    - HourEnding
+    - MktLocation
+    - SettlementType (DA/RT)
+    When grouping, Use AVG for aggregating LMP
+    ;
+    fork again
+    :8.2 Calculated <b>MonthlyIntervalTypeAverage</b>
+    //Group the records by//
+    - Month(number)*
+    - HourEnding
+    - MktLocation
+    - SettlementType (DA/RT)
+    When grouping, Use AVG for aggregating LMP
+    ;
+    end fork
+    :8.3 Calculated <b>ScalarValue</b>
+    Divide MonthlyHEAverage by MonthlyIntervalTypeAverage
+    ;
+end fork
+}
+repeat while (Are all <b>ISOs</b> done?)
+:9.0 Save the calculated Scalar
+values in table MPS_LMP_Scalars;
+stop
+@enduml

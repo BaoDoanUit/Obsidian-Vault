@@ -1,0 +1,32 @@
+@startuml MPS-235
+!theme spacelab
+title Bring LMP data from CESDM into MPS
+start
+fork
+: View [ViewLMP_Hrly_PJM];
+fork again
+: View [ViewLMPDA_Hrly_ERCOT] & [ViewLMPRT_Hrly_ERCOT];
+fork again
+: View [ViewLMPDA_Hrly_ISONE] & [ViewLMPRT_Hrly_ISONE];
+fork again
+: View [ViewLMPDA_Hrly_NYISO] & [ViewLMPRT_Hrly_NYISO];
+fork again
+: View [ViewLMPDA_Hrly_MISO] & [ViewLMPRT_Hrly_MISO];
+fork again
+: View [ViewLMPDA_Hrly_CAISO] & [ViewLMPRT_Hrly_CAISO];
+end fork
+if (Combination of ZoneID,SettlementType,
+FlowDate and HourEnding exist in table MPS_LMP) then (yes)
+:update the value of field ISOLMP;
+else (no)
+: Insert into data into MPS_LMP table;
+endif
+note right
+For long days if there are more than 2
+LMP values for a HE interval, the job
+averages the 2 values and upserts in the
+MPS table.
+end note
+:test 2;
+stop
+@enduml

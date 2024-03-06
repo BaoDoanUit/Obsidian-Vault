@@ -1,0 +1,35 @@
+@startuml MPS-94
+!theme spacelab
+title Calculation MPS_Postition_Hourly
+
+start
+:Provide input- CompanyName, StartDate, EndDate;
+:Delete the records for the Company in the table MPS_Postition_Hourly;
+:Get all the Portfolios of the Company;
+:1. LoadMWh, HedgeMWh and Cost - Between StartDate and EndDate for HE -
+for all Portfolios;
+note right
+Use table
+MPS_LoadForeCastData_Interval
+MPS_Portfolio
+
+**MPS_HedgeData_Interval_SrcMktLoc** the data in this
+table saved at hourly level for a **Portfolio** by
+**DeliverZoneID** and **FinPhys**. This needs to be rolled
+up at hourly level for a Portfolio
+end note
+:2. Handle DST - Between StartDate and EndDate for ONLY DST HEs -
+recalculate HedgeMWh = HedgeMwh/2, Cost = Cost/2
+//Duplicate the records for DST HE//;
+note right
+If Using GROUP BY to roll up the numbers then do this
+Ref table
+For HE3 in March there should 0 records
+For HE2 in Nov ther should 2 records
+end note
+:3. NOPMWh - Between StartDate and EndDate for end HE for
+all Portfolios - calculate NOPMWh as LoadMWh;
+
+stop
+
+@enduml

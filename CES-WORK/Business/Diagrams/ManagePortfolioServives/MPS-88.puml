@@ -1,0 +1,15 @@
+@startuml MPS-88
+!theme spacelab
+title MPS_HedgeData_Interval
+start
+:Get list of all the HedgeDataID where
+CreatedDate or ModifiedDate (HedgeData table) is
+after max (CreateDated MPS_HedgeData_Interval) -> ListA;
+:Delete records in table MPS_HedgeData_Interval where
+HedgeDataID is in ListA;
+repeat
+:Take one HedgeDataID in ListA;
+:For every date between  ;
+repeat while(Are all records in ListA done?)
+end
+@enduml

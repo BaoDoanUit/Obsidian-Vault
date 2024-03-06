@@ -1,0 +1,41 @@
+@startuml MPS-292
+!theme spacelab
+title Process for calculating and saving MPS_M2M_Hedge_Interval
+start
+:User inputs Comapny;
+:Truncate temp table [MPS_M2M_Hedge_Interval];
+note right
+Temporarily captures the data points
+that make up output. The records are
+used to validate final calculation;
+end note
+:For the company, get all the Hedge transaction that are
+still 'Active' - ListH;
+note right
+HedgeDataId.EndDate > Today
+Hedges are evaluated against Forward Price
+only for period where contrated ennery is
+yet to be delivered
+end note
+:Takes First Hedge Transaction in **ListH**;
+repeat
+:Using table [MPS_HedgeData_Interval] get the interval
+level data for the Hedge transaction where '
+[Date] > Today();
+:Assign 'Interval Type' (On-Peak or Off-Peak) to
+every record in 4.0;
+:Take the first record;
+repeat
+:For the record get the applicable LMP Scalar value (SV);
+:For the record calculate and save (in [MPS_M2M_Hedge_Interval] table)
+ M2MNotional ($) as [HedgeMW] * (FP * SV)
+ M2MValue = M2MNotional - HedgeCost;
+backward:Take the next record;
+repeat while (Are all records done for the Hedge Transaction?)
+backward:Take the next Hedge from **ListH*;
+repeat while (Are all Hedge Transaction in Step 3.0 done?)
+:Summarize the records in Temp table and save in table MPS_M2M_Hedge_Month
+ Use Sum for HedgeMW, HedgeCost, M2MNotional and M2MValue 
+ Determine value of field IsMarkedforPartialDelMonth ;
+stop
+@enduml

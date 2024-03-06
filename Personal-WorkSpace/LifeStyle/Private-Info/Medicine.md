@@ -29,3 +29,5 @@ Chu kỳ 4 tuần: (1 tháng nghỉ 1 tháng)
 
 Kế hoạch uống lipo
 Uống 1 tháng kết thúc chu kì (lippo6 + CLA) nghỉ 2 tuần sau đó uống lại (Bắt đầu 11/9/2023 -> Kết thúc 11/10/2023)
+
+Chuyển qua chế độ tiêu thụ đồ ăn loss fat.

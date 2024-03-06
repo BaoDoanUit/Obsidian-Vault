@@ -2101,8 +2101,8 @@ EDI Service Provider ^X59nBThC
 		},
 		{
 			"type": "text",
-			"version": 118,
-			"versionNonce": 1758381433,
+			"version": 122,
+			"versionNonce": 1950690262,
 			"isDeleted": false,
 			"id": "oZQ1Arvs",
 			"fillStyle": "hachure",
@@ -2122,7 +2122,7 @@ EDI Service Provider ^X59nBThC
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706235549769,
+			"updated": 1709703405252,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -2256,8 +2256,8 @@ EDI Service Provider ^X59nBThC
 		},
 		{
 			"type": "text",
-			"version": 77,
-			"versionNonce": 1686448791,
+			"version": 81,
+			"versionNonce": 1054123146,
 			"isDeleted": false,
 			"id": "TcdBiA4Q",
 			"fillStyle": "hachure",
@@ -2277,7 +2277,7 @@ EDI Service Provider ^X59nBThC
 			"frameId": null,
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1706235549770,
+			"updated": 1709703405287,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -3698,7 +3698,7 @@ EDI Service Provider ^X59nBThC
 			"containerId": null,
 			"originalText": "Utility\nEDI Service Provider",
 			"lineHeight": 1.2,
-			"baseline": 74
+			"baseline": 75
 		},
 		{
 			"type": "line",
@@ -3848,10 +3848,10 @@ EDI Service Provider ^X59nBThC
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 3014.3887700509686,
-		"scrollY": 882.3596112107446,
+		"scrollX": 2964.3619145822186,
+		"scrollY": 1671.599723515432,
 		"zoom": {
-			"value": 0.25
+			"value": 0.2
 		},
 		"currentItemRoundness": "round",
 		"gridSize": null,

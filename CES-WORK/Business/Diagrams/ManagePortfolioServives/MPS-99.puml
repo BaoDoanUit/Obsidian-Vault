@@ -1,0 +1,23 @@
+@startuml MPS-99
+!theme spacelab
+title Calculate MPS_Position_Monthly_by_HE
+start
+:Take all the records in MPS_Position_Hourly;
+:Classifying the records by WeekDayType (WkDay/WkEnd);
+:Flag the dates that are NERC Holiday;
+:WEND = Sunday/Saturday ~ WeekDayType = WkEnd
+ WkDay = Mon~Fri ~ WDAYType = WkDay;
+: Find CalenderMonth for all the records;
+
+partition "Calculate and Save" {
+ :Group the recordsby Company, Allocated_to_Portfolio_ID,
+ CalendarMonth, WeekDayType and HourEnding;
+
+ :Interval = Count(Records)
+ LoadMWh = Sum(LoadMWh) | LoadMW = LoadMWh/Intervals
+ HedgeMWh = Sum(HedgeMWh) | HedgeMW = HedgeMWh/Intervals
+ NOPMWh = Sum(NOPMWh) | NOPMW = NOPMWh/Intervals
+ Cost = Sum(Cost) | UnitCost = Cost/Intervals;
+}
+stop
+@enduml

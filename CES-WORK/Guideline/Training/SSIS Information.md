@@ -1,10 +1,10 @@
->### What is SSIS?
+### What is SSIS?
 LOB, CRM, ERP, Social, IoT => ETL => Data Warehouse
 On-premises Microsoft ETLComes with SQL Standard/Enterprise
->> 1. **Sources/Destination**
->>- Files
->>- Databases
->>- Remote data
+1. **Sources/Destination**
+- Files
+- Databases
+- Remote data
 
 **Several transformation**
 **Cloud Version: Azure Data Factory**
