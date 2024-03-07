@@ -15,3 +15,5 @@ Keep track of daily meals.
 Monitor weight consistently.
 Allocate more time for housework.
 Explore new approaches and address any issues encountered.
+
+### Work
