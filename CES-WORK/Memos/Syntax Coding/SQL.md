@@ -18,7 +18,7 @@ SELECT
         WHEN 'QueueReader' THEN 'Replication Queue Reader'
         WHEN 'Snapshot' THEN 'Replication Snapshot'
         WHEN 'LogReader' THEN 'Replication Transaction-Log Reader'
-        WHEN 'ANALYSISCOMMAND' THEN 'SQL Server Analysis Services Command'
+        WHEN 'ANALYSISCOMMAND' THEN 'SQL Server Analysis Services  '
         WHEN 'ANALYSISQUERY' THEN 'SQL Server Analysis Services Query'
         WHEN 'SSIS' THEN 'SQL Server Integration Services Package'
         WHEN 'TSQL' THEN 'Transact-SQL script (T-SQL)'
@@ -121,6 +121,7 @@ select @colPivot =
 
 print @colsPivot
 
+
 SET @query = '
 SELECT   SupplierID,' + @colsPivot + ' 
 		 from 
@@ -165,5 +166,17 @@ JOIN [SSISDB].[catalog].[folders]               f ON f.[folder_id]      = e.[fol
 JOIN [SSISDB].[catalog].[environment_variables] v ON e.[environment_id] = v.[environment_id]
 WHERE   f.[name] = N'PHL_Retail' -- Folder
     AND e.[name] = N'ManagementPortfolioServices'; -- Environment
+
+
+
+ SUBSTRING
+ SELECT
+STUFF((SELECT ','  + CONCAT(p.EDC_Name, p.EDC_EXT_ID)
+                   from retail.dbo.edc p
+                   WHERE edc_ID < 1006
+            FOR XML PATH(''), TYPE
+            ).value('.', 'NVARCHAR(MAX)') 
+        ,1,1,'')
+
 ```
 

@@ -1,0 +1,65 @@
+@startuml
+set separator none
+
+skinparam {
+  shadowing false
+  arrowFontSize 15
+  defaultTextAlignment center
+  wrapWidth 100
+  maxMessageSize 100
+}
+hide stereotype
+
+skinparam rectangle<<_transparent>> {
+  BorderColor transparent
+  BackgroundColor transparent
+  FontColor transparent
+}
+
+skinparam rectangle<<1>> {
+  BackgroundColor #438dd5
+  FontColor #ffffff
+  BorderColor #2e6295
+}
+rectangle "==Container" <<1>>
+
+skinparam database<<2>> {
+  BackgroundColor #438dd5
+  FontColor #ffffff
+  BorderColor #2e6295
+}
+database "==Container, Database" <<2>>
+
+skinparam rectangle<<3>> {
+  BackgroundColor #438dd5
+  FontColor #ffffff
+  BorderColor #2e6295
+}
+rectangle "==Container, Mobile App" <<3>>
+
+skinparam rectangle<<4>> {
+  BackgroundColor #438dd5
+  FontColor #ffffff
+  BorderColor #2e6295
+}
+rectangle "==Container, Web Browser" <<4>>
+
+skinparam person<<5>> {
+  BackgroundColor #08427b
+  FontColor #ffffff
+  BorderColor #052e56
+}
+person "==Person, Customer" <<5>>
+
+skinparam rectangle<<6>> {
+  BackgroundColor #999999
+  FontColor #ffffff
+  BorderColor #6b6b6b
+}
+rectangle "==Software System, Existing System" <<6>>
+
+rectangle "." <<_transparent>> as 7
+7 .[#707070,thickness=2].> 7 : "<color:#707070>Relationship"
+
+
+@enduml

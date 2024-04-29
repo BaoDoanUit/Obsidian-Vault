@@ -1,4 +1,4 @@
-View Billing Group Client Xref
+### View Billing Group Client Xref
 Views
 vw_billing_group_client_xref where BillingType == DualBill
 

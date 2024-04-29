@@ -1,0 +1,149 @@
+@startuml
+set separator none
+
+skinparam {
+  shadowing false
+  arrowFontSize 15
+  defaultTextAlignment center
+  wrapWidth 100
+  maxMessageSize 100
+}
+hide stereotype
+
+skinparam rectangle<<_transparent>> {
+  BorderColor transparent
+  BackgroundColor transparent
+  FontColor transparent
+}
+
+skinparam rectangle<<1>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9a9a9a
+}
+rectangle "==Element" <<1>>
+
+skinparam person<<2>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9a9a9a
+}
+person "==Person" <<2>>
+
+skinparam database<<3>> {
+  BackgroundColor #91f0ae
+  FontColor #000000
+  BorderColor #65a879
+}
+database "==Service 1, Database" <<3>>
+
+skinparam hexagon<<4>> {
+  BackgroundColor #91f0ae
+  FontColor #000000
+  BorderColor #65a879
+}
+hexagon "==Service 1, Service API" <<4>>
+
+skinparam database<<5>> {
+  BackgroundColor #edf08c
+  FontColor #000000
+  BorderColor #a5a862
+}
+database "==Service 2, Database" <<5>>
+
+skinparam hexagon<<6>> {
+  BackgroundColor #edf08c
+  FontColor #000000
+  BorderColor #a5a862
+}
+hexagon "==Service 2, Service API" <<6>>
+
+skinparam database<<7>> {
+  BackgroundColor #8cd0f0
+  FontColor #000000
+  BorderColor #6291a8
+}
+database "==Service 3, Database" <<7>>
+
+skinparam hexagon<<8>> {
+  BackgroundColor #8cd0f0
+  FontColor #000000
+  BorderColor #6291a8
+}
+hexagon "==Service 3, Service API" <<8>>
+
+skinparam database<<9>> {
+  BackgroundColor #f08ca4
+  FontColor #000000
+  BorderColor #a86272
+}
+database "==Service 4, Database" <<9>>
+
+skinparam hexagon<<10>> {
+  BackgroundColor #f08ca4
+  FontColor #000000
+  BorderColor #a86272
+}
+hexagon "==Service 4, Service API" <<10>>
+
+skinparam database<<11>> {
+  BackgroundColor #ffac33
+  FontColor #000000
+  BorderColor #b27823
+}
+database "==Service 5, Database" <<11>>
+
+skinparam hexagon<<12>> {
+  BackgroundColor #ffac33
+  FontColor #000000
+  BorderColor #b27823
+}
+hexagon "==Service 5, Service API" <<12>>
+
+skinparam database<<13>> {
+  BackgroundColor #dd8bfe
+  FontColor #000000
+  BorderColor #9a61b1
+}
+database "==Service 6, Database" <<13>>
+
+skinparam hexagon<<14>> {
+  BackgroundColor #dd8bfe
+  FontColor #000000
+  BorderColor #9a61b1
+}
+hexagon "==Service 6, Service API" <<14>>
+
+skinparam database<<15>> {
+  BackgroundColor #89acff
+  FontColor #000000
+  BorderColor #5f78b2
+}
+database "==Service 7, Database" <<15>>
+
+skinparam hexagon<<16>> {
+  BackgroundColor #89acff
+  FontColor #000000
+  BorderColor #5f78b2
+}
+hexagon "==Service 7, Service API" <<16>>
+
+skinparam database<<17>> {
+  BackgroundColor #fda9f4
+  FontColor #000000
+  BorderColor #b176aa
+}
+database "==Service 8, Database" <<17>>
+
+skinparam hexagon<<18>> {
+  BackgroundColor #fda9f4
+  FontColor #000000
+  BorderColor #b176aa
+}
+hexagon "==Service 8, Service API" <<18>>
+
+rectangle "." <<_transparent>> as 19
+19 .[#707070,thickness=2].> 19 : "<color:#707070>Relationship"
+
+
+@enduml

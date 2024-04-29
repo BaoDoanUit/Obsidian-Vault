@@ -1,0 +1,227 @@
+@startuml
+set separator none
+title Software System - Containers
+
+top to bottom direction
+
+skinparam {
+  arrowFontSize 10
+  defaultTextAlignment center
+  wrapWidth 200
+  maxMessageSize 100
+}
+
+hide stereotype
+
+skinparam hexagon<<SoftwareSystem.Service1API>> {
+  BackgroundColor #91f0ae
+  FontColor #000000
+  BorderColor #65a879
+  shadowing false
+}
+skinparam database<<SoftwareSystem.Service1Database>> {
+  BackgroundColor #91f0ae
+  FontColor #000000
+  BorderColor #65a879
+  shadowing false
+}
+skinparam hexagon<<SoftwareSystem.Service2API>> {
+  BackgroundColor #edf08c
+  FontColor #000000
+  BorderColor #a5a862
+  shadowing false
+}
+skinparam database<<SoftwareSystem.Service2Database>> {
+  BackgroundColor #edf08c
+  FontColor #000000
+  BorderColor #a5a862
+  shadowing false
+}
+skinparam hexagon<<SoftwareSystem.Service3API>> {
+  BackgroundColor #8cd0f0
+  FontColor #000000
+  BorderColor #6291a8
+  shadowing false
+}
+skinparam database<<SoftwareSystem.Service3Database>> {
+  BackgroundColor #8cd0f0
+  FontColor #000000
+  BorderColor #6291a8
+  shadowing false
+}
+skinparam hexagon<<SoftwareSystem.Service4API>> {
+  BackgroundColor #f08ca4
+  FontColor #000000
+  BorderColor #a86272
+  shadowing false
+}
+skinparam database<<SoftwareSystem.Service4Database>> {
+  BackgroundColor #f08ca4
+  FontColor #000000
+  BorderColor #a86272
+  shadowing false
+}
+skinparam hexagon<<SoftwareSystem.Service5API>> {
+  BackgroundColor #ffac33
+  FontColor #000000
+  BorderColor #b27823
+  shadowing false
+}
+skinparam database<<SoftwareSystem.Service5Database>> {
+  BackgroundColor #ffac33
+  FontColor #000000
+  BorderColor #b27823
+  shadowing false
+}
+skinparam hexagon<<SoftwareSystem.Service6API>> {
+  BackgroundColor #dd8bfe
+  FontColor #000000
+  BorderColor #9a61b1
+  shadowing false
+}
+skinparam database<<SoftwareSystem.Service6Database>> {
+  BackgroundColor #dd8bfe
+  FontColor #000000
+  BorderColor #9a61b1
+  shadowing false
+}
+skinparam hexagon<<SoftwareSystem.Service7API>> {
+  BackgroundColor #89acff
+  FontColor #000000
+  BorderColor #5f78b2
+  shadowing false
+}
+skinparam database<<SoftwareSystem.Service7Database>> {
+  BackgroundColor #89acff
+  FontColor #000000
+  BorderColor #5f78b2
+  shadowing false
+}
+skinparam hexagon<<SoftwareSystem.Service8API>> {
+  BackgroundColor #fda9f4
+  FontColor #000000
+  BorderColor #b176aa
+  shadowing false
+}
+skinparam database<<SoftwareSystem.Service8Database>> {
+  BackgroundColor #fda9f4
+  FontColor #000000
+  BorderColor #b176aa
+  shadowing false
+}
+skinparam person<<User>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9a9a9a
+  shadowing false
+}
+skinparam rectangle<<SoftwareSystem.WebApplication>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9a9a9a
+  shadowing false
+}
+skinparam rectangle<<SoftwareSystem>> {
+  BorderColor #9a9a9a
+  FontColor #9a9a9a
+  shadowing false
+}
+
+person "==User\n<size:10>[Person]</size>" <<User>> as User
+
+rectangle "Software System\n<size:10>[Software System]</size>" <<SoftwareSystem>> {
+  rectangle "Service 1" <<group1>> as group1 {
+    skinparam RectangleBorderColor<<group1>> #cccccc
+    skinparam RectangleFontColor<<group1>> #cccccc
+    skinparam RectangleBorderStyle<<group1>> dashed
+
+    hexagon "==Service 1 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service1API>> as SoftwareSystem.Service1API
+    database "==Service 1 Database\n<size:10>[Container]</size>" <<SoftwareSystem.Service1Database>> as SoftwareSystem.Service1Database
+  }
+
+  rectangle "Service 2" <<group2>> as group2 {
+    skinparam RectangleBorderColor<<group2>> #cccccc
+    skinparam RectangleFontColor<<group2>> #cccccc
+    skinparam RectangleBorderStyle<<group2>> dashed
+
+    hexagon "==Service 2 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service2API>> as SoftwareSystem.Service2API
+    database "==Service 2 Database\n<size:10>[Container]</size>" <<SoftwareSystem.Service2Database>> as SoftwareSystem.Service2Database
+  }
+
+  rectangle "Service 3" <<group3>> as group3 {
+    skinparam RectangleBorderColor<<group3>> #cccccc
+    skinparam RectangleFontColor<<group3>> #cccccc
+    skinparam RectangleBorderStyle<<group3>> dashed
+
+    hexagon "==Service 3 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service3API>> as SoftwareSystem.Service3API
+    database "==Service 3 Database\n<size:10>[Container]</size>" <<SoftwareSystem.Service3Database>> as SoftwareSystem.Service3Database
+  }
+
+  rectangle "Service 4" <<group4>> as group4 {
+    skinparam RectangleBorderColor<<group4>> #cccccc
+    skinparam RectangleFontColor<<group4>> #cccccc
+    skinparam RectangleBorderStyle<<group4>> dashed
+
+    hexagon "==Service 4 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service4API>> as SoftwareSystem.Service4API
+    database "==Service 4 Database\n<size:10>[Container]</size>" <<SoftwareSystem.Service4Database>> as SoftwareSystem.Service4Database
+  }
+
+  rectangle "Service 5" <<group5>> as group5 {
+    skinparam RectangleBorderColor<<group5>> #cccccc
+    skinparam RectangleFontColor<<group5>> #cccccc
+    skinparam RectangleBorderStyle<<group5>> dashed
+
+    hexagon "==Service 5 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service5API>> as SoftwareSystem.Service5API
+    database "==Service 5 Database\n<size:10>[Container]</size>" <<SoftwareSystem.Service5Database>> as SoftwareSystem.Service5Database
+  }
+
+  rectangle "Service 6" <<group6>> as group6 {
+    skinparam RectangleBorderColor<<group6>> #cccccc
+    skinparam RectangleFontColor<<group6>> #cccccc
+    skinparam RectangleBorderStyle<<group6>> dashed
+
+    hexagon "==Service 6 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service6API>> as SoftwareSystem.Service6API
+    database "==Service 6 Database\n<size:10>[Container]</size>" <<SoftwareSystem.Service6Database>> as SoftwareSystem.Service6Database
+  }
+
+  rectangle "Service 7" <<group7>> as group7 {
+    skinparam RectangleBorderColor<<group7>> #cccccc
+    skinparam RectangleFontColor<<group7>> #cccccc
+    skinparam RectangleBorderStyle<<group7>> dashed
+
+    hexagon "==Service 7 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service7API>> as SoftwareSystem.Service7API
+    database "==Service 7 Database\n<size:10>[Container]</size>" <<SoftwareSystem.Service7Database>> as SoftwareSystem.Service7Database
+  }
+
+  rectangle "Service 8" <<group8>> as group8 {
+    skinparam RectangleBorderColor<<group8>> #cccccc
+    skinparam RectangleFontColor<<group8>> #cccccc
+    skinparam RectangleBorderStyle<<group8>> dashed
+
+    hexagon "==Service 8 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service8API>> as SoftwareSystem.Service8API
+    database "==Service 8 Database\n<size:10>[Container]</size>" <<SoftwareSystem.Service8Database>> as SoftwareSystem.Service8Database
+  }
+
+  rectangle "==Web Application\n<size:10>[Container]</size>" <<SoftwareSystem.WebApplication>> as SoftwareSystem.WebApplication
+}
+
+SoftwareSystem.Service3API .[#707070,thickness=2].> SoftwareSystem.Service3Database : "<color:#707070>Reads from and writes to"
+SoftwareSystem.Service4API .[#707070,thickness=2].> SoftwareSystem.Service4Database : "<color:#707070>Reads from and writes to"
+SoftwareSystem.Service5API .[#707070,thickness=2].> SoftwareSystem.Service5Database : "<color:#707070>Reads from and writes to"
+SoftwareSystem.Service6API .[#707070,thickness=2].> SoftwareSystem.Service6Database : "<color:#707070>Reads from and writes to"
+SoftwareSystem.Service7API .[#707070,thickness=2].> SoftwareSystem.Service7Database : "<color:#707070>Reads from and writes to"
+SoftwareSystem.Service8API .[#707070,thickness=2].> SoftwareSystem.Service8Database : "<color:#707070>Reads from and writes to"
+User .[#707070,thickness=2].> SoftwareSystem.WebApplication : "<color:#707070>"
+SoftwareSystem.WebApplication .[#707070,thickness=2].> SoftwareSystem.Service1API : "<color:#707070>"
+SoftwareSystem.Service1API .[#707070,thickness=2].> SoftwareSystem.Service2API : "<color:#707070>"
+SoftwareSystem.Service1API .[#707070,thickness=2].> SoftwareSystem.Service3API : "<color:#707070>"
+SoftwareSystem.Service2API .[#707070,thickness=2].> SoftwareSystem.Service4API : "<color:#707070>"
+SoftwareSystem.Service2API .[#707070,thickness=2].> SoftwareSystem.Service5API : "<color:#707070>"
+SoftwareSystem.WebApplication .[#707070,thickness=2].> SoftwareSystem.Service3API : "<color:#707070>"
+SoftwareSystem.Service3API .[#707070,thickness=2].> SoftwareSystem.Service4API : "<color:#707070>"
+SoftwareSystem.Service3API .[#707070,thickness=2].> SoftwareSystem.Service7API : "<color:#707070>"
+SoftwareSystem.Service4API .[#707070,thickness=2].> SoftwareSystem.Service6API : "<color:#707070>"
+SoftwareSystem.Service7API .[#707070,thickness=2].> SoftwareSystem.Service8API : "<color:#707070>"
+SoftwareSystem.Service1API .[#707070,thickness=2].> SoftwareSystem.Service1Database : "<color:#707070>Reads from and writes to"
+SoftwareSystem.Service2API .[#707070,thickness=2].> SoftwareSystem.Service2Database : "<color:#707070>Reads from and writes to"
+@enduml

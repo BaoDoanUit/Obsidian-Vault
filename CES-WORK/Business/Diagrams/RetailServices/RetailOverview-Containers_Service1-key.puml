@@ -1,0 +1,58 @@
+@startuml
+set separator none
+
+skinparam {
+  shadowing false
+  arrowFontSize 15
+  defaultTextAlignment center
+  wrapWidth 100
+  maxMessageSize 100
+}
+hide stereotype
+
+skinparam rectangle<<_transparent>> {
+  BorderColor transparent
+  BackgroundColor transparent
+  FontColor transparent
+}
+
+skinparam rectangle<<1>> {
+  BackgroundColor #dddddd
+  FontColor #000000
+  BorderColor #9a9a9a
+}
+rectangle "==Element" <<1>>
+
+skinparam database<<2>> {
+  BackgroundColor #91f0ae
+  FontColor #000000
+  BorderColor #65a879
+}
+database "==Service 1, Database" <<2>>
+
+skinparam hexagon<<3>> {
+  BackgroundColor #91f0ae
+  FontColor #000000
+  BorderColor #65a879
+}
+hexagon "==Service 1, Service API" <<3>>
+
+skinparam hexagon<<4>> {
+  BackgroundColor #edf08c
+  FontColor #000000
+  BorderColor #a5a862
+}
+hexagon "==Service 2, Service API" <<4>>
+
+skinparam hexagon<<5>> {
+  BackgroundColor #8cd0f0
+  FontColor #000000
+  BorderColor #6291a8
+}
+hexagon "==Service 3, Service API" <<5>>
+
+rectangle "." <<_transparent>> as 6
+6 .[#707070,thickness=2].> 6 : "<color:#707070>Relationship"
+
+
+@enduml

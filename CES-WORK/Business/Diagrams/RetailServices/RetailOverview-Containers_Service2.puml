@@ -1,0 +1,92 @@
+@startuml
+set separator none
+title Software System - Containers
+
+top to bottom direction
+
+skinparam {
+  arrowFontSize 10
+  defaultTextAlignment center
+  wrapWidth 200
+  maxMessageSize 100
+}
+
+hide stereotype
+
+skinparam hexagon<<SoftwareSystem.Service1API>> {
+  BackgroundColor #91f0ae
+  FontColor #000000
+  BorderColor #65a879
+  shadowing false
+}
+skinparam hexagon<<SoftwareSystem.Service2API>> {
+  BackgroundColor #edf08c
+  FontColor #000000
+  BorderColor #a5a862
+  shadowing false
+}
+skinparam database<<SoftwareSystem.Service2Database>> {
+  BackgroundColor #edf08c
+  FontColor #000000
+  BorderColor #a5a862
+  shadowing false
+}
+skinparam hexagon<<SoftwareSystem.Service4API>> {
+  BackgroundColor #f08ca4
+  FontColor #000000
+  BorderColor #a86272
+  shadowing false
+}
+skinparam hexagon<<SoftwareSystem.Service5API>> {
+  BackgroundColor #ffac33
+  FontColor #000000
+  BorderColor #b27823
+  shadowing false
+}
+skinparam rectangle<<SoftwareSystem>> {
+  BorderColor #9a9a9a
+  FontColor #9a9a9a
+  shadowing false
+}
+
+rectangle "Software System\n<size:10>[Software System]</size>" <<SoftwareSystem>> {
+  rectangle "Service 1" <<group1>> as group1 {
+    skinparam RectangleBorderColor<<group1>> #cccccc
+    skinparam RectangleFontColor<<group1>> #cccccc
+    skinparam RectangleBorderStyle<<group1>> dashed
+
+    hexagon "==Service 1 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service1API>> as SoftwareSystem.Service1API
+  }
+
+  rectangle "Service 2" <<group2>> as group2 {
+    skinparam RectangleBorderColor<<group2>> #cccccc
+    skinparam RectangleFontColor<<group2>> #cccccc
+    skinparam RectangleBorderStyle<<group2>> dashed
+
+    hexagon "==Service 2 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service2API>> as SoftwareSystem.Service2API
+    database "==Service 2 Database\n<size:10>[Container]</size>" <<SoftwareSystem.Service2Database>> as SoftwareSystem.Service2Database
+  }
+
+  rectangle "Service 4" <<group3>> as group3 {
+    skinparam RectangleBorderColor<<group3>> #cccccc
+    skinparam RectangleFontColor<<group3>> #cccccc
+    skinparam RectangleBorderStyle<<group3>> dashed
+
+    hexagon "==Service 4 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service4API>> as SoftwareSystem.Service4API
+  }
+
+  rectangle "Service 5" <<group4>> as group4 {
+    skinparam RectangleBorderColor<<group4>> #cccccc
+    skinparam RectangleFontColor<<group4>> #cccccc
+    skinparam RectangleBorderStyle<<group4>> dashed
+
+    hexagon "==Service 5 API\n<size:10>[Container]</size>" <<SoftwareSystem.Service5API>> as SoftwareSystem.Service5API
+  }
+
+}
+
+SoftwareSystem.Service1API .[#707070,thickness=2].> SoftwareSystem.Service2API : "<color:#707070>"
+SoftwareSystem.Service2API .[#707070,thickness=2].> SoftwareSystem.Service4API : "<color:#707070>"
+SoftwareSystem.Service2API .[#707070,thickness=2].> SoftwareSystem.Service5API : "<color:#707070>"
+SoftwareSystem.Service2API .[#707070,thickness=2].> SoftwareSystem.Service2Database : "<color:#707070>Reads from and writes to"
+@enduml

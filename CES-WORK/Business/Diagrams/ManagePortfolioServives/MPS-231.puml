@@ -1,0 +1,19 @@
+@startuml MPS-231
+start
+:Input the Company, get the DateTime when
+the process was last run. - DT_last;
+note right
+
+end note
+:Processing CalcMethod = 'Batch' records;
+:For the input Company, get all MANUAL records from
+[MPS_HedgeDetails_Hourly] where MPS_HedgeData.CreateDate
+or MPS_HedgeData.ModifiedDate > DT_Last
+UNION
+For the input company, get all MANUAL records from
+[MPS_HedgeDetails_Hourly];
+
+
+stop
+
+@enduml

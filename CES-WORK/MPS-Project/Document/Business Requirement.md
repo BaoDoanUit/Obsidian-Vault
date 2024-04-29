@@ -11,7 +11,7 @@ Process![[Pasted image 20230528152221.png]]
 
 2)
 
-![[../../../Gallery/Pasted image 20230731210525.png]]
+![[../../../../Gallery/Pasted image 20230731210525.png]]
 
-![[../../../Gallery/Pasted image 20230731211959.png]]
-![[../../../Gallery/Pasted image 20230731212006.png]]
+![[../../../../Gallery/Pasted image 20230731211959.png]]
+![[../../../../Gallery/Pasted image 20230731212006.png]]
